@@ -53,6 +53,7 @@ date_default_timezone_set('Asia/Kolkata');
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5283681732687280"
@@ -61,29 +62,51 @@ date_default_timezone_set('Asia/Kolkata');
 
     <?php if ($is_amp) { ?>
         <style amp-custom>
-            <?php } else { ?><style><?php } ?>*,
-            *::before,
-            *::after {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box
-            }
+            <?php } else { ?><style><?php } ?>
 
-            html {
-                overflow-x: hidden;
-                scroll-behavior: smooth
-            }
+/* ========================================
+   SPBOSS DESIGN SYSTEM — v2.0
+   Primary palette: Muted Slate-Blue
+   ======================================== */
 
-            body {
-                background-color: white;
-                text-align: center;
-                padding: 3px 10px;
-                margin: 0;
-                scroll-behavior: smooth;
-                font-style: italic;
-                font-family: Helvetica, sans-serif;
-                font-weight: 700
-            }
+:root {
+    --font-main:       'Inter', Helvetica, sans-serif;
+    /* Muted slate-blue — not too bright */
+    --blue-dark:       #3d5a99;
+    --blue-mid:        #4a6bb5;
+    --blue-light:      #6888c8;
+    --blue-border:     rgba(74, 107, 181, 0.45);
+    --blue-shadow:     rgba(61, 90, 153, 0.25);
+    --blue-glow:       rgba(61, 90, 153, 0.15);
+    /* WhatsApp green */
+    --wa-green:        #25d366;
+    --wa-green-dark:   #128c7e;
+    /* Card */
+    --card-radius:     10px;
+    --card-shadow:     0 2px 12px var(--blue-shadow);
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth
+}
+
+body {
+    background-color: #f8f9ff;
+    text-align: center;
+    padding: 3px 10px;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-style: normal;
+    font-family: var(--font-main);
+    font-weight: 400
+}
 
             a,
             a:hover {
@@ -96,12 +119,12 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             table {
-                box-shadow: 0 0 20px 0 rgb(0 0 0 / 40%);
+                box-shadow: var(--card-shadow);
                 margin: 5px 0
             }
 
             .dp-topcontainer {
-                border: 2px solid #5c3411;
+                border: 2px solid var(--blue-border);
                 border-radius: 10px 0 10px 10px;
                 margin-bottom: 2px
             }
@@ -118,50 +141,50 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             .main_logo {
-                background: #fc9;
+                background: linear-gradient(135deg, #1a237e 0%, #283593 60%, #3949ab 100%);
                 padding: 0 10px;
                 display: block;
-                color: #fff8f8;
+                color: #fff;
                 margin-bottom: 3px;
                 letter-spacing: 1px;
                 font-weight: 700;
-                border: 3px solid #5c3411;
+                border: 3px solid #7986cb;
                 border-radius: .75em;
                 transform-style: preserve-3d;
-                transition: transform 150ms cubic-bezier(0, 0, .58, 1), background 150ms cubic-bezier(0, 0, .58, 1)
+                transition: transform 150ms cubic-bezier(0, 0, .58, 1), background 150ms cubic-bezier(0, 0, .58, 1);
+                box-shadow: 0 4px 15px rgba(26,35,126,0.4)
             }
 
             .para__1 {
-                margin-bottom: 3px;
-                display: flex;
-                padding: 5px;
-                align-items: center;
-                justify-content: space-between;
-                flex-direction: column;
-                border-radius: 10px;
-                border: 2px solid #5c3411;
-                box-shadow: 0 0 20px 0 rgb(0 0 0 / 40%)
-            }
+    margin-bottom: 3px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: var(--card-radius);
+    border: 2px solid var(--blue-border);
+    box-shadow: var(--card-shadow);
+    background: #fff;
+}
 
             .para__1.para__1-first {
                 flex-direction: inherit
             }
 
             .para__1.para__1-first p {
-                color: #000;
+                color: #222;
                 display: inline-block;
                 font-size: 16px
             }
 
             .para__2 {
-                border-width: 3px;
-                border: 2px solid #0014e2;
-                margin-bottom: 3px;
-                border-style: outset;
-                border-radius: 10px;
-                border: 2px solid #5c3411;
-                box-shadow: 0 0 20px 0 rgb(0 0 0 / 40%)
-            }
+    margin-bottom: 3px;
+    border-radius: var(--card-radius);
+    border: 2px solid var(--blue-border);
+    box-shadow: var(--card-shadow);
+    background: #fff;
+}
 
             .para__2.para__2-first {
                 padding: 8px 5px
@@ -184,16 +207,15 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             .para__3 {
-                background: #5c3411;
-                border: 2px solid #fff;
-                border-style: outset;
-                border-radius: 10px;
+                background: linear-gradient(135deg, var(--blue-dark), var(--blue-mid));
+                border: 2px solid var(--blue-border);
+                border-radius: var(--card-radius);
                 margin-bottom: 3px;
-                line-height: 1.4;
+                line-height: 1.5;
                 font-size: 14px;
-                padding: 4px 10px;
+                padding: 5px 10px;
                 color: #fff;
-                box-shadow: 0 0 20px 0 rgb(0 0 0 / 40%)
+                box-shadow: var(--card-shadow)
             }
 
             .para__3 a {
@@ -217,18 +239,16 @@ date_default_timezone_set('Asia/Kolkata');
             .satta-main-result,
             .satta-text,
             .slash-text {
-                color: #000;
+                background: #fff;
+                color: #222;
                 text-align: center;
                 margin-bottom: 4px;
                 margin-top: -2px;
                 display: block;
                 font-size: 20px;
-                outline: 4px #fff;
-                outline-offset: -9px;
-                border: 2px solid #5c3411;
-                border-style: outset;
-                border-radius: 10px;
-                box-shadow: 0 0 20px 0 rgb(0 0 0 / 40%)
+                border: 2px solid var(--blue-border);
+                border-radius: var(--card-radius);
+                box-shadow: var(--card-shadow)
             }
 
             .cm_patti_l {
@@ -259,16 +279,16 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             .cm_patti_l .bb55 {
-                border-left: 1px solid #000ff4
+                border-left: 1px solid var(--blue-border)
             }
 
             .a_27_title,
-            .banner,
+           
             .cm_patti_l h3,
             .fg-cont h4,
             .matka-result h4,
             .my-table.mumraj-sl h4 {
-                background: #5c3411;
+                background: linear-gradient(135deg, #1a237e 0%, #283593 60%, #3949ab 100%);
                 padding: 5px 10px;
                 text-shadow: 1px 1px 2px #000;
                 display: block;
@@ -276,31 +296,32 @@ date_default_timezone_set('Asia/Kolkata');
                 margin-bottom: 3px;
                 letter-spacing: 1px;
                 font-weight: 700;
-                border: 2px solid #fff;
+                border: 2px solid #7986cb;
                 border-radius: .75em;
                 transform-style: preserve-3d;
                 transition: transform 150ms cubic-bezier(0, 0, .58, 1), background 150ms cubic-bezier(0, 0, .58, 1);
-                border: 2px solid #fff
+                box-shadow: 0 4px 15px rgba(26,35,126,0.4)
             }
 
             .a_27_title,
-            .banner,
+            
             .cm_patti_l h6,
             .fg-cont h6,
             .matka-result h6,
             .my-table.mumraj-sl h6 {
-                background: #5c3411;
+                background: linear-gradient(135deg, #1a237e 0%, #283593 60%, #3949ab 100%);
                 padding: 5px 10px;
                 text-shadow: 1px 1px 2px #000;
                 display: block;
-                color: #fff8f8;
+                color: #fff;
                 margin-bottom: 3px;
                 letter-spacing: 1px;
                 font-weight: 700;
-                border: 2px solid #fff;
+                border: 2px solid #7986cb;
                 border-radius: .75em;
                 transform-style: preserve-3d;
-                transition: transform 150ms cubic-bezier(0, 0, .58, 1), background 150ms cubic-bezier(0, 0, .58, 1)
+                transition: transform 150ms cubic-bezier(0, 0, .58, 1), background 150ms cubic-bezier(0, 0, .58, 1);
+                box-shadow: 0 4px 15px rgba(26,35,126,0.4)
             }
 
             .cm_patti_l .aa_55:first-child {
@@ -314,9 +335,10 @@ date_default_timezone_set('Asia/Kolkata');
 
             .matka-result .matka-card.live-box div {
                 display: block;
-                border-top: 1px solid #5c3411;
+                border-top: 1px solid var(--blue-border);
                 margin-top: 5px;
-                padding: 3px 5px
+                padding: 3px 5px;
+                background: linear-gradient(135deg, #eef2ff 0%, #f0f4ff 60%, #e8edff 100%);
             }
 
             .matka-result .matka-card.live-box div:first-of-type {
@@ -331,42 +353,55 @@ date_default_timezone_set('Asia/Kolkata');
 
             .matka-card .gn:not(:first-child) {
                 display: block;
-                border-top: 1px solid #5c3411;
+                border-top: 1px solid var(--blue-border);
                 margin-top: 5px
             }
 
             .matka-card .gn {
                 display: block;
                 font-size: 22px;
-                color: #00094d;
-                text-shadow: 1px 1px 2px #fff
+                color: var(--blue-dark);
+                font-weight: 700;
+                text-shadow: none
             }
 
             .matka-card .gr {
                 display: block;
-                color: #880e4f;
-                text-shadow: 1px 1px 2px #ffe2c6;
+                /* Loading... text — vibrant amber-gold */
+                color: #e65c00;
+                background: linear-gradient(90deg, #e65c00, #f9a825);
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
                 font-size: 21px;
+                font-weight: 700;
                 line-height: 1;
-                margin: 3px 0
+                margin: 3px 0;
+                letter-spacing: 0.5px
             }
 
             .matka-card button,
             .refresh_btn {
-                border: 1px solid #e6e6e6;
-                background: #522f92;
-                color: #fff;
-                padding: 5px 7px;
-                border-radius: 8px;
+                background: linear-gradient(135deg, #b8860b 0%, #f0c040 50%, #d4a017 100%);
+                border: 1px solid rgba(255,255,255,0.5);
+                color: #1a0a00;
+                padding: 5px 14px;
+                border-radius: 20px;
                 font-size: 12px;
-                margin: 2px 0 -1px;
+                font-weight: 700;
+                letter-spacing: 0.5px;
+                margin: 4px 0 0;
                 display: inline-block;
-                transition: all .3s
+                transition: all .25s ease;
+                box-shadow: 0 2px 8px rgba(184,134,11,0.4);
+                cursor: pointer
             }
 
             .matka-card button:hover,
             .refresh_btn:hover {
-                box-shadow: 0 0 13px 3px #0003;
+                background: linear-gradient(135deg, #d4a017 0%, #ffe066 50%, #b8860b 100%);
+                box-shadow: 0 4px 16px rgba(240,192,64,0.6);
+                transform: translateY(-1px);
                 cursor: pointer
             }
 
@@ -375,21 +410,20 @@ date_default_timezone_set('Asia/Kolkata');
                 font-size: 16px;
                 padding: 7px;
                 line-height: 25px;
-                background: #5c3411;
+                background: linear-gradient(135deg, var(--blue-dark), var(--blue-mid));
                 color: #fff;
                 border-radius: .75em
             }
 
             .para__2.para__2-second a {
                 color: #fff;
-                color: #fff;
-                border: 2px solid #fff;
+                border: 2px solid rgba(255,255,255,0.6);
                 padding: 3px 0;
                 display: block;
                 width: 200px;
                 margin: auto;
                 border-radius: 15px;
-                background: #5c3411;
+                background:darkred;
                 margin-top: 8px
             }
 
@@ -402,9 +436,9 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             .para__2.para__2-third span:first-child {
-                color: #5c3411;
+                color: var(--blue-dark);
                 display: block;
-                text-shadow: 0 0 5px #fff;
+                text-shadow: 0 0 5px #eef;
                 font-size: 20px;
                 font-weight: 700
             }
@@ -423,7 +457,7 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             .para__2.para__2-third_1 span:first-of-type {
-                background: #5c3411;
+                background: linear-gradient(135deg, var(--blue-dark), var(--blue-mid));
                 color: #fff;
                 display: block;
                 text-shadow: 0 0 5px #000;
@@ -464,7 +498,9 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             .para__2.para__2-fourth {
-                padding: 12px
+                padding: 12px;
+                background:darkgray;
+            
             }
 
             .satta-main-result {
@@ -474,7 +510,7 @@ date_default_timezone_set('Asia/Kolkata');
 
             .paid-gm p,
             .satta-main-result div {
-                border-bottom: 1px solid #5c3411
+                border-bottom: 1px solid var(--blue-border)
             }
 
             .satta-main-result div {
@@ -581,7 +617,7 @@ date_default_timezone_set('Asia/Kolkata');
             .conta {
                 padding-top: 4px;
                 padding-bottom: 7px;
-                background-color: #5c3411;
+                background: linear-gradient(135deg, #1a237e 0%, #283593 60%, #3949ab 100%);
                 display: -webkit-flex;
                 display: -moz-flex;
                 display: -ms-flex;
@@ -590,7 +626,8 @@ date_default_timezone_set('Asia/Kolkata');
                 -ms-align-items: center;
                 align-items: center;
                 justify-content: center;
-                border: 2px solid #fff
+                border: 2px solid #7986cb;
+                box-shadow: 0 4px 15px rgba(26,35,126,0.4)
             }
 
             .conta p {
@@ -604,19 +641,24 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             .conta a {
-                background: radial-gradient(#ffe500, #ff9800);
-                color: #000;
-                padding: 5px 8px 2px;
-                border-radius: 80px;
+                background: linear-gradient(135deg, var(--wa-green-dark), var(--wa-green));
+                color: #fff;
+                padding: 7px 18px;
+                border-radius: 50px;
                 display: inline-block;
-                box-shadow: 0 0 10px -3px #000;
-                border: 1px solid #006400;
-                text-shadow: 1px 1px 2px #fff;
-                font-size: 18px
+                box-shadow: 0 3px 12px rgba(37,211,102,0.45);
+                border: 2px solid rgba(255,255,255,0.5);
+                text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+                font-size: 16px;
+                font-weight: 600;
+                letter-spacing: 0.3px;
+                transition: all .25s ease
             }
 
             .conta a:hover {
-                box-shadow: 0 0 10px 0 #000
+                background: linear-gradient(135deg, var(--wa-green), var(--wa-green-dark));
+                box-shadow: 0 5px 18px rgba(37,211,102,0.6);
+                transform: translateY(-1px)
             }
 
             .slash-text {
@@ -628,8 +670,8 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             .yellowbg {
-                background-color: #ff0;
-                border-bottom: 1px solid #5c3411
+                background:lightskyblue;
+                border-bottom: 1px solid var(--blue-border)
             }
 
             .paid-gm {
@@ -677,13 +719,13 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             .paid-gm .ee {
-                color: #5c3411;
+                color: var(--blue-dark);
                 padding-bottom: 3px;
                 font-size: 21px
             }
 
             .paid-gm .ff {
-                color: #5c3411;
+                color: var(--blue-mid);
                 font-size: 15px
             }
 
@@ -722,11 +764,12 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             .my-table h4 {
-                border: solid 2px #5c3411;
+                border: solid 2px #3949ab;
                 border-bottom-width: 0;
                 padding: 3px 5px 2px;
                 font-size: 24px;
-                background: #5c3411
+                background: linear-gradient(135deg, #1a237e 0%, #283593 60%, #3949ab 100%);
+                color: #fff
             }
 
             .my-table table {
@@ -745,7 +788,7 @@ date_default_timezone_set('Asia/Kolkata');
 
             .my-table td,
             .my-table th {
-                border: 1px solid #5c3411
+                border: 1px solid #3949ab
             }
 
             .my-table td,
@@ -766,7 +809,7 @@ date_default_timezone_set('Asia/Kolkata');
 
             .my-table.cm-sl h4,
             .my-table.mr-sl h4 {
-                background: #5c3411;
+                background: linear-gradient(135deg, #1a237e 0%, #283593 60%, #3949ab 100%);
                 padding: 5px 10px;
                 display: block;
                 color: #fff;
@@ -774,10 +817,11 @@ date_default_timezone_set('Asia/Kolkata');
                 margin-top: 10px;
                 letter-spacing: 1px;
                 font-weight: 700;
-                border: 2px solid #fff;
+                border: 2px solid #7986cb;
                 border-radius: .75em;
                 transform-style: preserve-3d;
-                transition: transform 150ms cubic-bezier(0, 0, .58, 1), background 150ms cubic-bezier(0, 0, .58, 1)
+                transition: transform 150ms cubic-bezier(0, 0, .58, 1), background 150ms cubic-bezier(0, 0, .58, 1);
+                box-shadow: 0 4px 15px rgba(26,35,126,0.4)
             }
 
             .blue-container {
@@ -785,12 +829,13 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             .blue-container h4 {
-                background: #5c3411;
+                background: linear-gradient(135deg, #1a237e 0%, #283593 60%, #3949ab 100%);
                 color: #fff;
                 border-radius: 10px;
                 font-size: 30px;
                 padding: 3px 5px;
-                text-shadow: 1px 1px 2px #000
+                text-shadow: 1px 1px 2px #000;
+                box-shadow: 0 4px 15px rgba(26,35,126,0.4)
             }
 
             .blue-container a:last-child {
@@ -798,16 +843,27 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             .blue-container a {
-                background-size: 200% auto;
-                color: #000;
-                font-size: 22px;
-                display: block;
-                border-bottom: 2px solid #5c3411;
-                padding: 5px;
-                -webkit-background-clip: text;
-                background-clip: text;
-                -webkit-animation: textclip 2s linear infinite;
-                animation: textclip 2s linear infinite
+                color: #0d47a1 !important; /* Deep royal blue text */
+                font-size: 18px !important;
+                display: block !important;
+                border-bottom: 1px dashed #90caf9 !important;
+                padding: 10px 12px !important;
+                font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
+                font-weight: 500 !important;
+                transition: background-color 0.2s ease !important;
+                text-decoration: none !important;
+            }
+
+            .blue-container a:nth-child(even) {
+                background-color: #e8f5e9 !important; /* Soft premium mint/greenish-white */
+            }
+
+            .blue-container a:nth-child(odd) {
+                background-color: #ffffff !important;
+            }
+
+            .blue-container a:hover {
+                background-color: #c8e6c9 !important; /* light mint hover */
             }
 
             @keyframes textclip {
@@ -817,72 +873,99 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             .red_list>div {
-                border-color: #e71d36
+                border: 2px solid #d81b60 !important;
+                border-radius: 12px !important;
+                box-shadow: 0 6px 20px rgba(136, 14, 79, 0.12) !important;
+                overflow: hidden;
+                margin-bottom: 16px !important;
+                background: #fff !important;
             }
 
             .red_list h4 {
-                border-radius: 10px;
-                color: #fff;
-                line-height: 1.1;
-                padding: 4px 10px 3px;
-                text-shadow: 1px 1px 2px #000;
-                font-size: 24px;
-                -webkit-animation: changeBackgroundColor 5s infinite;
-                animation: changeBackgroundColor 5s infinite
-            }
-
-            @keyframes changeBackgroundColor {
-                0% {
-                    background-color: #ff019e
-                }
-
-                25% {
-                    background-color: #FF0
-                }
-
-                50% {
-                    background-color: #009a07
-                }
-
-                75% {
-                    background-color: #001fad
-                }
-
-                100% {
-                    background-color: #ff019e
-                }
+                background: linear-gradient(135deg, #880e4f 0%, #ad1457 50%, #c2185b 100%) !important;
+                color: #fff !important;
+                border-radius: 0 !important;
+                line-height: 1.3 !important;
+                padding: 10px 12px !important;
+                text-shadow: 1px 1px 2px rgba(0,0,0,0.5) !important;
+                font-size: 18px !important;
+                font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
+                border: none !important;
+                border-bottom: 2px solid #f8bbd0 !important;
+                font-weight: 600 !important;
+                letter-spacing: 0.5px !important;
+                animation: none !important;
+                -webkit-animation: none !important;
             }
 
             .red_list p {
-                font-size: 18px;
-                text-align: center;
-                line-height: 1.3
+                font-size: 16px !important;
+                text-align: center !important;
+                line-height: 1.5 !important;
+                font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
+                padding: 6px 12px !important;
+                color: #333 !important;
+                text-shadow: none !important;
+                border-bottom: 1px dashed #f8bbd0 !important;
+                margin: 0 !important;
+            }
+
+            .purple_header {
+                border: 2px solid #1565c0 !important;
+                border-radius: 12px !important;
+                box-shadow: 0 6px 20px rgba(13, 71, 161, 0.15) !important;
+                overflow: hidden !important;
+                padding: 0 !important;
+                background: #fff !important;
+                margin-bottom: 15px !important;
             }
 
             .purple_header h6 {
-                color: #fff;
-                padding: 5px 10px 3px;
-                font-size: 24px
+                background: linear-gradient(135deg, #0d47a1 0%, #1565c0 50%, #1976d2 100%) !important;
+                color: #fff !important;
+                padding: 12px 10px !important;
+                font-size: 20px !important;
+                font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
+                font-weight: 700 !important;
+                letter-spacing: 0.5px !important;
+                text-shadow: 1px 1px 2px rgba(0,0,0,0.5) !important;
+                margin: 0 !important;
+                border-bottom: 2px solid #64b5f6 !important;
             }
 
             .purple_header a {
-                display: block;
-                font-size: 22px;
-                padding: 5px 7px 4px
+                display: block !important;
+                font-size: 17px !important;
+                padding: 10px 12px !important;
+                font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
+                font-weight: 500 !important;
+                transition: background-color 0.2s ease !important;
+            }
+
+            .purple_header a:nth-child(even) {
+                background-color: #f0f4c3 !important; /* Soft lime-yellow for alternating */
+            }
+            
+            .purple_header a:nth-child(odd) {
+                background-color: #ffffff !important;
+            }
+
+            .purple_header a:hover {
+                background-color: #e3f2fd !important; /* light blue hover */
             }
 
             .ab1 a {
-                border-bottom: 2px solid #5c3411;
-                color: #1a237e;
-                text-shadow: 1px 1px #d9d9d9
+                border-bottom: 1px dashed #90caf9 !important;
+                color: #0d47a1 !important;
+                text-shadow: 1px 1px 0px rgba(255,255,255,0.8) !important;
             }
 
             .purple_header a:last-child {
-                border-bottom-width: 0
+                border-bottom-width: 0 !important;
             }
 
             .ab1 {
-                border-color: #5c3411
+                border-color: #1565c0 !important;
             }
 
             .ab2 a {
@@ -931,22 +1014,42 @@ date_default_timezone_set('Asia/Kolkata');
                 }
             }
 
+            .disclaimer {
+                background: lightblue;
+                border: 2px solid #90caf9 !important;
+                box-shadow: 0 4px 12px rgba(144, 202, 249, 0.3) !important;
+                border-radius: 12px !important;
+                margin-bottom: 12px !important;
+                overflow: hidden !important;
+            }
+
             .disclaimer h6 {
                 font-size: 18px;
-                margin-bottom: 15px;
-                padding-top: 4px;
-                text-shadow: 1px 1px 3px #000
+                margin-bottom: 10px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+                background: linear-gradient(135deg, #1a237e 0%, #283593 60%, #3949ab 100%);
+                color: #fff;
+                margin-top: 0;
+                display: block;
             }
 
             .disclaimer p {
-                font-size: 13px;
-                color: #340d7a;
-                padding: 2px 5px 5px;
-                line-height: 1.2
+                font-size: 14px;
+                color: #1a237e !important;
+                padding: 5px 10px 10px;
+                line-height: 1.4 !important;
+                font-weight: 500;
             }
 
             .ftr_sm {
-                padding: 5px
+                background: linear-gradient(to bottom, #fffdf2 0%, #fef0cd 100%) !important; /* Soft premium gold/cream */
+                border: 2px solid #ffcc80 !important;
+                box-shadow: 0 4px 12px rgba(255, 204, 128, 0.3) !important;
+                padding: 10px !important;
+                border-radius: 12px !important;
+                margin-bottom: 12px !important;
             }
 
             .ftr_sm h4 {
@@ -956,15 +1059,21 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             .ftr_sm p {
-                color: #a50031;
-                font-size: 10px;
-                line-height: 1.4
+                color: #880e4f !important;
+                font-size: 12px !important;
+                line-height: 1.6 !important;
+                font-weight: 500;
+                padding-top: 6px;
             }
 
             .ftr_sm span {
-                color: #030303;
-                text-shadow: 1px 1px 2px #fff;
-                font-size: 18px
+                color: #d84315 !important; /* Premium dark orange/red */
+                text-shadow: 1px 1px 0px rgba(255,255,255,0.8);
+                font-size: 18px !important;
+                font-weight: 700;
+                border-bottom: 2px dashed #ffab91;
+                padding-bottom: 3px;
+                display: inline-block;
             }
 
             .pby_us {
@@ -1001,8 +1110,7 @@ date_default_timezone_set('Asia/Kolkata');
             .result_timing_b,
             .result_timing_b_right {
                 position: absolute;
-                color: #7a028d;
-                font-size: 15px;
+                font-size: 13px;
                 padding: 2px 0;
                 transform: translateY(-158%);
                 border-bottom: none
@@ -1020,16 +1128,26 @@ date_default_timezone_set('Asia/Kolkata');
 
             .result_btn_chart {
                 color: #fff;
-                padding: 5px 7px;
-                border-radius: 8px;
-                font-size: 12px;
-                margin: 0 0 0;
+                padding: 4px 12px;
+                border-radius: 15px;
+                font-size: 11px;
+                font-weight: 600;
+                letter-spacing: 0.5px;
                 display: block;
-                transition: all .3s;
-                text-shadow: 1px 1px 2px #222;
+                transition: all .25s ease;
+                text-shadow: none;
                 margin-top: -6px;
-                border: 1px solid #e6e6e6;
-                background: #522f92
+                border: none;
+                background: linear-gradient(135deg, #0097a7 0%, #26c6da 100%);
+                box-shadow: 0 2px 6px rgba(0,151,167,0.35);
+                text-transform: uppercase;
+                cursor: pointer
+            }
+
+            .result_btn_chart:hover {
+                background: linear-gradient(135deg, #26c6da 0%, #0097a7 100%);
+                box-shadow: 0 4px 14px rgba(38,198,218,0.6);
+                filter: brightness(1.08)
             }
 
             @media(max-width:500px) {
@@ -1047,9 +1165,9 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             .bdr {
-                border: 2px solid #5c3411;
-                border-radius: 10px;
-                box-shadow: 0 0 20px 0 rgb(0 0 0 / 40%)
+                border: 2px solid var(--blue-border);
+                border-radius: var(--card-radius);
+                box-shadow: var(--card-shadow)
             }
 
             .fg-cont h5 {
@@ -1134,17 +1252,17 @@ date_default_timezone_set('Asia/Kolkata');
                 width: 50%;
                 display: inline-block;
                 padding: 5px;
-                border-color: #5c3411;
+                border-color: var(--blue-border);
                 border-style: solid
             }
 
             .fg-cont .fg_c1 .fg_p2 {
-                background: #5c3411;
+                background: linear-gradient(135deg, var(--blue-dark), var(--blue-mid));
                 font-size: 22px;
                 margin-bottom: 3px;
                 padding: 7px 0 7px;
                 color: #fff;
-                text-shadow: 1px 1px 2px red;
+                text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
                 border-radius: 10px
             }
 
@@ -1166,12 +1284,10 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             .paa_3 {
-                border-radius: 10px;
-                border: 2px solid #5c3411;
-                border-style: outset;
+                border-radius: var(--card-radius);
+                border: 2px solid var(--blue-border);
                 margin: 10px 0;
-                box-shadow: 0 0 20px 0 rgb(0 0 0 / 40%);
-                text-shadow: 1px 1px 2px #fff;
+                box-shadow: var(--card-shadow);
                 padding: 10px
             }
 
@@ -1219,9 +1335,9 @@ date_default_timezone_set('Asia/Kolkata');
 
             .fgzoc_time {
                 width: 99%;
-                border: 2px solid #5c3411;
+                border: 2px solid var(--blue-border);
                 margin: 5px 5px 0;
-                border-radius: 10px
+                border-radius: var(--card-radius)
             }
 
             @media only screen and (max-width:600px) {
@@ -1320,11 +1436,11 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             .faq .faq_card {
-                border-top: 1.5px solid #5c3411
+                border-top: 1.5px solid var(--blue-border)
             }
 
             .faq .faq_card.aabbcc {
-                border-top: 0 solid #5c3411
+                border-top: 0
             }
 
             @media only screen and (max-width:500px) {
@@ -1377,15 +1493,15 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             .let-rock {
-                border: 2px solid #5c3411;
-                border-radius: 10px;
+                border: 2px solid var(--blue-border);
+                border-radius: var(--card-radius);
                 font-style: normal;
                 padding: 3px 0;
                 margin: 5px auto 5px;
                 width: auto;
                 display: block;
                 font-weight: 600;
-                font-family: roboto, sans-serif;
+                font-family: var(--font-main);
                 height: 200px;
                 overflow-y: scroll
             }
@@ -1393,12 +1509,12 @@ date_default_timezone_set('Asia/Kolkata');
             .let-rock .t-rock {
                 cursor: pointer;
                 text-transform: uppercase;
-                color: #0013a5;
-                text-shadow: 1px 1px 2px #fff;
+                color: var(--blue-dark);
+                text-shadow: none;
                 font-weight: 800;
                 font-size: 17px;
                 padding: 4px 0 3px;
-                border-top: 1.5px solid #5c3411;
+                border-top: 1.5px solid var(--blue-border);
                 margin-top: 8px;
                 font-style: italic;
                 font-weight: 700
@@ -1432,13 +1548,10 @@ date_default_timezone_set('Asia/Kolkata');
                 padding: 0 10px;
                 list-style: none;
                 font-size: 13px;
-                margin-bottom: 0;
-                margin: 0 10px 0;
-                color: #000;
-                text-shadow: 1px 1px #f4e1e1;
-                border: 1px solid #5c3411;
-                border-radius: 5px;
-                margin-bottom: 12px
+                margin: 0 10px 12px;
+                color: #222;
+                border: 1px solid var(--blue-border);
+                border-radius: 5px
             }
 
             .let-rock li {
@@ -1572,14 +1685,14 @@ date_default_timezone_set('Asia/Kolkata');
 
             .ntah {
                 font-size: 25px;
-                background-color: #5c3411;
+                background: linear-gradient(135deg, var(--blue-dark), var(--blue-mid));
                 color: #fff
             }
 
             .ntah_blue_sec {
                 font-size: 1.2em;
                 font-weight: 700;
-                color: #5c3411
+                color: var(--blue-dark)
             }
 
             .ntah_red_sec {
@@ -1589,7 +1702,7 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             .new_table_add td {
-                border: 1px solid #5c3411
+                border: 1px solid var(--blue-border)
             }
 
             .center {
@@ -1599,63 +1712,33 @@ date_default_timezone_set('Asia/Kolkata');
                 width: 50%
             }
 
+
+
+            /* live-alert & live-box — deduplicated */
             .live-alert {
                 font-size: 20px;
                 padding: 5px;
-                color: #000;
+                color: #222;
                 display: block
             }
 
             .live-box p {
                 font-size: 14px;
                 padding-top: 5px;
-                color: #000;
+                color: #222;
                 text-shadow: none
             }
 
             .install-btn {
-                background: #8a000c;
+                background: linear-gradient(135deg, #7b1fa2, #ab47bc);
                 color: #fff;
-                padding: 6px 10px;
+                padding: 7px 14px;
                 display: block;
                 width: fit-content;
                 margin: auto;
                 border-radius: 10px;
-                font-size: 13px
-            }
-
-            .crickliveline_img {
-                border-radius: 10px;
-                max-width: 500px;
-                display: block;
-                margin: auto;
-                width: 100%;
-                padding: 5px
-            }
-
-            .live-alert {
-                font-size: 20px;
-                padding: 5px;
-                color: #000;
-                display: block
-            }
-
-            .live-box p {
-                font-size: 14px;
-                padding-top: 5px;
-                color: #000;
-                text-shadow: none
-            }
-
-            .install-btn {
-                background: #8a000c;
-                color: #fff;
-                padding: 6px 10px;
-                display: block;
-                width: fit-content;
-                margin: auto;
-                border-radius: 10px;
-                font-size: 13px
+                font-size: 13px;
+                box-shadow: 0 3px 10px rgba(123,31,162,0.35)
             }
 
             .crickliveline_img {
@@ -1668,10 +1751,10 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             .matka-live-refresh-btn {
-                border: 1px solid #e6e6e6;
-                background: #522f92;
+                border: 1px solid rgba(255,255,255,0.4);
+                background: linear-gradient(135deg, var(--blue-dark), var(--blue-mid));
                 color: #fff;
-                padding: 5px 7px;
+                padding: 5px 10px;
                 border-radius: 8px;
                 font-size: 12px;
                 margin: 2px 0 -1px;
@@ -1692,82 +1775,238 @@ date_default_timezone_set('Asia/Kolkata');
             .home-footer-container {
                 max-width: 100%;
                 text-align: center;
-                margin: 2px;
-                border: 2px solid purple;
-                background: #fff;
-                padding: 10px;
-                border-radius: 10px;
+                margin: 4px auto 12px;
+                border: 2px solid #cfd8dc !important;
+                background: linear-gradient(to bottom, #ffffff 0%, #f4f6f8 100%) !important;
+                padding: 20px 15px !important;
+                border-radius: 16px !important;
                 height: 500px;
                 overflow: hidden;
                 overflow-y: auto;
-                margin-bottom: 8px
+                box-shadow: inset 0 2px 10px rgba(0,0,0,0.02), 0 4px 15px rgba(0,0,0,0.05) !important;
+                font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
             }
 
             .home-footer-content {
-                max-width: 50%;
+                max-width: 60%;
                 padding: 0 0 30px;
                 margin: 0 auto;
-                text-align: justify
+                text-align: center;
+                line-height: 1.6 !important;
             }
 
             @media only screen and (max-width:768px) {
                 .home-footer-content {
-                    max-width: 100%
+                    max-width: 95%
                 }
             }
 
             .home-footer-container h2.small-heading {
-                font-size: 18px;
-                font-weight: 600;
-                color: red;
-                text-shadow: 0 0 1px #ff0;
-                margin-bottom: 4px
+                font-size: 20px !important;
+                font-weight: 700 !important;
+                color: #c62828 !important; /* Deep rich crimson */
+                text-shadow: 1px 1px 0px rgba(255,255,255,0.8) !important;
+                margin-bottom: 10px !important;
+                letter-spacing: 0.5px !important;
             }
 
             .home-footer-container p {
                 font-weight: 500;
-                font-size: 14px;
+                font-size: 15px !important;
                 padding: 0;
-                margin: 0;
-                color: #000
+                margin: 0 0 12px 0 !important;
+                color: #37474f !important;
             }
 
             .home-footer-container p span {
                 display: block;
-                font-weight: 600;
-                margin: 0;
-                margin-top: 8px;
-                font-size: 16px
+                font-weight: 700 !important;
+                margin: 12px 0 6px !important;
+                font-size: 16px !important;
+                color: #1565c0 !important;
             }
 
             .home-footer-container p strong {
                 text-decoration: underline;
-                font-weight: 600
+                font-weight: 700 !important;
+                color: #000 !important;
             }
 
             .home-footer-container h2.faq-heading {
-                font-size: 22px;
-                font-weight: 600;
-                color: #1a237e;
-                text-shadow: 0 0 1px #ff0;
-                margin-bottom: 12px;
-                margin-top: 10px
+                font-size: 24px !important;
+                font-weight: 800 !important;
+                color: #283593 !important; /* Deep royal indigo */
+                text-shadow: 1px 1px 0px rgba(255,255,255,0.8) !important;
+                margin-bottom: 16px !important;
+                margin-top: 20px !important;
+                border-bottom: 2px solid #e8eaf6 !important;
+                padding-bottom: 6px !important;
+                display: inline-block !important;
             }
 
             .home-footer-container h3.faq-title {
-                font-size: 16px;
-                font-weight: 600;
+                font-size: 17px !important;
+                font-weight: 700 !important;
                 background: no-repeat;
-                color: #000;
                 text-shadow: none;
-                letter-spacing: 1px;
-                margin: 0 0 5px;
-                color: #039
+                letter-spacing: 0.5px !important;
+                margin: 0 0 6px !important;
+                color: #00695c !important; /* Rich teal */
             }
 
             .home-footer-container p.faq-ans {
-                margin: 0 0 10px;
-                font-size: 14px
+                margin: 0 0 16px !important;
+                font-size: 14px !important;
+                color: #455a64 !important;
+            }
+
+            /* Dark green headers requested by user */
+            .my-table.mumraj-sl h4,
+            .blue-container.special-zone h4 {
+                background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 60%, #388e3c 100%) !important;
+                border: 2px solid #81c784 !important;
+                box-shadow: 0 4px 15px rgba(46,125,50,0.4) !important;
+            }
+
+            /* Mumbai Rajshree Star Line Table Styling */
+            .mumraj-sl table {
+                border-collapse: collapse;
+                width: 100%;
+                font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
+            }
+            .mumraj-sl th {
+                background-color: #e8f5e9 !important;
+                color: #1b5e20 !important;
+                font-weight: 600 !important;
+                border: 1px solid #a5d6a7 !important;
+                font-size: 15px !important;
+            }
+            .mumraj-sl td {
+                border: 1px solid #c8e6c9 !important;
+                padding: 6px 4px !important;
+                font-size: 14px !important;
+                text-shadow: none !important;
+                color: #333 !important;
+            }
+            .mumraj-sl tr:nth-child(even) td {
+                background-color: #f9fbf9 !important;
+            }
+            .mumraj-sl tr:nth-child(odd) td {
+                background-color: #ffffff !important;
+            }
+            .mumraj-sl tr:hover td {
+                background-color: #e8f5e9 !important;
+                transition: background-color 0.2s ease;
+            }
+            /* Style for the results (2nd and 4th columns) */
+            .mumraj-sl tr td:nth-child(2),
+            .mumraj-sl tr td:nth-child(4) {
+                color: #2e7d32 !important;
+                font-weight: 700 !important;
+            }
+
+            /* Free Game Zone Premium Styling */
+            .fg-main-cont {
+                border: 2px solid #5c6bc0 !important;
+                background: #ffffff !important;
+                border-radius: 16px !important;
+                box-shadow: 0 8px 24px rgba(63, 81, 181, 0.12) !important;
+                overflow: hidden !important;
+                padding: 12px !important;
+            }
+
+            .fgzoc_time {
+                width: calc(100% - 10px) !important;
+                border: 2px solid #8c9eff !important;
+                background: bisque;
+                margin: 5px auto 15px !important;
+                border-radius: 12px !important;
+                padding: 14px 10px !important;
+                box-shadow: 0 4px 15px rgba(140, 158, 255, 0.15) !important;
+                display: flex !important;
+                flex-direction: column !important;
+                gap: 6px !important;
+            }
+
+            .fgzoc_time .fg_p1 {
+                font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
+                font-weight: 700 !important;
+                color: #1a237e !important;
+                font-size: 20px !important;
+                margin: 0 !important;
+                text-shadow: none !important;
+            }
+
+            .fgzoc_time span {
+                font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
+                font-weight: 600 !important;
+                font-size: 13px !important;
+                color: #5c6bc0 !important;
+                letter-spacing: 2px !important;
+                text-transform: uppercase !important;
+                text-shadow: none !important;
+                margin: 2px 0 !important;
+            }
+
+            .fgzoc_time h5.fg_p1 {
+                color: #d81b60 !important;
+                font-size: 18px !important;
+                font-weight: 800 !important;
+                letter-spacing: 0.5px !important;
+                margin: 0 !important;
+                text-shadow: none !important;
+            }
+
+            /* Game card headers (Milans, Kalyans, etc.) */
+            .fg-cont .fg_c1 .fg_p2 {
+                background: linear-gradient(135deg, #1a237e 0%, #283593 50%, #3f51b5 100%) !important;
+                font-size: 17px !important;
+                font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
+                font-weight: 600 !important;
+                letter-spacing: 0.5px !important;
+                margin-bottom: 10px !important;
+                padding: 8px 12px !important;
+                color: #fff !important;
+                text-shadow: 1px 1px 2px rgba(0,0,0,0.4) !important;
+                border-radius: 50px !important;
+                display: inline-block !important;
+                width: 90% !important;
+                box-shadow: 0 4px 10px rgba(26, 35, 126, 0.2) !important;
+                transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+            }
+
+            .fg-cont .fg_c1 .fg_p2:hover {
+                transform: translateY(-2px) !important;
+                box-shadow: 0 6px 14px rgba(26, 35, 126, 0.3) !important;
+            }
+
+            /* Game card body text/numbers */
+            .fg-cont .fg_c1 .fg_p4 {
+                font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
+                font-size: 17px !important;
+                font-weight: 500 !important;
+                color: #2c3e50 !important;
+                line-height: 1.4 !important;
+                margin: 4px 0 !important;
+                text-shadow: none !important;
+            }
+
+            /* Inner grid cell borders */
+            .fg-cont .fg_c1 {
+                border-color: #d1d9e6 !important;
+                padding: 12px 6px !important;
+            }
+
+            @media only screen and (max-width:600px) {
+                .fg-cont .fg_c1 .fg_p2 {
+                    font-size: 13px !important;
+                    padding: 6px 10px !important;
+                    margin-bottom: 6px !important;
+                }
+                .fg-cont .fg_c1 .fg_p4 {
+                    font-size: 12px !important;
+                    line-height: 20px !important;
+                }
             }
         </style>
 
@@ -2031,7 +2270,7 @@ date_default_timezone_set('Asia/Kolkata');
 
 <?php } ?>
 
-    <div class="text2" style="margin-bottom: 2px;font-size:14px;padding: 1px;line-height: 25px;background: #b91d1d;color: white; text-align: center;">
+    <div class="text2" style="margin-bottom: 2px;font-size:14px;padding: 1px;line-height: 25px;background: darkgreen;color: white; text-align: center;">
 
      
     <div style="margin-top:5px; font-size:14px; line-height:22px;">
@@ -2042,7 +2281,7 @@ date_default_timezone_set('Asia/Kolkata');
 
         <a target="_blank" href="https://whatsapp.com/channel/0029VbCH7KEGpLHN8giIeL2F" rel="noopener noreferrer"
             style="color:white;border: 2px solid #fff;padding: 2px 0px;display: block;width: 230px;
-       margin: 2px auto;border-radius: 15px;background: #ff0cb7;text-decoration:none;">
+       margin: 2px auto;border-radius: 15px;background: darkred;text-decoration:none;">
             📲 Join On Whatsapp
         </a>
 
@@ -2237,7 +2476,7 @@ date_default_timezone_set('Asia/Kolkata');
 
 
     <!-- world me saabse fast -->
-    <h4 class="banner">Instant Satta Matka Results, Sabse Tez</h4>
+    <h4 class="banner" style="background-color: darkgreen;padding:10px;border-radius:5px;color:#">Instant Satta Matka Results, Sabse Tez</h4>
     <div class="satta-main-result">
         <?php
 
@@ -2316,7 +2555,7 @@ date_default_timezone_set('Asia/Kolkata');
                     }
                 }
         ?>
-                <div <?php if ($gameName == 'KALYAN' || $gameName == 'KALYAN NIGHT' || $gameName == 'BOMBAY NIGHT' || $gameName == 'OLD MAIN MUMBAI' || $gameName == 'SUPER DAY' || $gameName == 'RATAN KHATRI' || $gameName == 'KALYAN MORNING' || $gameName == 'MAIN BAZAR' || $gameName == 'KUBER111' || $gameName == 'KARNATAKA DAY' || $gameName == 'MUMBAI DAY [MAIN]' ||  $gameName == 'PRABHAT') {
+                <div <?php if ($gameName == 'KALYAN' || $gameName == 'KALYAN NIGHT' || $gameName == 'BOMBAY NIGHT' || $gameName == 'OLD MAIN MUMBAI' || $gameName == 'SUPER DAY' || $gameName == 'RATAN KHATRI' || $gameName == 'KALYAN MORNING' || $gameName == 'MAIN BAZAR' || $gameName == 'KUBER111' || $gameName == 'KARNATAKA DAY' || $gameName == 'MUMBAI DAY [MAIN]' ||  $gameName == 'PRABHAT' || $gameName == 'KALYAN SRIDEVI NIGHT' || $gameName == 'CENTRAL BOMBAY' || $gameName == 'SUPER MATKA') {
                             echo 'class="yellowbg"';
                         } ?>>
                     <h4><?php echo $gameName; ?></h4>
@@ -2327,7 +2566,7 @@ date_default_timezone_set('Asia/Kolkata');
                     <a href="<?php echo $panelLink; ?>" class="result_timing_b_right result_btn_chart">Panel</a>
                 </div>
             <?php } else { ?>
-                <div <?php if ($gameName == 'KALYAN' || $gameName == 'KALYAN NIGHT' || $gameName == 'BOMBAY NIGHT' || $gameName == 'OLD MAIN MUMBAI' || $gameName == 'SUPER DAY' || $gameName == 'RATAN KHATRI' || $gameName == 'KALYAN MORNING' || $gameName == 'MAIN BAZAR' || $gameName == 'KUBER111' || $gameName == 'KARNATAKA DAY' || $gameName == 'MUMBAI DAY [MAIN]' ||  $gameName == 'PRABHAT') {
+                <div <?php if ($gameName == 'KALYAN' || $gameName == 'KALYAN NIGHT' || $gameName == 'BOMBAY NIGHT' || $gameName == 'OLD MAIN MUMBAI' || $gameName == 'SUPER DAY' || $gameName == 'RATAN KHATRI' || $gameName == 'KALYAN MORNING' || $gameName == 'MAIN BAZAR' || $gameName == 'KUBER111' || $gameName == 'KARNATAKA DAY' || $gameName == 'MUMBAI DAY [MAIN]' ||  $gameName == 'PRABHAT' || $gameName == 'KALYAN SRIDEVI NIGHT' || $gameName == 'CENTRAL BOMBAY' || $gameName == 'SUPER MATKA') {
                             echo 'class="yellowbg"';
                         } ?>>
                     <h4><?php echo $gameName; ?></h4>
@@ -2393,7 +2632,7 @@ date_default_timezone_set('Asia/Kolkata');
     </h4>
 
 
-    <div class="blue-container">
+    <div class="blue-container special-zone">
         <h4>Spboss Special Game Zone</h4>
         <a href="https://spboss.mobi/matka-guessing-forum.php"> Spboss Guessing Forum </a>
         <a href="https://spboss.mobi/fix-game.php"> All market free fix game </a>
