@@ -600,91 +600,32 @@ body {
                 cursor: pointer
             }
 
-            .live-update-section {
-                border: 2px solid #00897b !important;
-                border-radius: 12px !important;
-                overflow: hidden !important;
-                background: #fffde7 !important;
-                box-shadow: 0 5px 18px rgba(0, 137, 123, 0.2) !important;
+            .live-update-card {
+                border-color: #00a86b !important;
+                background: #eafff4 !important;
+                overflow: hidden;
             }
 
-            .live-update-section h4 {
-                margin: 0 !important;
-                border: 0 !important;
-                border-radius: 0 !important;
-                background: linear-gradient(135deg, #00695c 0%, #00897b 55%, #26a69a 100%) !important;
-                color: #fff !important;
-                padding: 8px 10px !important;
-                font-size: 17px !important;
-                letter-spacing: 0.8px !important;
-                box-shadow: none !important;
+            .live-update-card h4 {
+                background: linear-gradient(135deg, #007a3d 0%, #00a86b 100%) !important;
+                border-color: #78e6b0 !important;
+                margin-bottom: 0;
             }
 
-            .live-update-section .live-box {
-                display: flex;
-                flex-direction: column;
-                gap: 7px;
-                padding: 9px 10px 11px;
-                background: linear-gradient(180deg, #fffde7 0%, #e0f2f1 100%);
-                color: #111;
-                font-size: 15px;
+            .live-update-card .live-box {
+                background: linear-gradient(180deg, #f2fff8 0%, #e1fff0 100%);
+                padding: 6px 8px 8px;
                 line-height: 1.35;
             }
 
-            .live-update-section .gn {
+            .live-update-card .gn:not(:first-child) {
+                border-top: 1px dashed rgba(0, 122, 61, 0.35);
+                margin-top: 7px;
                 padding-top: 6px;
-                border-top: 1px dashed rgba(0, 105, 92, 0.35) !important;
-                color: #004d40 !important;
-                font-size: 19px !important;
-                font-weight: 800 !important;
-                letter-spacing: 0.4px;
             }
 
-            .live-update-section .gn:first-of-type {
-                border-top: 0 !important;
-                padding-top: 0;
-            }
-
-            .live-update-section .gr {
-                font-size: 18px !important;
-                line-height: 1.2 !important;
-                margin: -3px 0 0 !important;
-            }
-
-            .live-update-section hr {
-                width: min(360px, 92%);
-                margin: 2px auto;
-                border: 0;
-                border-top: 1px dashed rgba(0, 105, 92, 0.3);
-            }
-
-            .live-update-section .matka-live-refresh-btn-2 {
-                width: min(210px, 82%) !important;
-                border: 2px solid #ffeb3b !important;
-                border-radius: 8px !important;
-                background: linear-gradient(135deg, #d50000 0%, #ff1744 100%) !important;
-                color: #fff700 !important;
-                padding: 8px 10px !important;
-                line-height: 1.25 !important;
-                font-weight: 800 !important;
-                box-shadow: 0 3px 10px rgba(213, 0, 0, 0.25);
-            }
-
-            .live-update-section .live-alert {
-                margin: 0 auto;
-                padding: 4px 10px;
-                color: #b71c1c;
-                font-size: 16px;
-                font-weight: 700;
-            }
-
-            .live-update-section button,
-            .live-update-section .matka-live-refresh-btn {
-                margin-top: 0 !important;
-                padding: 4px 14px !important;
-                background: linear-gradient(135deg, #ffca28 0%, #ff9800 100%) !important;
-                border: 1px solid rgba(121, 85, 72, 0.25) !important;
-                color: #3e2723 !important;
+            .live-update-card .gn {
+                color: #004d2a;
             }
 
             .para__2.para__2-second {
