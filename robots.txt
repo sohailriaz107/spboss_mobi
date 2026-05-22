@@ -1,0 +1,15 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /cdn-cgi/ 
+Disallow: /result.php
+Disallow: /live.php
+Disallow: /.well-known/trust.txt
+Disallow: /.well-known/openid-configuration
+Allow: / 
+
+Crawl-delay: 10
+
+Sitemap: https://spboss.mobi/sitemap.xml

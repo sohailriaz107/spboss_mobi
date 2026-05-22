@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html amp lang="en-in">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Tara Mumbai Day Chart - Tara Mumbai Day Panel Chart Record Patti Panna Record Book By SPBOSS Net Online Live Update Fresh Tara Mumbai Day Matka Bazar 143 satta Matka Chart Final Game History See here!" />
+	<meta name="keywords" content="Tara Mumbai Day panel chart, Tara Mumbai Day chart, Tara Mumbai Day patti chart, Tara Mumbai Day panel patti chart, Tara Mumbai Day matka panel chart, Tara Mumbai Day matka chart">
+	<?php $canonical_url = "https://" . $_SERVER['HTTP_HOST'] . strtok($_SERVER['REQUEST_URI'], '?'); ?>
+	<link rel="canonical" href="<?php echo $canonical_url; ?>" />
+	<link rel="alternate" href="<?php echo $canonical_url; ?>" hreflang="en-in" />
+	<link rel="alternate" href="<?php echo $canonical_url; ?>" hreflang="hi-in" />
+
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta name="robots" content="index, follow">
+	<meta name="author" content="SATTA| SPBOSS |SATTA MATKA | KALYAN MATKA | MATKA RESULT | SATTAMATKA">
+	<meta name="copyright" content="spboss net satta matka" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-touch-fullscreen" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+
+	<link rel="shortcut icon" href="../assets/img/favicon.ico">
+	<link rel="icon" href="../assets/img/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../assets/img/fav32new.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="../assets/img/android-chrome-192x192.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="512x512" href="../assets/img/android-chrome-512x512.png">
+
+	<meta property="og:title" content="Satta Matka - Official Website">
+	<meta property="og:description" content="Get the latest results and updates from SPBOSS.">
+	<meta property="og:url" content="https://spboss.mobi/">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="../assets/img/square-image.jpg">
+	<meta property="og:image:width" content="300">
+	<meta property="og:image:height" content="300">
+	<meta name="twitter:image" content="../assets/img/square-image.jpg">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Satta Matka - Official Website">
+	<meta name="twitter:description" content="Get the latest results and updates from SPBOSS.">
+
+
+	<title>Tara Mumbai Day Panel Chart Patti Panna Record</title>
+
+
+	<script async src="https://cdn.ampproject.org/v0.js"></script>
+	<script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+
+
+	<?php include_once('includes/panel_style_amp.php'); ?>
+</head>
+
+<body>
+
+	<?php include_once('../include/components/name_amp.php'); ?>
+
+
+	<div class="panel-container">
+		<?php
+		$game_name = 'TARA MUMBAI DAY';
+		$game_name_hindi = 'तारा मुंबई डे';
+		include_once('includes/chartTopPanel.php');
+		?>
+		<div class="panel-content">
+			<div class="panel-content-heading">
+				<h1><?php echo $game_name; ?> MATKA PANEL RECORD 2019 - <?php echo date('Y'); ?></h1>
+			</div>
+
+			<div class="panel-content-body">
+				<table class="panel-content-chart chart-table" cellpadding="2">
+					<thead>
+						<tr>
+							<th>Date</th>
+							<th colspan="3">Mon</th>
+							<th colspan="3">Tue</th>
+							<th colspan="3">Wed</th>
+							<th colspan="3">Thu</th>
+							<th colspan="3">Fri</th>
+							<th colspan="3">Sat</th>
+						</tr>
+					</thead>
+					<tbody>
+
+						<?php if (1) { ?>
+							<tr>
+								<td>02/12/2019<br>to<br>07/12/2019</td>
+								<td>4<br>5<br>8</td>
+								<td>76</td>
+								<td>3<br>4<br>9</td>
+								<td>4<br>7<br>7</td>
+								<td>80</td>
+								<td>2<br>3<br>5</td>
+								<td>7<br>9<br>0</td>
+								<td>68</td>
+								<td>2<br>7<br>9</td>
+								<td>1<br>9<br>0</td>
+								<td>09</td>
+								<td>1<br>8<br>0</td>
+								<td>8<br>9<br>9</td>
+								<td>60</td>
+								<td>2<br>8<br>0</td>
+								<td>3<br>6<br>8</td>
+								<td>78</td>
+								<td>2<br>7<br>9</td>
+							</tr>
+							<tr>
+								<td>09/12/2019<br>to<br>14/12/2019</td>
+								<td>1<br>2<br>7</td>
+								<td>06</td>
+								<td>7<br>9<br>0</td>
+								<td>5<br>6<br>9</td>
+								<td>08</td>
+								<td>9<br>9<br>0</td>
+								<td class="r">6<br>8<br>9</td>
+								<td class="r">38</td>
+								<td class="r">2<br>6<br>0</td>
+								<td>5<br>5<br>6</td>
+								<td>67</td>
+								<td>4<br>5<br>8</td>
+								<td>4<br>5<br>7</td>
+								<td>60</td>
+								<td>5<br>6<br>9</td>
+								<td class="r">2<br>5<br>5</td>
+								<td class="r">27</td>
+								<td class="r">4<br>5<br>8</td>
+							</tr>
+							<tr>
+								<td>16/12/2019<br>to<br>21/12/2019</td>
+								<td class="r">1<br>2<br>5</td>
+								<td class="r">88</td>
+								<td class="r">4<br>7<br>7</td>
+								<td class="r">3<br>6<br>7</td>
+								<td class="r">66</td>
+								<td class="r">1<br>6<br>9</td>
+								<td class="r">4<br>6<br>6</td>
+								<td class="r">61</td>
+								<td class="r">4<br>7<br>0</td>
+								<td>2<br>5<br>7</td>
+								<td>45</td>
+								<td>8<br>8<br>9</td>
+								<td>3<br>3<br>9</td>
+								<td>59</td>
+								<td>3<br>8<br>8</td>
+								<td class="r">2<br>4<br>5</td>
+								<td class="r">11</td>
+								<td class="r">5<br>6<br>0</td>
+							</tr>
+							<tr>
+								<td>30/12/2019<br>to<br>04/01/2020</td>
+								<td>2<br>3<br>9</td>
+								<td>40</td>
+								<td>3<br>7<br>0</td>
+								<td>2<br>6<br>7</td>
+								<td>56</td>
+								<td>3<br>6<br>7</td>
+								<td>2<br>4<br>9</td>
+								<td>56</td>
+								<td>3<br>3<br>0</td>
+								<td>2<br>6<br>0</td>
+								<td>82</td>
+								<td>4<br>9<br>9</td>
+								<td>3<br>7<br>8</td>
+								<td>85</td>
+								<td>1<br>6<br>8</td>
+								<td>5<br>7<br>8</td>
+								<td>08</td>
+								<td>2<br>6<br>0</td>
+							</tr>
+							<tr>
+								<td>06/01/2020<br>to<br>11/01/2020</td>
+								<td>6<br>9<br>0</td>
+								<td>52</td>
+								<td>1<br>5<br>6</td>
+								<td>3<br>7<br>8</td>
+								<td>82</td>
+								<td>1<br>4<br>7</td>
+								<td>3<br>3<br>4</td>
+								<td>02</td>
+								<td>2<br>5<br>5</td>
+								<td>4<br>5<br>7</td>
+								<td>69</td>
+								<td>4<br>7<br>8</td>
+								<td class="r">6<br>7<br>8</td>
+								<td class="r">16</td>
+								<td class="r">3<br>4<br>9</td>
+								<td>1<br>9<br>9</td>
+								<td>92</td>
+								<td>2<br>3<br>7</td>
+							</tr>
+							<tr>
+								<td>13/01/2020<br>to<br>18/01/2020</td>
+								<td>1<br>4<br>6</td>
+								<td>18</td>
+								<td>2<br>3<br>3</td>
+								<td>8<br>9<br>0</td>
+								<td>70</td>
+								<td>5<br>6<br>9</td>
+								<td>1<br>3<br>6</td>
+								<td>03</td>
+								<td>7<br>7<br>9</td>
+								<td>3<br>4<br>4</td>
+								<td>13</td>
+								<td>2<br>4<br>7</td>
+								<td>2<br>4<br>5</td>
+								<td>18</td>
+								<td>1<br>7<br>0</td>
+								<td>2<br>2<br>3</td>
+								<td>75</td>
+								<td>3<br>4<br>8</td>
+							</tr>
+							<tr>
+								<td>20/01/2020<br>to<br>25/01/2020</td>
+								<td>1<br>3<br>4</td>
+								<td>89</td>
+								<td>5<br>6<br>8</td>
+								<td>7<br>7<br>0</td>
+								<td>43</td>
+								<td>1<br>4<br>8</td>
+								<td>4<br>7<br>9</td>
+								<td>03</td>
+								<td>1<br>5<br>7</td>
+								<td class="r">4<br>4<br>6</td>
+								<td class="r">44</td>
+								<td class="r">3<br>4<br>7</td>
+								<td>1<br>5<br>5</td>
+								<td>13</td>
+								<td>6<br>8<br>9</td>
+								<td class="r">3<br>8<br>8</td>
+								<td class="r">99</td>
+								<td class="r">1<br>3<br>5</td>
+							</tr>
+							<tr>
+								<td>27/01/2020<br>to<br>01/02/2020</td>
+								<td>2<br>4<br>0</td>
+								<td>69</td>
+								<td>6<br>6<br>7</td>
+								<td class="r">8<br>9<br>0</td>
+								<td class="r">77</td>
+								<td class="r">1<br>6<br>0</td>
+								<td>3<br>6<br>0</td>
+								<td>96</td>
+								<td>1<br>2<br>3</td>
+								<td>3<br>5<br>7</td>
+								<td>59</td>
+								<td>2<br>8<br>9</td>
+								<td>3<br>5<br>7</td>
+								<td>59</td>
+								<td>1<br>2<br>6</td>
+								<td>2<br>3<br>6</td>
+								<td>13</td>
+								<td>2<br>5<br>6</td>
+							</tr>
+							<tr>
+								<td>03/02/2020<br>to<br>08/02/2020</td>
+								<td>3<br>6<br>0</td>
+								<td>93</td>
+								<td>1<br>4<br>8</td>
+								<td>2<br>8<br>9</td>
+								<td>93</td>
+								<td>2<br>5<br>6</td>
+								<td class="r">6<br>6<br>8</td>
+								<td class="r">05</td>
+								<td class="r">4<br>5<br>6</td>
+								<td>5<br>5<br>9</td>
+								<td>90</td>
+								<td>2<br>2<br>6</td>
+								<td>4<br>5<br>7</td>
+								<td>62</td>
+								<td>4<br>9<br>9</td>
+								<td>7<br>9<br>9</td>
+								<td>52</td>
+								<td>4<br>9<br>9</td>
+							</tr>
+							<tr>
+								<td>10/02/2020<br>to<br>15/02/2020</td>
+								<td>6<br>7<br>9</td>
+								<td>24</td>
+								<td>3<br>3<br>8</td>
+								<td>1<br>7<br>0</td>
+								<td>81</td>
+								<td>5<br>8<br>8</td>
+								<td>6<br>8<br>8</td>
+								<td>25</td>
+								<td>4<br>5<br>6</td>
+								<td>7<br>8<br>8</td>
+								<td>31</td>
+								<td>1<br>3<br>7</td>
+								<td>1<br>1<br>4</td>
+								<td>65</td>
+								<td>2<br>5<br>8</td>
+								<td>1<br>7<br>0</td>
+								<td>85</td>
+								<td>2<br>3<br>0</td>
+							</tr>
+							<tr>
+								<td>17/02/2020<br>to<br>22/02/2020</td>
+								<td class="r">3<br>6<br>9</td>
+								<td class="r">88</td>
+								<td class="r">4<br>6<br>8</td>
+								<td>2<br>2<br>6</td>
+								<td>08</td>
+								<td>1<br>2<br>5</td>
+								<td>1<br>6<br>6</td>
+								<td>31</td>
+								<td>2<br>9<br>0</td>
+								<td>8<br>9<br>9</td>
+								<td>64</td>
+								<td>2<br>3<br>9</td>
+								<td>1<br>9<br>0</td>
+								<td>09</td>
+								<td>2<br>2<br>5</td>
+								<td>5<br>5<br>6</td>
+								<td>67</td>
+								<td>1<br>1<br>5</td>
+							</tr>
+							<tr>
+								<td>24/02/2020<br>to<br>29/02/2020</td>
+								<td>2<br>4<br>7</td>
+								<td>39</td>
+								<td>3<br>6<br>0</td>
+								<td class="r">2<br>4<br>9</td>
+								<td class="r">55</td>
+								<td class="r">3<br>5<br>7</td>
+								<td>1<br>4<br>8</td>
+								<td>37</td>
+								<td>2<br>7<br>8</td>
+								<td class="r">1<br>5<br>0</td>
+								<td class="r">61</td>
+								<td class="r">2<br>4<br>5</td>
+								<td class="r">7<br>7<br>8</td>
+								<td class="r">22</td>
+								<td class="r">6<br>6<br>0</td>
+								<td>1<br>3<br>8</td>
+								<td>28</td>
+								<td>8<br>0<br>0</td>
+							</tr>
+							<tr>
+								<td>02/03/2020<br>to<br>08/03/2020</td>
+								<td>3<br>6<br>7</td>
+								<td>65</td>
+								<td>4<br>4<br>7</td>
+								<td>5<br>8<br>9</td>
+								<td>28</td>
+								<td>2<br>3<br>3</td>
+								<td>5<br>5<br>7</td>
+								<td>71</td>
+								<td>4<br>8<br>9</td>
+								<td class="r">2<br>3<br>7</td>
+								<td class="r">22</td>
+								<td class="r">5<br>8<br>9</td>
+								<td>6<br>7<br>7</td>
+								<td>04</td>
+								<td>2<br>3<br>9</td>
+								<td class="r">1<br>3<br>4</td>
+								<td class="r">88</td>
+								<td class="r">3<br>5<br>0</td>
+							</tr>
+							<tr>
+								<td>09/03/2020<br>to<br>14/03/2020</td>
+								<td>2<br>3<br>5</td>
+								<td>06</td>
+								<td>2<br>5<br>9</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">**</td>
+								<td class="r">*<br>*<br>*</td>
+								<td>6<br>6<br>9</td>
+								<td>13</td>
+								<td>2<br>5<br>6</td>
+								<td class="r">1<br>8<br>8</td>
+								<td class="r">77</td>
+								<td class="r">2<br>6<br>9</td>
+								<td>7<br>9<br>9</td>
+								<td>56</td>
+								<td>2<br>7<br>7</td>
+								<td>5<br>6<br>9</td>
+								<td>04</td>
+								<td>1<br>3<br>0</td>
+							</tr>
+							<tr>
+								<td>16/03/2020<br>to<br>21/03/2020</td>
+								<td>2<br>6<br>9</td>
+								<td>74</td>
+								<td>3<br>5<br>6</td>
+								<td>2<br>2<br>5</td>
+								<td>93</td>
+								<td>6<br>8<br>9</td>
+								<td>3<br>6<br>8</td>
+								<td>74</td>
+								<td>4<br>5<br>5</td>
+								<td class="r">1<br>5<br>6</td>
+								<td class="r">22</td>
+								<td class="r">6<br>7<br>9</td>
+								<td>1<br>1<br>2</td>
+								<td>42</td>
+								<td>1<br>3<br>8</td>
+								<td>1<br>3<br>8</td>
+								<td>29</td>
+								<td>3<br>6<br>0</td>
+							</tr>
+							<tr>
+								<td>23/03/2020<br>to<br>04/04/2020</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">**</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">**</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">**</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">**</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">**</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">**</td>
+								<td class="r">*<br>*<br>*</td>
+							</tr>
+							<tr>
+								<td>06/04/2020<br>to<br>11/04/2020</td>
+								<td>1<br>4<br>5</td>
+								<td>02</td>
+								<td>5<br>8<br>9</td>
+								<td class="r">1<br>1<br>9</td>
+								<td class="r">11</td>
+								<td class="r">1<br>2<br>8</td>
+								<td>3<br>5<br>0</td>
+								<td>86</td>
+								<td>3<br>3<br>0</td>
+								<td>3<br>4<br>6</td>
+								<td>35</td>
+								<td>3<br>4<br>8</td>
+								<td>5<br>5<br>0</td>
+								<td>08</td>
+								<td>4<br>6<br>8</td>
+								<td>1<br>2<br>9</td>
+								<td>26</td>
+								<td>7<br>9<br>0</td>
+							</tr>
+							<tr>
+								<td>13/04/2020<br>to<br>18/04/2020</td>
+								<td>1<br>2<br>9</td>
+								<td>29</td>
+								<td>1<br>8<br>0</td>
+								<td>5<br>6<br>9</td>
+								<td>08</td>
+								<td>1<br>2<br>5</td>
+								<td>2<br>3<br>6</td>
+								<td>15</td>
+								<td>1<br>7<br>7</td>
+								<td class="r">5<br>7<br>0</td>
+								<td class="r">22</td>
+								<td class="r">5<br>8<br>9</td>
+								<td>3<br>3<br>0</td>
+								<td>65</td>
+								<td>2<br>3<br>0</td>
+								<td>4<br>6<br>0</td>
+								<td>08</td>
+								<td>3<br>6<br>9</td>
+							</tr>
+							<tr>
+								<td>20/04/2020<br>to<br>25/04/2020</td>
+								<td>1<br>2<br>3</td>
+								<td>60</td>
+								<td>2<br>4<br>4</td>
+								<td class="r">3<br>4<br>6</td>
+								<td class="r">33</td>
+								<td class="r">3<br>0<br>0</td>
+								<td class="r">6<br>7<br>9</td>
+								<td class="r">27</td>
+								<td class="r">4<br>6<br>7</td>
+								<td>3<br>6<br>9</td>
+								<td>87</td>
+								<td>2<br>7<br>8</td>
+								<td>4<br>4<br>6</td>
+								<td>47</td>
+								<td>4<br>4<br>9</td>
+								<td>4<br>5<br>0</td>
+								<td>97</td>
+								<td>2<br>6<br>9</td>
+							</tr>
+							<tr>
+								<td>27/04/2020<br>to<br>02/05/2020</td>
+								<td>2<br>3<br>6</td>
+								<td>12</td>
+								<td>3<br>4<br>5</td>
+								<td class="r">3<br>8<br>9</td>
+								<td class="r">05</td>
+								<td class="r">2<br>3<br>0</td>
+								<td class="r">2<br>6<br>9</td>
+								<td class="r">77</td>
+								<td class="r">4<br>6<br>7</td>
+								<td>3<br>3<br>7</td>
+								<td>39</td>
+								<td>2<br>7<br>0</td>
+								<td>2<br>7<br>9</td>
+								<td>85</td>
+								<td>1<br>4<br>0</td>
+								<td>4<br>5<br>6</td>
+								<td>51</td>
+								<td>1<br>1<br>9</td>
+							</tr>
+							<tr>
+								<td>04/05/2020<br>to<br>09/05/2020</td>
+								<td>3<br>9<br>9</td>
+								<td>17</td>
+								<td>4<br>6<br>7</td>
+								<td class="r">4<br>5<br>8</td>
+								<td class="r">72</td>
+								<td class="r">1<br>3<br>8</td>
+								<td class="r">3<br>4<br>8</td>
+								<td class="r">50</td>
+								<td class="r">3<br>3<br>4</td>
+								<td class="r">1<br>1<br>9</td>
+								<td class="r">16</td>
+								<td class="r">7<br>9<br>0</td>
+								<td>4<br>5<br>9</td>
+								<td>82</td>
+								<td>7<br>7<br>8</td>
+								<td class="r">1<br>2<br>8</td>
+								<td class="r">11</td>
+								<td class="r">1<br>0<br>0</td>
+							</tr>
+							<tr>
+								<td>11/05/2020<br>to<br>16/05/2020</td>
+								<td>2<br>3<br>5</td>
+								<td>02</td>
+								<td>5<br>7<br>0</td>
+								<td class="r">6<br>9<br>0</td>
+								<td class="r">50</td>
+								<td class="r">2<br>9<br>9</td>
+								<td class="r">2<br>9<br>0</td>
+								<td class="r">11</td>
+								<td class="r">5<br>7<br>9</td>
+								<td>6<br>9<br>0</td>
+								<td>51</td>
+								<td>4<br>7<br>0</td>
+								<td>1<br>1<br>2</td>
+								<td>48</td>
+								<td>1<br>1<br>6</td>
+								<td>3<br>3<br>7</td>
+								<td>39</td>
+								<td>3<br>7<br>9</td>
+							</tr>
+							<tr>
+								<td>18/05/2020<br>to<br>23/05/2020</td>
+								<td>1<br>9<br>0</td>
+								<td>03</td>
+								<td>2<br>5<br>6</td>
+								<td>4<br>5<br>6</td>
+								<td>59</td>
+								<td>1<br>3<br>5</td>
+								<td>6<br>7<br>7</td>
+								<td>09</td>
+								<td>1<br>2<br>6</td>
+								<td>1<br>1<br>3</td>
+								<td>51</td>
+								<td>1<br>2<br>8</td>
+								<td>1<br>2<br>6</td>
+								<td>92</td>
+								<td>1<br>1<br>0</td>
+								<td>1<br>3<br>6</td>
+								<td>01</td>
+								<td>1<br>5<br>5</td>
+							</tr>
+							<tr>
+								<td>25/05/2020<br>to<br>30/05/2020</td>
+								<td>4<br>4<br>7</td>
+								<td>58</td>
+								<td>3<br>7<br>8</td>
+								<td class="r">1<br>4<br>6</td>
+								<td class="r">16</td>
+								<td class="r">4<br>5<br>7</td>
+								<td>1<br>3<br>8</td>
+								<td>23</td>
+								<td>1<br>4<br>8</td>
+								<td>4<br>5<br>9</td>
+								<td>86</td>
+								<td>4<br>6<br>6</td>
+								<td>6<br>6<br>9</td>
+								<td>18</td>
+								<td>1<br>1<br>6</td>
+								<td class="r">3<br>5<br>8</td>
+								<td class="r">61</td>
+								<td class="r">2<br>9<br>0</td>
+							</tr>
+							<tr>
+								<td>01/06/2020<br>to<br>06/06/2020</td>
+								<td class="r">3<br>5<br>6</td>
+								<td class="r">44</td>
+								<td class="r">2<br>3<br>9</td>
+								<td>7<br>9<br>0</td>
+								<td>69</td>
+								<td>3<br>7<br>9</td>
+								<td>2<br>7<br>8</td>
+								<td>70</td>
+								<td>3<br>8<br>9</td>
+								<td>3<br>3<br>4</td>
+								<td>09</td>
+								<td>2<br>2<br>5</td>
+								<td>2<br>7<br>9</td>
+								<td>84</td>
+								<td>5<br>9<br>0</td>
+								<td class="r">1<br>4<br>8</td>
+								<td class="r">33</td>
+								<td class="r">1<br>5<br>7</td>
+							</tr>
+							<tr>
+								<td>08/06/2020<br>to<br>13/06/2020</td>
+								<td class="r">5<br>5<br>7</td>
+								<td class="r">77</td>
+								<td class="r">4<br>6<br>7</td>
+								<td>2<br>2<br>9</td>
+								<td>39</td>
+								<td>5<br>6<br>8</td>
+								<td>2<br>4<br>6</td>
+								<td>28</td>
+								<td>2<br>7<br>9</td>
+								<td>5<br>6<br>7</td>
+								<td>89</td>
+								<td>2<br>3<br>4</td>
+								<td>4<br>4<br>0</td>
+								<td>84</td>
+								<td>2<br>6<br>6</td>
+								<td>2<br>9<br>9</td>
+								<td>07</td>
+								<td>2<br>7<br>8</td>
+							</tr>
+							<tr>
+								<td>15/06/2020<br>to<br>20/06/2020</td>
+								<td>4<br>7<br>9</td>
+								<td>04</td>
+								<td>7<br>8<br>9</td>
+								<td>5<br>7<br>7</td>
+								<td>97</td>
+								<td>1<br>3<br>3</td>
+								<td>5<br>7<br>9</td>
+								<td>17</td>
+								<td>3<br>6<br>8</td>
+								<td>5<br>6<br>9</td>
+								<td>01</td>
+								<td>4<br>8<br>9</td>
+								<td>1<br>5<br>7</td>
+								<td>34</td>
+								<td>4<br>4<br>6</td>
+								<td>9<br>0<br>0</td>
+								<td>91</td>
+								<td>1<br>4<br>6</td>
+							</tr>
+							<tr>
+								<td>22/06/2020<br>to<br>27/06/2020</td>
+								<td class="r">4<br>6<br>7</td>
+								<td class="r">72</td>
+								<td class="r">3<br>9<br>0</td>
+								<td>8<br>8<br>0</td>
+								<td>62</td>
+								<td>2<br>4<br>6</td>
+								<td>1<br>2<br>8</td>
+								<td>14</td>
+								<td>3<br>5<br>6</td>
+								<td>5<br>9<br>9</td>
+								<td>39</td>
+								<td>3<br>6<br>0</td>
+								<td>1<br>3<br>6</td>
+								<td>01</td>
+								<td>5<br>6<br>0</td>
+								<td>2<br>3<br>5</td>
+								<td>04</td>
+								<td>1<br>5<br>8</td>
+							</tr>
+							<tr>
+								<td>29/06/2020<br>to<br>04/07/2020</td>
+								<td class="r">2<br>5<br>7</td>
+								<td class="r">49</td>
+								<td class="r">4<br>6<br>9</td>
+								<td>2<br>5<br>7</td>
+								<td>41</td>
+								<td>6<br>7<br>8</td>
+								<td>1<br>2<br>5</td>
+								<td>86</td>
+								<td>8<br>8<br>0</td>
+								<td>2<br>2<br>3</td>
+								<td>79</td>
+								<td>4<br>5<br>0</td>
+								<td>6<br>7<br>7</td>
+								<td>02</td>
+								<td>1<br>4<br>7</td>
+								<td>6<br>8<br>8</td>
+								<td>26</td>
+								<td>1<br>7<br>8</td>
+							</tr>
+							<tr>
+								<td>06/07/2020<br>to<br>11/07/2020</td>
+								<td>3<br>6<br>0</td>
+								<td>98</td>
+								<td>1<br>3<br>4</td>
+								<td class="r">7<br>9<br>9</td>
+								<td class="r">50</td>
+								<td class="r">5<br>7<br>8</td>
+								<td>1<br>1<br>5</td>
+								<td>71</td>
+								<td>5<br>6<br>0</td>
+								<td>2<br>7<br>8</td>
+								<td>73</td>
+								<td>4<br>9<br>0</td>
+								<td class="r">6<br>7<br>9</td>
+								<td class="r">27</td>
+								<td class="r">3<br>5<br>9</td>
+								<td class="r">6<br>7<br>7</td>
+								<td class="r">05</td>
+								<td class="r">2<br>3<br>0</td>
+							</tr>
+							<tr>
+								<td>13/07/2020<br>to<br>18/07/2020</td>
+								<td>3<br>9<br>0</td>
+								<td>23</td>
+								<td>6<br>8<br>9</td>
+								<td>1<br>7<br>8</td>
+								<td>60</td>
+								<td>5<br>6<br>9</td>
+								<td>1<br>3<br>3</td>
+								<td>79</td>
+								<td>9<br>0<br>0</td>
+								<td>5<br>7<br>8</td>
+								<td>09</td>
+								<td>3<br>7<br>9</td>
+								<td>1<br>6<br>7</td>
+								<td>41</td>
+								<td>5<br>7<br>9</td>
+								<td>1<br>7<br>0</td>
+								<td>81</td>
+								<td>3<br>4<br>4</td>
+							</tr>
+							<tr>
+								<td>20/07/2020<br>to<br>25/07/2020</td>
+								<td class="r">1<br>4<br>8</td>
+								<td class="r">38</td>
+								<td class="r">3<br>6<br>9</td>
+								<td>1<br>3<br>4</td>
+								<td>81</td>
+								<td>4<br>7<br>0</td>
+								<td>3<br>5<br>6</td>
+								<td>41</td>
+								<td>2<br>3<br>6</td>
+								<td>1<br>6<br>7</td>
+								<td>46</td>
+								<td>8<br>9<br>9</td>
+								<td class="r">2<br>7<br>8</td>
+								<td class="r">77</td>
+								<td class="r">3<br>6<br>8</td>
+								<td>4<br>5<br>9</td>
+								<td>82</td>
+								<td>6<br>8<br>8</td>
+							</tr>
+							<tr>
+								<td>27/07/2020<br>to<br>01/08/2020</td>
+								<td>6<br>8<br>9</td>
+								<td>36</td>
+								<td>7<br>9<br>0</td>
+								<td class="r">2<br>2<br>0</td>
+								<td class="r">44</td>
+								<td class="r">2<br>6<br>6</td>
+								<td>7<br>8<br>0</td>
+								<td>54</td>
+								<td>2<br>3<br>9</td>
+								<td>2<br>3<br>9</td>
+								<td>43</td>
+								<td>1<br>5<br>7</td>
+								<td>3<br>5<br>7</td>
+								<td>54</td>
+								<td>7<br>8<br>9</td>
+								<td>5<br>7<br>9</td>
+								<td>12</td>
+								<td>2<br>5<br>5</td>
+							</tr>
+							<tr>
+								<td>03/08/2020<br>to<br>08/08/2020</td>
+								<td class="r">1<br>7<br>7</td>
+								<td class="r">55</td>
+								<td class="r">1<br>4<br>0</td>
+								<td class="r">4<br>6<br>8</td>
+								<td class="r">83</td>
+								<td class="r">1<br>3<br>9</td>
+								<td>2<br>7<br>9</td>
+								<td>85</td>
+								<td>3<br>3<br>9</td>
+								<td>4<br>5<br>9</td>
+								<td>80</td>
+								<td>6<br>7<br>7</td>
+								<td class="r">4<br>5<br>8</td>
+								<td class="r">77</td>
+								<td class="r">2<br>6<br>9</td>
+								<td>2<br>3<br>6</td>
+								<td>18</td>
+								<td>2<br>6<br>0</td>
+							</tr>
+							<tr>
+								<td>10/08/2020<br>to<br>15/08/2020</td>
+								<td class="r">6<br>9<br>0</td>
+								<td class="r">55</td>
+								<td class="r">4<br>4<br>7</td>
+								<td>4<br>7<br>8</td>
+								<td>98</td>
+								<td>8<br>0<br>0</td>
+								<td class="r">4<br>6<br>9</td>
+								<td class="r">94</td>
+								<td class="r">2<br>3<br>9</td>
+								<td>6<br>7<br>7</td>
+								<td>02</td>
+								<td>5<br>8<br>9</td>
+								<td>2<br>2<br>7</td>
+								<td>13</td>
+								<td>1<br>5<br>7</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">**</td>
+								<td class="r">*<br>*<br>*</td>
+							</tr>
+							<tr>
+								<td>17/08/2020<br>to<br>22/08/2020</td>
+								<td>4<br>7<br>8</td>
+								<td>96</td>
+								<td>8<br>8<br>0</td>
+								<td>3<br>7<br>8</td>
+								<td>87</td>
+								<td>4<br>5<br>8</td>
+								<td>1<br>2<br>8</td>
+								<td>12</td>
+								<td>1<br>4<br>7</td>
+								<td>6<br>6<br>9</td>
+								<td>12</td>
+								<td>3<br>9<br>0</td>
+								<td>2<br>6<br>9</td>
+								<td>76</td>
+								<td>1<br>5<br>0</td>
+								<td>1<br>5<br>8</td>
+								<td>46</td>
+								<td>2<br>6<br>8</td>
+							</tr>
+							<tr>
+								<td>24/08/2020<br>to<br>29/08/2020</td>
+								<td class="r">2<br>4<br>9</td>
+								<td class="r">55</td>
+								<td class="r">2<br>3<br>0</td>
+								<td class="r">3<br>3<br>4</td>
+								<td class="r">00</td>
+								<td class="r">2<br>4<br>4</td>
+								<td>3<br>3<br>6</td>
+								<td>29</td>
+								<td>1<br>2<br>6</td>
+								<td>4<br>9<br>0</td>
+								<td>31</td>
+								<td>5<br>7<br>9</td>
+								<td>5<br>8<br>8</td>
+								<td>17</td>
+								<td>3<br>6<br>8</td>
+								<td>3<br>8<br>0</td>
+								<td>12</td>
+								<td>3<br>9<br>0</td>
+							</tr>
+							<tr>
+								<td>31/08/2020<br>to<br>05/09/2020</td>
+								<td class="r">3<br>6<br>9</td>
+								<td class="r">83</td>
+								<td class="r">7<br>8<br>8</td>
+								<td>1<br>6<br>0</td>
+								<td>73</td>
+								<td>1<br>2<br>0</td>
+								<td class="r">3<br>6<br>8</td>
+								<td class="r">77</td>
+								<td class="r">2<br>6<br>9</td>
+								<td class="r">2<br>5<br>9</td>
+								<td class="r">61</td>
+								<td class="r">1<br>2<br>8</td>
+								<td>4<br>4<br>5</td>
+								<td>32</td>
+								<td>3<br>3<br>6</td>
+								<td>3<br>7<br>0</td>
+								<td>01</td>
+								<td>5<br>7<br>9</td>
+							</tr>
+							<tr>
+								<td>07/09/2020<br>to<br>12/09/2020</td>
+								<td>2<br>8<br>0</td>
+								<td>06</td>
+								<td>1<br>2<br>3</td>
+								<td>5<br>7<br>9</td>
+								<td>13</td>
+								<td>2<br>5<br>6</td>
+								<td class="r">4<br>5<br>7</td>
+								<td class="r">66</td>
+								<td class="r">3<br>6<br>7</td>
+								<td>1<br>2<br>4</td>
+								<td>76</td>
+								<td>3<br>4<br>9</td>
+								<td>4<br>5<br>6</td>
+								<td>59</td>
+								<td>6<br>6<br>7</td>
+								<td>4<br>9<br>9</td>
+								<td>28</td>
+								<td>2<br>7<br>9</td>
+							</tr>
+							<tr>
+								<td>14/09/2020<br>to<br>19/09/2020</td>
+								<td>3<br>4<br>9</td>
+								<td>64</td>
+								<td>7<br>7<br>0</td>
+								<td class="r">2<br>7<br>9</td>
+								<td class="r">88</td>
+								<td class="r">2<br>3<br>3</td>
+								<td>2<br>2<br>7</td>
+								<td>19</td>
+								<td>5<br>6<br>8</td>
+								<td>1<br>2<br>3</td>
+								<td>68</td>
+								<td>5<br>6<br>7</td>
+								<td>2<br>4<br>9</td>
+								<td>59</td>
+								<td>1<br>9<br>9</td>
+								<td>3<br>5<br>7</td>
+								<td>57</td>
+								<td>8<br>9<br>0</td>
+							</tr>
+							<tr>
+								<td>21/09/2020<br>to<br>26/09/2020</td>
+								<td>2<br>4<br>5</td>
+								<td>14</td>
+								<td>1<br>5<br>8</td>
+								<td class="r">6<br>6<br>7</td>
+								<td class="r">99</td>
+								<td class="r">4<br>7<br>8</td>
+								<td>5<br>6<br>8</td>
+								<td>95</td>
+								<td>8<br>8<br>9</td>
+								<td>1<br>4<br>8</td>
+								<td>31</td>
+								<td>1<br>0<br>0</td>
+								<td class="r">1<br>3<br>4</td>
+								<td class="r">88</td>
+								<td class="r">1<br>2<br>5</td>
+								<td>1<br>6<br>0</td>
+								<td>79</td>
+								<td>2<br>3<br>4</td>
+							</tr>
+							<tr>
+								<td>28/09/2020<br>to<br>03/10/2020</td>
+								<td class="r">5<br>6<br>7</td>
+								<td class="r">83</td>
+								<td class="r">6<br>7<br>0</td>
+								<td>2<br>4<br>7</td>
+								<td>30</td>
+								<td>4<br>6<br>0</td>
+								<td>5<br>8<br>9</td>
+								<td>25</td>
+								<td>3<br>3<br>9</td>
+								<td>5<br>7<br>0</td>
+								<td>20</td>
+								<td>5<br>5<br>0</td>
+								<td>4<br>5<br>6</td>
+								<td>58</td>
+								<td>2<br>2<br>4</td>
+								<td>2<br>8<br>8</td>
+								<td>82</td>
+								<td>2<br>5<br>5</td>
+							</tr>
+							<tr>
+								<td>05/10/2020<br>to<br>10/10/2020</td>
+								<td>6<br>6<br>0</td>
+								<td>23</td>
+								<td>5<br>9<br>9</td>
+								<td class="r">3<br>7<br>8</td>
+								<td class="r">88</td>
+								<td class="r">4<br>6<br>8</td>
+								<td>1<br>3<br>8</td>
+								<td>24</td>
+								<td>5<br>9<br>0</td>
+								<td>4<br>6<br>9</td>
+								<td>95</td>
+								<td>3<br>4<br>8</td>
+								<td>6<br>6<br>9</td>
+								<td>15</td>
+								<td>1<br>1<br>3</td>
+								<td>4<br>5<br>6</td>
+								<td>57</td>
+								<td>4<br>5<br>8</td>
+							</tr>
+							<tr>
+								<td>12/10/2020<br>to<br>17/10/2020</td>
+								<td>4<br>7<br>8</td>
+								<td>93</td>
+								<td>2<br>4<br>7</td>
+								<td>3<br>8<br>9</td>
+								<td>09</td>
+								<td>1<br>1<br>7</td>
+								<td class="r">1<br>2<br>9</td>
+								<td class="r">27</td>
+								<td class="r">3<br>5<br>9</td>
+								<td>5<br>8<br>9</td>
+								<td>29</td>
+								<td>4<br>6<br>9</td>
+								<td>2<br>3<br>4</td>
+								<td>98</td>
+								<td>4<br>5<br>9</td>
+								<td>*<br>*<br>*</td>
+								<td>**</td>
+								<td>*<br>*<br>*</td>
+							</tr>
+							<tr>
+								<td>19/10/2020<br>to<br>24/10/2020</td>
+								<td>1<br>2<br>5</td>
+								<td>86</td>
+								<td>3<br>4<br>9</td>
+								<td>2<br>4<br>7</td>
+								<td>36</td>
+								<td>8<br>9<br>9</td>
+								<td class="r">8<br>0<br>0</td>
+								<td class="r">88</td>
+								<td class="r">4<br>7<br>7</td>
+								<td>3<br>3<br>5</td>
+								<td>19</td>
+								<td>5<br>7<br>7</td>
+								<td>3<br>5<br>9</td>
+								<td>71</td>
+								<td>1<br>4<br>6</td>
+								<td>2<br>4<br>0</td>
+								<td>64</td>
+								<td>3<br>3<br>8</td>
+							</tr>
+							<tr>
+								<td>26/11/2020<br>to<br>31/11/2020</td>
+								<td class="r">4<br>7<br>0</td>
+								<td class="r">11</td>
+								<td class="r">2<br>2<br>7</td>
+								<td>2<br>4<br>7</td>
+								<td>37</td>
+								<td>4<br>6<br>7</td>
+								<td>3<br>3<br>9</td>
+								<td>54</td>
+								<td>7<br>7<br>0</td>
+								<td>3<br>9<br>9</td>
+								<td>14</td>
+								<td>2<br>5<br>7</td>
+								<td>6<br>9<br>9</td>
+								<td>40</td>
+								<td>6<br>7<br>7</td>
+								<td>1<br>3<br>6</td>
+								<td>08</td>
+								<td>4<br>7<br>7</td>
+							</tr>
+							<tr>
+								<td>02/11/2020<br>to<br>07/11/2020</td>
+								<td>5<br>9<br>0</td>
+								<td>48</td>
+								<td>1<br>8<br>9</td>
+								<td>1<br>4<br>5</td>
+								<td>06</td>
+								<td>3<br>5<br>8</td>
+								<td>4<br>6<br>7</td>
+								<td>73</td>
+								<td>1<br>4<br>8</td>
+								<td>2<br>4<br>0</td>
+								<td>65</td>
+								<td>1<br>5<br>9</td>
+								<td>6<br>6<br>8</td>
+								<td>03</td>
+								<td>1<br>4<br>8</td>
+								<td>2<br>6<br>7</td>
+								<td>59</td>
+								<td>3<br>8<br>8</td>
+							</tr>
+							<tr>
+								<td>09/11/2020<br>to<br>22/11/2020</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">**</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">**</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">**</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">**</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">**</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">*<br>*<br>*</td>
+								<td class="r">**</td>
+								<td class="r">*<br>*<br>*</td>
+							</tr>
+							<tr>
+								<td>23/11/2020<br>to<br>28/11/2020</td>
+								<td>7<br>9<br>0</td>
+								<td>68</td>
+								<td>2<br>3<br>3</td>
+								<td>5<br>8<br>9</td>
+								<td>21</td>
+								<td>2<br>2<br>7</td>
+								<td>3<br>3<br>6</td>
+								<td>29</td>
+								<td>4<br>7<br>8</td>
+								<td>4<br>7<br>8</td>
+								<td>98</td>
+								<td>5<br>5<br>8</td>
+								<td>4<br>5<br>9</td>
+								<td>84</td>
+								<td>4<br>5<br>5</td>
+								<td>4<br>7<br>9</td>
+								<td>08</td>
+								<td>4<br>4<br>0</td>
+							</tr>
+							<tr>
+								<td>30/11/2020<br>to<br>05/12/2020</td>
+								<td>5<br>7<br>8</td>
+								<td>09</td>
+								<td>9<br>0<br>0</td>
+								<td>3<br>5<br>0</td>
+								<td>81</td>
+								<td>2<br>4<br>5</td>
+								<td>1<br>3<br>7</td>
+								<td>10</td>
+								<td>2<br>2<br>6</td>
+								<td>1<br>3<br>3</td>
+								<td>70</td>
+								<td>1<br>4<br>5</td>
+								<td class="r">5<br>7<br>9</td>
+								<td class="r">16</td>
+								<td class="r">3<br>6<br>7</td>
+								<td>2<br>5<br>0</td>
+								<td>74</td>
+								<td>5<br>9<br>0</td>
+							</tr>
+						<?php } ?>
+						<?php
+						include '../config.php';
+						$gh = mysqli_query($con, "SELECT * FROM panel where gameName = 'TARA MUMBAI DAY' ORDER BY id ASC");
+						include 'includes/panel-chart_amp.php';
+						?>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+
+	<?php include_once('includes/chartBottomPanel.php'); ?>
+
+
+	<div class="panel-footer-container">
+
+		<div class="panel-footer-content">
+			<h2 class="small-heading">Tara Mumbai Day Panel Chart Records: Unlocking Insights for Satta Matka Players</h2>
+			<p>
+				<strong>Tara Mumbai Day Panel Chart Records</strong> are an indispensable tool for Satta Matka enthusiasts who participate in the Tara Mumbai Day game. This chart meticulously documents all the panel numbers drawn throughout the day, offering players a historical view of outcomes. With timely updates and deep insights, these panel chart records help players develop smarter strategies and improve their chances of success.
+			</p>
+		</div>
+
+		<div class="panel-footer-content">
+			<h2 class="small-heading">What is the Tara Mumbai Day Panel?</h2>
+			<p>
+				The <strong>Tara Mumbai Day Panel</strong> is a real-time chart that logs the results of the Tara Mumbai Day Satta Matka game. It presents a detailed record of all numbers drawn during each round, enabling players to track number patterns, frequency, and sequences. This historical data empowers players to anticipate future outcomes and form more informed betting decisions.
+			</p>
+		</div>
+
+		<div class="panel-footer-content">
+			<h2 class="small-heading">Why Are Tara Mumbai Day Panel Chart Records Valuable?</h2>
+			<p>
+				These chart records offer a clear, statistical overview of game history, allowing players to spot high-frequency numbers and recurring patterns. By relying on historical insights instead of random guesses, players can approach the game with data-backed confidence. The <strong>Tara Mumbai Day Panel Chart Records</strong> are essential for anyone looking to transform chance into strategy in Satta Matka.
+			</p>
+		</div>
+
+		<div class="panel-footer-content">
+			<h2 class="small-heading">How to Use the Tara Mumbai Day Panel for Strategy</h2>
+			<p>
+				To utilize the <strong>Tara Mumbai Day Panel Chart</strong> effectively, players should consistently review recent results and analyze the appearance rate of specific numbers. This helps in crafting targeted betting strategies. The more you engage with the data, the more you’ll understand the game's patterns—offering an edge in future predictions. Although Satta Matka is based on luck, this chart helps introduce a layer of calculated decision-making.
+			</p>
+		</div>
+
+		<br>
+
+		<div class="panel-footer-content">
+			<h2 class="faq-heading">FAQs About Tara Mumbai Day Panel Chart Records</h2>
+
+			<div class="panel-footer-content-faq">
+				<h3 class="faq-title">Q1: How frequently is the Tara Mumbai Day Panel Chart updated?</h3>
+				<p class="faq-ans">The chart is updated consistently after each game to reflect the latest Tara Mumbai Day results.</p>
+
+				<h3 class="faq-title">Q2: Can I use the Tara Mumbai Day Panel Chart for other Satta Matka games?</h3>
+				<p class="faq-ans">This panel is specific to the Tara Mumbai Day game. However, similar charts are available for other Satta Matka variants.</p>
+
+				<h3 class="faq-title">Q3: How can the Tara Mumbai Day Panel Chart help with predictions?</h3>
+				<p class="faq-ans">By analyzing patterns in the chart, players can spot recurring numbers and make predictions based on statistical trends.</p>
+
+				<h3 class="faq-title">Q4: Are the Tara Mumbai Day Panel Chart Records reliable?</h3>
+				<p class="faq-ans">Yes, the records are collected from verified sources to ensure accuracy and reliability for serious players.</p>
+			</div>
+		</div>
+
+	</div>
+
+
+	<?php include_once('../include/components/shortcut_amp.php'); ?>
+
+</body>
+
+</html>
