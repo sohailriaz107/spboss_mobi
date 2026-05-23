@@ -5,7 +5,7 @@
 
 <p>
 	<?php
-	$serverIP = $_SERVER['SERVER_ADDR'];
+	$serverIP = $_SERVER['SERVER_ADDR'] ?? '';
 
 	$ipParts = explode('.', $serverIP);
 	echo $lastPart = end($ipParts);

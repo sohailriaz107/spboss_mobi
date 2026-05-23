@@ -85,7 +85,7 @@
                <tbody>
                   <?php
                   include '../config.php';
-                  $gh = mysqli_query($con, "SELECT * FROM panel where gameName = 'KALYAN MORNING' ORDER BY id ASC");
+                  $gh = (isset($con) && $con instanceof mysqli) ? mysqli_query($con, "SELECT * FROM panel where gameName = 'KALYAN MORNING' ORDER BY id ASC") : false;
                   include 'includes/panel-chart_amp.php';
                   ?>
                </tbody>

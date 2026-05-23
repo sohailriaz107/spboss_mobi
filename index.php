@@ -2478,18 +2478,19 @@ body {
 <body>
 
     <!-- first logo -->
-    <div class="main_logo">
-        <img src="assets/img/logo1.png" alt="SpBoss" height="73" width="292">
+    <div class="main_logo" style="padding:20px;">
+        <h3>spboss.mobi</h3>
     </div>
 
-    <div class="para__1 para__1-first">
+  
+    <!-- satta matka text -->
+    <div class="para__2 para__2-first"><!-- dp-topcontainer -->
+          <div class="para__1 para__1-first">
         <!-- <div class="mrque-div" style="display: flex;padding: 5px;align-items: center;"> -->
         <img src='assets/img/laxmi-picture.jpeg' alt="Spboss net LAXMI_PICTURE" width="90" height="68" />
         <p>!! SpBoss !! #1 Satta Matka Result Platform !!</p>
     </div>
 
-    <!-- satta matka text -->
-    <div class="para__2 para__2-first"><!-- dp-topcontainer -->
         <h1>SpBoss Satta Matka Kalyan Satta Result</h1>
         <h2>
             Welcome to spboss.mobi no1 website satta Matka kalyan Matka fast result
@@ -2632,7 +2633,7 @@ body {
         <a target="_blank" href="https://whatsapp.com/channel/0029VbCH7KEGpLHN8giIeL2F" rel="noopener noreferrer"
             style="color:white;border: 2px solid #fff;padding: 2px 0px;display: block;width: 230px;
        margin: 2px auto;border-radius: 15px;background: darkred;text-decoration:none;">
-            📲 Join On Whatsapp
+             Join On Whatsapp
         </a>
 
 
@@ -3051,13 +3052,13 @@ body {
         <h4>FREE GAME ZONE OPEN-CLOSE</h4>
         <div class="fg-main-cont para_1 bdr mb-1 p-1">
             <div class="fgzoc_time">
-                <p class="fg_p1">✔DATE:↬ : <?php echo $freeGame[0] ?> ↫</p>
+                <p class="fg_p1">DATE: : <?php echo $freeGame[0] ?></p>
                 <span>FREE GUESSING DAILY</span>
                 <h5 class="fg_p1">OPEN TO CLOSE FIX ANK</h5>
             </div>
             <div class="card-code-1212">
                 <div class="fg_c1">
-                    <p class="fg_p2">↪ <?php echo $freeGame[1] ?></p>
+                    <p class="fg_p2"><?php echo $freeGame[1] ?></p>
                     <p class="fg_p4">
                         <?php echo $freeGame[2] ?>
                     </p>
@@ -3066,7 +3067,7 @@ body {
                     </p>
                 </div>
                 <div class="fg_c1">
-                    <p class="fg_p2">↪ <?php echo $freeGame[5] ?></p>
+                    <p class="fg_p2"><?php echo $freeGame[5] ?></p>
                     <p class="fg_p4">
                         <?php echo $freeGame[6] ?>
                     </p>
@@ -3077,7 +3078,7 @@ body {
 
 
                 <div class="fg_c1">
-                    <p class="fg_p2">↪ <?php echo $freeGame[9] ?></p>
+                    <p class="fg_p2"><?php echo $freeGame[9] ?></p>
                     <p class="fg_p4">
                         <?php echo $freeGame[10] ?>
                     </p>
@@ -3086,7 +3087,7 @@ body {
                     </p>
                 </div>
                 <div class="fg_c1">
-                    <p class="fg_p2">↪ <?php echo $freeGame[13] ?></p>
+                    <p class="fg_p2"><?php echo $freeGame[13] ?></p>
                     <p class="fg_p4">
                         <?php echo $freeGame[14] ?>
                     </p>
@@ -3095,7 +3096,7 @@ body {
                     </p>
                 </div>
                 <div class="fg_c1">
-                    <p class="fg_p2">↪ <?php echo $freeGame[17] ?></p>
+                    <p class="fg_p2"> <?php echo $freeGame[17] ?></p>
                     <p class="fg_p4">
                         <?php echo $freeGame[18] ?>
                     </p>
@@ -3104,7 +3105,7 @@ body {
                     </p>
                 </div>
                 <div class="fg_c1">
-                    <p class="fg_p2">↪ <?php echo $freeGame[21] ?></p>
+                    <p class="fg_p2"><?php echo $freeGame[21] ?></p>
                     <p class="fg_p4">
                         <?php echo $freeGame[22] ?>
                     </p>
@@ -3113,7 +3114,7 @@ body {
                     </p>
                 </div>
                 <div class="fg_c1">
-                    <p class="fg_p2">↪ <?php echo $freeGame[25] ?></p>
+                    <p class="fg_p2"> <?php echo $freeGame[25] ?></p>
                     <p class="fg_p4">
                         <?php echo $freeGame[26] ?>
                     </p>
@@ -3122,7 +3123,7 @@ body {
                     </p>
                 </div>
                 <div class="fg_c1">
-                    <p class="fg_p2">↪ <?php echo $freeGame[29] ?></p>
+                    <p class="fg_p2"><?php echo $freeGame[29] ?></p>
                     <p class="fg_p4">
                         <?php echo $freeGame[30] ?>
                     </p>
@@ -3131,7 +3132,7 @@ body {
                     </p>
                 </div>
                 <div class="fg_c1">
-                    <p class="fg_p2">↪ <?php echo $freeGame[33] ?></p>
+                    <p class="fg_p2"><?php echo $freeGame[33] ?></p>
                     <p class="fg_p4">
                         <?php echo $freeGame[34] ?>
                     </p>
@@ -3146,7 +3147,7 @@ body {
                         if ($gameName == "SRIDEVI NIGHT" || $gameName == "OLD MAIN MUMBAI" || $gameName == "KARNATAKA DAY" || $gameName == "PADMAVATI" || $gameName == "MUMBAI PAREL" || $gameName == "MAIN KALYAN") {
                 ?>
                             <div class="fg_c1">
-                                <p class="fg_p2">↪ <?php echo $gameName ?></p>
+                                <p class="fg_p2"><?php echo $gameName ?></p>
                                 <p class="fg_p4"><?php echo $open ?></p>
                                 <p class="fg_p4"><?php echo $panna ?></p>
                                 <p class="fg_p4"><?php echo $jodi ?></p>

@@ -1656,7 +1656,7 @@
 
                   <?php
                   include '../config.php';
-                  $gh = mysqli_query($con, "SELECT * FROM panel where gameName = 'KARNATAKA DAY' ORDER BY id ");
+                  $gh = (isset($con) && $con instanceof mysqli) ? mysqli_query($con, "SELECT * FROM panel where gameName = 'KARNATAKA DAY' ORDER BY id ") : false;
                   include 'includes/panel-chart_amp.php';
                   ?>
                </tbody>

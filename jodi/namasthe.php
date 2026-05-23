@@ -752,7 +752,7 @@
                      <td class="r">11</td>
                   </tr>
                   <?php include '../config.php';
-                  $gh = mysqli_query($con, "SELECT * FROM panel where gameName = 'NAMASTHE' ORDER BY id ");
+                  $gh = (isset($con) && $con instanceof mysqli) ? mysqli_query($con, "SELECT * FROM panel where gameName = 'NAMASTHE' ORDER BY id ") : false;
                   include 'includes/jodi-chart_amp.php'; ?>
                </tbody>
             </table>

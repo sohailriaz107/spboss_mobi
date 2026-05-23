@@ -1,5 +1,5 @@
 <div class="matka-result live-update-card">
-	<h4>💫 LIVE UPDATE 💫</h4>
+	<h4>LIVE UPDATE</h4>
 	<div class="matka-card live-box">
 
 
