@@ -72,7 +72,7 @@
         }
 
         body {
-            background-color: #fc9;
+            background-color: white;
             text-align: center;
             padding: 3px 10px;
             margin: 0;
@@ -325,15 +325,18 @@
         }
 
         .B1 {
-            background-color: #fc9;
-            color: #000;
-            border: 3px solid #ff006c;
-            margin: 1px 0 8px;
+            background: linear-gradient(135deg, #1a237e 0%, #283593 60%, #3949ab 100%);
+            padding: 0 10px;
+            display: block;
+            color: #fff;
+            margin-bottom: 3px;
+            letter-spacing: 1px;
             font-weight: 700;
-            font-size: x-large;
-            text-shadow: 1px 1px navy;
-            padding: 1px 2px;
-            border-radius: 10px
+            border: 3px solid #7986cb;
+            border-radius: .75em;
+            transform-style: preserve-3d;
+            transition: transform 150ms cubic-bezier(0, 0, .58, 1), background 150ms cubic-bezier(0, 0, .58, 1);
+            box-shadow: 0 4px 15px rgba(26, 35, 126, 0.4);
         }
 
         .button2 {
@@ -412,27 +415,41 @@
         }
 
         footer {
-            background-color: #fff;
-            color: red;
-            font-weight: 700;
-            font-size: 25px;
-            text-decoration: none;
-            border: 4px groove purple;
-            border-radius: 10px 0 0 0;
-            text-shadow: 1px 1px gold;
-            margin: 3px;
-            font-style: normal
+            background: #0f172a !important;
+            /* Elegant dark slate background */
+            color: #94a3b8 !important;
+            /* Soft grey text */
+            font-weight: 500 !important;
+            font-size: 14px !important;
+            text-decoration: none !important;
+            border: none !important;
+            /* Remove harsh borders */
+            border-radius: 12px !important;
+            text-shadow: none !important;
+            margin: 20px 4px 15px !important;
+            padding: 24px 16px !important;
+            box-shadow: 0 8px 30px rgba(15, 23, 42, 0.2) !important;
         }
 
         footer>div {
-            border-bottom: 2px solid #b2ddff;
-            padding: 10px 0;
-            margin-bottom: 10px
+            border-bottom: 1px solid #1e293b !important;
+            padding: 10px 0 16px !important;
+            margin-bottom: 16px !important;
+            line-height: 1.8 !important;
         }
 
         footer>div a {
-            text-decoration: none
+            color: #38bdf8 !important;
+            /* Beautiful sky blue for links */
+            text-decoration: none !important;
+            line-height: 1.6 !important;
+            padding: 4px 8px !important;
+            font-size: 15px !important;
+            font-weight: 600 !important;
+            display: inline-block !important;
+            transition: color 0.2s ease, transform 0.2s ease !important;
         }
+
 
         footer p {
             margin: 10px 0;
@@ -444,10 +461,17 @@
         }
 
         footer .ftr-icon {
-            text-decoration: none;
-            font-size: 35px;
-            text-transform: uppercase;
-            color: #007bff
+            text-decoration: none !important;
+            font-size: 24px !important;
+            text-transform: uppercase !important;
+            color: #f8fafc !important;
+            /* Off-white for the main brand icon */
+            letter-spacing: 1px !important;
+            text-shadow: none !important;
+            font-weight: 800 !important;
+            display: block !important;
+            margin-bottom: 8px !important;
+            transition: color 0.2s ease !important;
         }
 
         footer p span {

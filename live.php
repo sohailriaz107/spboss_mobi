@@ -53,12 +53,10 @@
 				<img class="crickliveline_img" src="images/crickliveline.jpg">
 			<?php } ?>
 
-			<div style="text-align: center; margin-bottom: 15px; font-weight: 600; font-size: 13px; color: #555;">
-				Updates here - no refresh needed.
-			</div>
+			
 			<div class="live-box-inner">
 				<!-- Default empty text, will be visually hidden or pushed down if games exist -->
-				<p style="margin: 0; color: #d32f2f; font-weight: 600; font-size: 14px;">No live update right now.<br>Check back during game open/close window.</p>
+				<p style="margin: 0; color: #d32f2f; font-weight: 600; font-size: 14px;">No live update right now.</p>
 
 			<?php
 

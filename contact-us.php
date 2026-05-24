@@ -43,62 +43,152 @@ date_default_timezone_set('Asia/Kolkata');
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
-*,
-*::before,
-*::after{margin:0;padding:0;box-sizing:border-box}
+/* === SPBOSS CONTACT PAGE — PREMIUM === */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 html{overflow-x:hidden;scroll-behavior:smooth}
-body{background-color:#fc9;text-align:center;padding:3px 10px;margin:0;scroll-behavior:smooth;font-style:italic;font-family:Helvetica,sans-serif;font-weight:700}
+body{background-color:#fff;text-align:center;padding:3px 10px;margin:0;font-style:normal;font-family:'Inter',Helvetica,sans-serif;font-weight:400;color:#1e293b}
 a,a:hover{text-decoration:none}
 a{color:inherit}
-p{color:#000b65;text-shadow:1px 1px 2px #fff}
-table{box-shadow:0 0 20px 0 rgba(0,0,0,.4);margin:5px 0}
 ul{list-style-type:none}
-ul>li>ul{list-style-type:circle}
-ul>li>ul>li>ul{list-style-type:square}
-ol li{font-family:Arial}
-.ftr-sm{color:#000;text-align:center;margin-bottom:8px;margin-top:-2px;display:block;font-size:12px;outline:4px #fff;outline-offset:-9px;border:2px outset #ff182c;border-radius:10px;box-shadow:0 0 20px 0 rgba(0,0,0,.4);font-style:normal;font-weight:lighter;padding:5px 25px}
-.ftr-sm h2{color:#bb2833;text-shadow:1px 1px 2px #fff}
-.ftr-sm h2,.ftr-sm p{font-style:normal}
-.ftr-sm h4{font-size:18px;margin-bottom:4px;color:#d3003f}
-.ftr-sm p{color:#a50031;font-size:12px;line-height:1.4}
+ol li{font-family:'Inter',Arial,sans-serif}
 @media only screen and (max-width:500px){body{padding:2px 5px}}
+
+/* --- Contact card wrapper --- */
+.conta{
+  background:#fff;
+  color:#1e293b;
+  text-align:center;
+  margin:8px 0 12px;
+  border:2px solid rgba(61,90,153,0.3);
+  border-radius:14px;
+  box-shadow:0 4px 20px rgba(61,90,153,0.12);
+  padding:0 0 20px;
+  display:block;
+  overflow:hidden;
+}
+
+/* --- Contact card title header --- */
+.conta h4{
+  background:linear-gradient(135deg,#1a237e 0%,#283593 60%,#3949ab 100%);
+  padding:14px 18px;
+  display:block;
+  color:#fff;
+  margin-bottom:22px;
+  letter-spacing:1px;
+  font-weight:700;
+  font-size:20px;
+  border:none;
+  border-radius:0;
+  text-shadow:0 1px 3px rgba(0,0,0,0.3);
+  box-shadow:0 4px 12px rgba(26,35,126,0.35);
+}
+.conta h4::before{display:none}
+
+/* --- Form labels --- */
+.form-group label{
+  text-align:left;
+  display:block;
+  color:#374151;
+  font-size:13px;
+  font-weight:600;
+  margin-bottom:4px;
+  letter-spacing:0.3px;
+}
+.form-group{padding:0 9px;margin-bottom:12px}
+
+/* --- Form controls upgrade --- */
+.form-control{
+  border:1.5px solid rgba(61,90,153,0.3);
+  border-radius:8px;
+  padding:8px 12px;
+  font-size:14px;
+  font-family:'Inter',sans-serif;
+  color:#1e293b;
+  background:#f8faff;
+  transition:border-color .2s,box-shadow .2s;
+  width:100%;
+}
+.form-control:focus{
+  border-color:#3d5a99;
+  box-shadow:0 0 0 3px rgba(61,90,153,0.12);
+  outline:none;
+  background:#fff;
+}
+
+/* --- Submit button --- */
+.btn{display:inline-block;font-weight:600;line-height:1.5;text-align:center;vertical-align:middle;cursor:pointer;user-select:none;border:1px solid transparent;padding:8px 22px;margin:6px 0 2px;font-size:15px;border-radius:8px;transition:all .2s ease}
+.btn.btn-black{
+  background:linear-gradient(135deg,#1a237e,#3949ab);
+  color:#fff;
+  font-weight:700;
+  box-shadow:0 4px 12px rgba(26,35,126,0.3);
+  border:none;
+}
+.btn.btn-black:hover{box-shadow:0 6px 18px rgba(26,35,126,0.45);transform:translateY(-1px)}
+
+/* --- Address section --- */
+.address{margin-top:20px;padding-left:30px}
+.address div{text-align:left;font-size:14px;color:#374151;margin-bottom:8px;font-weight:500}
+
+/* --- Contact info paragraph --- */
+.conta p{
+  font-size:15px;
+  color:#374151;
+  font-weight:500;
+  margin:0 12px 6px;
+  text-shadow:none;
+}
+
+/* --- H1 inside form --- */
+.conta h1{
+  font-size:17px;
+  color:#1a237e;
+  font-weight:700;
+  margin-top:14px;
+  letter-spacing:0.5px;
+}
+
+/* --- Map iframe wrapper --- */
+.conta iframe{
+  border-radius:10px;
+  border:2px solid rgba(61,90,153,0.2);
+  box-shadow:0 4px 12px rgba(61,90,153,0.12);
+  display:block;
+  width:100%;
+}
+
+/* --- Utility --- */
 .text-left-line-1{text-align:left;line-height:1}
 .line-height-15{line-height:1.5}
 .font-size-15{font-size:15px}
-.banner{background:#ff00a2;padding:5px 10px;text-shadow:1px 1px 2px #000;display:block;color:#fff8f8;margin-bottom:20px;letter-spacing:1px;font-weight:700;border:2px solid #fff;border-radius:.75em;transform-style:preserve-3d;transition:transform .15s cubic-bezier(0,0,.58,1),background .15s cubic-bezier(0,0,.58,1)}
-h2.banner{font-size:18px}
-.about-ftr-sm{text-align:center;font-weight:700}
-.conta{color:#000;text-align:center;margin-bottom:8px;margin-top:-2px;font-size:20px;outline:4px #fff;outline-offset:-9px;border:2px outset #ff182c;border-radius:10px;box-shadow:0 0 20px 0 rgba(0,0,0,.4);padding-top:4px;padding-bottom:7px;background-color:#fbe7ff;display:block;align-items:center;justify-content:center}
-.conta h4{background:#ff00a2;padding:5px 10px;text-shadow:1px 1px 2px #000;display:block;color:#fff8f8;margin-bottom:20px;letter-spacing:1px;font-weight:700;border:2px solid #fff;border-radius:.75em;transform-style:preserve-3d;transition:transform .15s cubic-bezier(0,0,.58,1),background .15s cubic-bezier(0,0,.58,1)}
-.conta h4::before{position:absolute;content:"";width:100%;height:100%;top:0;left:0;right:0;bottom:0;background:#ff182c;border-radius:inherit;transform:translate3d(0,.75em,-1em);transition:transform .15s cubic-bezier(0,0,.58,1),box-shadow .15s cubic-bezier(0,0,.58,1)}
-.conta p{font-size:22px;color:#ed143d;display:flex;flex-direction:column;justify-content:center;margin-right:12px}
-.conta a:hover{box-shadow:0 0 10px 0 #000}
-@media only screen and (max-width:500px){.conta p{display:block;font-size:17px}.conta{display:block}.conta a{margin-top:5px}}
-.form-group label{text-align:left;display:block;color:#373737;font-size:15px}
-.form-group{padding:0 9px}
-.address div{text-align:left;font-size:12px}
-.address{margin-top:34px;padding-left:79px}
-.btn{display:inline-block;font-weight:400;line-height:1.5;color:#212529;text-align:center;text-decoration:none;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;padding:3px 10px;margin:4px 0 1px;font-size:16px;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}
-.btn.btn-black{background:#ff9a34;color:#000;font-weight:700}
-.B1{background-color:#fc9;color:#000;border:3px solid #ff006c;margin:1px 0 8px;font-weight:700;font-size:x-large;text-shadow:1px 1px navy;padding:1px 2px;border-radius:10px}
-.button2{background-color:#a0d5ff;color:#220c82;padding:10px 30px;font-size:16px;margin:20px auto;border-radius:10px;border:2px solid #0000005c;font-weight:800;text-shadow:1px 1px #00bcd4;box-shadow:0 8px 10px 0 rgba(0,0,0,.2),0 6px 8px 0 rgba(0,0,0,.19);display:inline-block;transition:all .3s}
-.chart-list{border:2px solid #eb008b;border-radius:10px 0 10px 10px;margin:0 auto 10px;width:50%;text-align:center;font-weight:600}
-.chart-list.ab1{border-color:#003c6c}
-.chart-list.ab1 h4{background-color:#024c88;border-radius:7px 0 0 0;border:none}
-.chart-list.ab1 h4::before{content:none}
-.chart-list h4{color:#fff;padding:5px 10px 3px;font-size:24px;border-top-left-radius:7px;margin:0}
-.chart-list a{display:block;font-size:22px;padding:5px 7px 4px;text-decoration:none}
-.chart-list.ab1 a{border-bottom:2px solid #024c88;color:#003c6c}
-.chart-list span{display:block;background-color:#024c88;color:#fff;padding:5px 10px 3px;font-size:24px;border-top-left-radius:7px;text-align:center;font-weight:600}
-@media only screen and (max-width:500px){.chart-list{width:95%}}
+.mp-btn{position:fixed;bottom:9px;left:5px;padding:5px 8px;font-size:15px;border:1px solid rgba(61,90,153,0.4);text-decoration:none;background:linear-gradient(135deg,#1a237e,#3949ab);color:#fff;border-radius:8px;box-shadow:0 2px 8px rgba(26,35,126,0.3)}
+
+/* --- Banner (kept for shared component compat) --- */
+.banner{background:linear-gradient(135deg,#1a237e 0%,#3949ab 100%);padding:10px 14px;display:block;color:#fff;margin-bottom:14px;letter-spacing:1px;font-weight:700;border-radius:10px;box-shadow:0 4px 12px rgba(26,35,126,0.25);text-shadow:0 1px 2px rgba(0,0,0,0.2);font-size:16px}
+h2.banner{font-size:16px}
+
+/* --- ftr-sm (shared footer card, kept compatible) --- */
+.ftr-sm{color:#1e293b;text-align:center;margin-bottom:8px;margin-top:0;display:block;font-size:14px;border:2px solid rgba(61,90,153,0.25);border-radius:12px;box-shadow:0 2px 12px rgba(61,90,153,0.1);font-style:normal;font-weight:400;padding:12px 20px;background:#fff}
+.ftr-sm h2{color:#1a237e;text-shadow:none;font-size:17px}
+.ftr-sm h2,.ftr-sm p{font-style:normal}
+.ftr-sm h4{font-size:15px;margin-bottom:6px;color:#3d5a99;font-weight:700}
+.ftr-sm p{color:#374151;font-size:13px;line-height:1.6;text-shadow:none}
+
+/* --- Footer (unchanged per requirement) --- */
 footer{background-color:#fff;color:red;font-weight:700;font-size:25px;text-decoration:none;border:4px groove purple;border-radius:10px 0 0 0;text-shadow:1px 1px gold;margin:3px;font-style:normal}
 footer>div{border-bottom:2px solid #b2ddff;padding:10px 0;margin-bottom:10px}
 footer>div a{text-decoration:none}
 footer p{margin:10px 0;line-height:35px;color:red;font-weight:700;font-size:25px;text-shadow:1px 1px gold}
 footer .ftr-icon{text-decoration:none;font-size:35px;text-transform:uppercase;color:#007bff}
 footer p span{color:#36f}
-.mp-btn{position:fixed;bottom:9px;left:5px;padding:5px 8px;font-size:15px;border:1px solid #fff;text-decoration:none;background-color:#039;color:#fff;border-radius:5px}
+
+@media only screen and (max-width:500px){
+  .conta h4{font-size:17px;padding:12px 14px}
+  .address{padding-left:10px}
+  .conta p{font-size:14px}
+}
 </style>
 </head>
 

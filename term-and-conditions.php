@@ -48,7 +48,7 @@
 *::before,
 *::after{margin:0;padding:0;box-sizing:border-box}
 html{overflow-x:hidden;scroll-behavior:smooth}
-body{background-color:#fc9;text-align:center;padding:3px 10px;margin:0;scroll-behavior:smooth;font-style:italic;font-family:Helvetica,sans-serif;font-weight:700}
+body{background-color:white;text-align:center;padding:3px 10px;margin:0;scroll-behavior:smooth;font-style:italic;font-family:Helvetica,sans-serif;font-weight:700}
 a,a:hover{text-decoration:none}
 a{color:inherit}
 p{color:#000b65;text-shadow:1px 1px 2px #fff}

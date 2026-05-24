@@ -1844,24 +1844,27 @@ date_default_timezone_set('Asia/Kolkata');
 
             .mp_btn {
                 position: fixed;
+                background-color:darkblue ;
                 bottom: 9px;
                 left: 5px;
                 padding: 5px 8px;
                 font-size: 15px;
                 border: 1px solid #fff;
                 text-decoration: none;
-                background-color: #039;
+                /* background: linear-gradient(45deg, #008073, #005780); */
                 color: #fff;
                 border-radius: 5px
             }
 
             .btm_btn_f {
-                background: linear-gradient(45deg, navy, #005780);
+                /* background: linear-gradient(45deg, #008073, #005780); */
+                background: darkblue;
                 border: 1px solid #fff;
                 font-size: 14px;
                 border-radius: 5px;
                 padding: 6px 11px 5px;
-                transition: all .3s ease-in
+                transition: all .3s ease-in;
+                color:white;
             }
 
             .btm_btn_f:hover {
@@ -4086,11 +4089,11 @@ date_default_timezone_set('Asia/Kolkata');
         <div class="ftr_sm">
             <p>
                 &copy; 2011 - <?php echo date('Y'); ?> spboss.mobi <br>
-                <a href="https://spboss.mobi/about-us.php">About us</a> | <a
-                    href="https://spboss.mobi/contact-us.php">Contact
+                <a href="about-us.php">About us</a> | <a
+                    href="contact-us.php">Contact
                     us</a> <br>
-                <a href="https://spboss.mobi/privacy-policy.php">Privacy &amp; policy</a> | <a
-                    href="https://spboss.mobi/term-and-conditions.php">Term And Conditions</a> |
+                <a href="privacy-policy.php">Privacy &amp; policy</a> | <a
+                    href="term-and-conditions.php">Term And Conditions</a> |
                 <a href="https://spboss.mobi/sitemap.xml">Sitemap</a>
             </p>
         </div>
