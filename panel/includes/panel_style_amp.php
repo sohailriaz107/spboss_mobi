@@ -208,7 +208,7 @@
     background: linear-gradient(135deg, #b8860b 0%, #f0c040 50%, #d4a017 100%);
     color: #1a0a00;
     padding: 6px 18px;
-    font-size: 12px;
+    font-size: 14px;
     margin: 10px 0 20px;
     border: 1px solid rgba(255, 255, 255, .5);
     font-weight: 700;
@@ -586,9 +586,9 @@
     background: linear-gradient(135deg, #b8860b 0%, #f0c040 50%, #d4a017 100%);
     border: 1px solid rgba(255, 255, 255, .5);
     color: #1a0a00;
-    padding: 5px 14px;
+    padding: 10px 14px;
     border-radius: 20px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     letter-spacing: .5px;
     margin: 3px 0 0;
@@ -601,55 +601,94 @@
   }
 
   .panel-footer-container {
-    max-width: 100%;
-    text-align: center;
-    margin: 2px;
-    border: 2px solid purple;
-    background: white;
-    padding: 10px;
+    max-width: 95% !important;
+    text-align: left !important;
+    margin: 25px auto !important;
+    border: 1px solid #e2e8f0 !important;
+    border-top: 4px solid #006b3f !important; /* Premium green top accent */
+    background: #ffffff !important;
+    padding: 24px 20px !important;
+    border-radius: 12px !important;
+    box-shadow: 0 6px 20px rgba(0, 107, 63, 0.04) !important;
   }
 
   .panel-footer-content {
-    max-width: 80%;
-    padding: 0 0 20px;
-    margin: 0 auto;
+    max-width: 100% !important;
+    padding: 0 0 16px !important;
+    margin: 0 !important;
   }
 
   .panel-footer-container h2.small-heading {
-    font-size: 16px;
-    font-weight: 600;
-    color: red;
-    text-shadow: 0px 0px 1px yellow;
-    margin-bottom: 4px;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+    color: #0f172a !important; /* Deep charcoal slate */
+    text-shadow: none !important;
+    margin-top: 15px !important;
+    margin-bottom: 8px !important;
+    position: relative !important;
+    padding-left: 12px !important;
+  }
+
+  .panel-footer-container h2.small-heading::before {
+    content: '' !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: 3px !important;
+    width: 3.5px !important;
+    height: 16px !important;
+    background: #006b3f !important;
+    border-radius: 2px !important;
   }
 
   .panel-footer-container p {
-    font-weight: 500;
-    font-size: 12px;
-    padding: 0px;
-    margin: 0px;
+    font-weight: 400 !important;
+    font-size: 13.5px !important;
+    line-height: 1.6 !important;
+    color: #475569 !important; /* Cozy slate blue grey */
+    padding: 0 !important;
+    margin: 0 0 12px !important;
   }
 
   .panel-footer-container h2.faq-heading {
-    font-size: 16px;
-    font-weight: 600;
-    color: red;
-    text-shadow: 0px 0px 1px yellow;
-    margin-bottom: 12px;
+    font-size: 19px !important;
+    font-weight: 800 !important;
+    color: #0f172a !important;
+    text-shadow: none !important;
+    margin-top: 25px !important;
+    margin-bottom: 15px !important;
+    border-bottom: 2px solid #f1f5f9 !important;
+    padding-bottom: 8px !important;
+  }
+
+  .panel-footer-content-faq {
+    background: #f8fafc !important;
+    padding: 18px !important;
+    border-radius: 8px !important;
+    border: 1px solid #f1f5f9 !important;
+    margin-top: 10px !important;
   }
 
   .panel-footer-container h3.faq-title {
-    font-size: 14px;
-    font-weight: 600;
-    background: no-repeat;
-    color: black;
-    text-shadow: none;
-    letter-spacing: 1px;
-    margin: 0 0 5px;
+    font-size: 14.5px !important;
+    font-weight: 700 !important;
+    background: transparent !important;
+    color: #1e293b !important;
+    text-shadow: none !important;
+    letter-spacing: 0.5px !important;
+    margin: 16px 0 6px !important;
+  }
+
+  .panel-footer-container h3.faq-title:first-of-type {
+    margin-top: 0 !important;
   }
 
   .panel-footer-container p.faq-ans {
-    margin: 0 0 10px;
+    margin: 0 0 14px !important;
+    font-size: 13px !important;
+    color: #475569 !important;
+    line-height: 1.55 !important;
+    padding-left: 10px !important;
+    border-left: 2px solid #cbd5e1 !important;
   }
 
   /* .ad-div11 {
@@ -729,60 +768,72 @@
   }
 
   footer {
-    background: #ffffff;
-    color: #1a237e;
-    font-weight: bold;
-    font-size: 18px;
-    text-decoration: none;
-    border: 2px solid rgba(74, 107, 181, .45);
-    border-radius: 10px;
-    text-shadow: none;
-    margin: 10px 3px 8px;
-    padding: 12px 8px 14px;
-    box-shadow: 0 2px 12px rgba(61, 90, 153, .25);
+    background: #0f172a !important; /* Elegant dark slate background */
+    color: #94a3b8 !important; /* Soft grey text */
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    text-decoration: none !important;
+    border: none !important; /* Remove harsh borders */
+    border-radius: 12px !important;
+    text-shadow: none !important;
+    margin: 20px 4px 15px !important;
+    padding: 24px 16px !important;
+    box-shadow: 0 8px 30px rgba(15, 23, 42, 0.2) !important;
   }
 
   footer>div {
-    border-bottom: 2px solid #e8eaf6;
-    padding: 8px 0 12px;
-    margin-bottom: 10px;
-    line-height: 1.6;
+    border-bottom: 1px solid #1e293b !important;
+    padding: 10px 0 16px !important;
+    margin-bottom: 16px !important;
+    line-height: 1.8 !important;
   }
 
   footer>div a {
-    text-decoration: none;
-    line-height: 1.5;
-    padding: 0 5px;
-    font-size: 18px;
-    font-weight: 800;
+    color: #38bdf8 !important; /* Beautiful sky blue for links */
+    text-decoration: none !important;
+    line-height: 1.6 !important;
+    padding: 4px 8px !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    display: inline-block !important;
+    transition: color 0.2s ease, transform 0.2s ease !important;
   }
 
   footer>div a:hover {
-    text-decoration: none
+    color: #f43f5e !important; /* Accent pink on hover */
+    transform: translateY(-1px) !important;
   }
 
   footer .ftr-icon {
-    text-decoration: none;
-    font-size: 30px;
-    text-transform: uppercase;
-    color: #1a237e;
-    letter-spacing: .5px;
-    text-shadow: 1px 1px 0 rgba(255, 255, 255, .8);
+    text-decoration: none !important;
+    font-size: 24px !important;
+    text-transform: uppercase !important;
+    color: #f8fafc !important; /* Off-white for the main brand icon */
+    letter-spacing: 1px !important;
+    text-shadow: none !important;
+    font-weight: 800 !important;
+    display: block !important;
+    margin-bottom: 8px !important;
+    transition: color 0.2s ease !important;
+  }
+
+  footer .ftr-icon:hover {
+    color: #38bdf8 !important;
   }
 
   @media only screen and (max-width:500px) {
     footer {
-      font-size: 16px;
-      padding: 10px 6px 12px;
+      font-size: 13px !important;
+      padding: 16px 12px 18px !important;
     }
 
     footer>div a {
-      font-size: 16px;
-      line-height: 1.65;
+      font-size: 13.5px !important;
+      line-height: 1.65 !important;
     }
 
     footer .ftr-icon {
-      font-size: 26px;
+      font-size: 20px !important;
     }
   }
 

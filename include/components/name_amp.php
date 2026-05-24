@@ -1,8 +1,8 @@
 <div class="logo" id="top">
-    <a href="https://spboss.mobi/">
-        <img src="https://spboss.mobi/assets/img/logo.webp"
-            alt="logo of spboss.mobi" height="73" width="292">
-    </a>
+    <div class="main_logo" style="padding:20px;">
+        <h3>Spboss.Mobi</h3>
+    </div>
+
 </div>
 
 <?php if (0) { ?>

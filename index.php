@@ -57,57 +57,59 @@ date_default_timezone_set('Asia/Kolkata');
 
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5283681732687280"
-     crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5283681732687280"
+        crossorigin="anonymous"></script>
 
 
     <?php if ($is_amp) { ?>
         <style amp-custom>
             <?php } else { ?><style><?php } ?>
-
-/* ========================================
+            /* ========================================
    SPBOSS DESIGN SYSTEM — v2.0
    Primary palette: Muted Slate-Blue
    ======================================== */
 
-:root {
-    --font-main:       'Inter', Helvetica, sans-serif;
-    /* Muted slate-blue — not too bright */
-    --blue-dark:       #3d5a99;
-    --blue-mid:        #4a6bb5;
-    --blue-light:      #6888c8;
-    --blue-border:     rgba(74, 107, 181, 0.45);
-    --blue-shadow:     rgba(61, 90, 153, 0.25);
-    --blue-glow:       rgba(61, 90, 153, 0.15);
-    /* WhatsApp green */
-    --wa-green:        #25d366;
-    --wa-green-dark:   #128c7e;
-    /* Card */
-    --card-radius:     10px;
-    --card-shadow:     0 2px 12px var(--blue-shadow);
-}
+            :root {
+                --font-main: 'Inter', Helvetica, sans-serif;
+                /* Muted slate-blue — not too bright */
+                --blue-dark: #3d5a99;
+                --blue-mid: #4a6bb5;
+                --blue-light: #6888c8;
+                --blue-border: rgba(74, 107, 181, 0.45);
+                --blue-shadow: rgba(61, 90, 153, 0.25);
+                --blue-glow: rgba(61, 90, 153, 0.15);
+                /* WhatsApp green */
+                --wa-green: #25d366;
+                --wa-green-dark: #128c7e;
+                /* Card */
+                --card-radius: 10px;
+                --card-shadow: 0 2px 12px var(--blue-shadow);
+            }
 
-*, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box
-}
+            *,
+            *::before,
+            *::after {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box
+            }
 
-html {
-    overflow-x: hidden;
-    scroll-behavior: smooth
-}
+            html {
+                overflow-x: hidden;
+                scroll-behavior: smooth
+            }
 
-body {
-    background-color: #f8f9ff;
-    text-align: center;
-    padding: 3px 10px;
-    margin: 0;
-    scroll-behavior: smooth;
-    font-style: normal;
-    font-family: var(--font-main);
-    font-weight: 400
-}
+            body {
+                background-color: #f8f9ff;
+                text-align: center;
+                padding: 3px 10px;
+                margin: 0;
+                scroll-behavior: smooth;
+                font-style: normal;
+                font-family: var(--font-main);
+                font-weight: 400;
+                overflow-x: hidden;
+            }
 
             a,
             a:hover {
@@ -153,21 +155,21 @@ body {
                 border-radius: .75em;
                 transform-style: preserve-3d;
                 transition: transform 150ms cubic-bezier(0, 0, .58, 1), background 150ms cubic-bezier(0, 0, .58, 1);
-                box-shadow: 0 4px 15px rgba(26,35,126,0.4)
+                box-shadow: 0 4px 15px rgba(26, 35, 126, 0.4)
             }
 
             .para__1 {
-    margin-bottom: 3px;
-    display: flex;
-    padding: 5px;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    border-radius: var(--card-radius);
-    border: 2px solid var(--blue-border);
-    box-shadow: var(--card-shadow);
-    background: #fff;
-}
+                margin-bottom: 3px;
+                display: flex;
+                padding: 5px;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
+                border-radius: var(--card-radius);
+                border: 2px solid var(--blue-border);
+                box-shadow: var(--card-shadow);
+                background: #fff;
+            }
 
             .para__1.para__1-first {
                 flex-direction: inherit
@@ -180,12 +182,12 @@ body {
             }
 
             .para__2 {
-    margin-bottom: 3px;
-    border-radius: var(--card-radius);
-    border: 2px solid var(--blue-border);
-    box-shadow: var(--card-shadow);
-    background: #fff;
-}
+                margin-bottom: 3px;
+                border-radius: var(--card-radius);
+                border: 2px solid var(--blue-border);
+                box-shadow: var(--card-shadow);
+                background: #fff;
+            }
 
             .para__2.para__2-first {
                 padding: 16px 20px !important;
@@ -224,11 +226,13 @@ body {
                     padding: 12px 14px !important;
                     margin: 8px 2px 12px !important;
                 }
+
                 .para__2.para__2-first h1 {
                     font-size: 17px !important;
                     padding-bottom: 6px !important;
                     margin-bottom: 10px !important;
                 }
+
                 .para__2.para__2-first h2 {
                     font-size: 12px !important;
                     line-height: 1.5 !important;
@@ -276,7 +280,7 @@ body {
                 color: #222;
                 text-align: center;
                 margin-bottom: 4px;
-                margin-top: -2px;
+                margin-top: 2px;
                 display: block;
                 font-size: 20px;
                 border: 2px solid var(--blue-border);
@@ -285,216 +289,153 @@ body {
             }
 
             /* ========================================================
-               NEW PREMIUM REDESIGNED CM_PATTI_L (LUCKY NUMBER BOX)
+               REDESIGNED CM_PATTI_L (LUCKY NUMBER BOX) - HORIZONTAL
                ======================================================== */
             .cm_patti_l {
-                background: linear-gradient(145deg, #0a361c 0%, #051c0e 100%) !important;
-                color: #ffffff !important;
-                text-align: center !important;
-                margin: 20px 4px 20px !important;
+                background: #ffffff !important;
+                margin: 15px 4px 15px !important;
                 display: block !important;
-                border: 2px solid #ffc107 !important;
-                border-radius: 16px !important;
-                box-shadow: 0 10px 30px rgba(5, 28, 14, 0.4), 
-                            0 0 0 1px rgba(255, 193, 7, 0.1),
-                            inset 0 1px 2px rgba(255, 255, 255, 0.15) !important;
-                font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
+                border: 1px solid #1a237e !important;
+                border-radius: 8px !important;
+                font-family: 'Inter', -apple-system, sans-serif !important;
                 overflow: hidden !important;
-                position: relative;
-            }
-
-            /* Subtle elegant overlay for premium look */
-            .cm_patti_l::before {
-                content: "";
-                position: absolute;
-                top: 0; left: 0; right: 0; bottom: 0;
-                background: radial-gradient(circle at 50% 0%, rgba(255, 193, 7, 0.12), transparent 75%);
-                pointer-events: none;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
             }
 
             .cm_patti_l h3 {
-                background: linear-gradient(135deg, #ffc107 0%, #ff8f00 50%, #e65100 100%) !important;
-                padding: 14px 10px !important;
-                text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 0 1px rgba(0, 0, 0, 0.6) !important;
-                display: block !important;
+                background: #1a237e !important;
+                padding: 10px 10px !important;
                 color: #ffffff !important;
-                margin: 0 0 15px 0 !important;
-                letter-spacing: 0.5px !important;
-                font-weight: 800 !important;
-                font-size: 22px !important;
+                margin: 0 !important;
+                font-weight: 700 !important;
+                font-size: 16px !important;
                 border: none !important;
                 border-radius: 0 !important;
-                border-bottom: 2px solid #ffb300 !important;
-                box-shadow: 0 4px 15px rgba(255, 143, 0, 0.3) !important;
-                font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
                 text-transform: uppercase;
+                text-align: center !important;
             }
 
             .cm_patti_l .row {
                 display: flex !important;
                 flex-direction: row;
-                align-items: stretch;
-                justify-content: space-between;
-                padding: 10px 5px;
+                align-items: center;
+                justify-content: flex-start;
+                padding: 10px 15px;
+                background: #ffffff !important;
             }
 
             .cm_patti_l .aa_55 {
-                padding: 10px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                align-items: center;
+                align-items: flex-start;
             }
 
             .cm_patti_l .aa_55:first-child {
-                width: 45% !important;
-                border-right: 2px dashed rgba(255, 193, 7, 0.3) !important;
+                width: 25% !important;
+                border-right: 1px solid #e0e0e0 !important;
+                padding-right: 15px !important;
+                align-items: center !important;
             }
 
             .cm_patti_l .aa_55:last-child {
-                width: 55% !important;
+                width: 75% !important;
+                padding-left: 15px !important;
+                overflow: hidden !important;
             }
 
             .cm_patti_l h4 {
-                font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
-                font-size: 19px !important;
+                font-family: 'Inter', sans-serif !important;
+                font-size: 11px !important;
                 font-weight: 700 !important;
-                color: #ffe082 !important;
-                text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7) !important;
-                margin-bottom: 12px !important;
-                letter-spacing: 0.5px;
+                color: #1a237e !important;
+                margin-bottom: 5px !important;
                 text-transform: uppercase;
+                text-align: center !important;
             }
 
-            /* Lucky Number Gold Badge */
             .cm_patti_l .aa_55:first-child p {
-                display: inline-block !important;
-                min-width: 180px !important;
-                width: auto !important;
-                height: auto !important;
-                line-height: 1.4 !important;
-                background: linear-gradient(135deg, #ffe082 0%, #ffb300 50%, #ffa000 100%) !important;
-                color: #051c0e !important;
-                font-family: 'Outfit', sans-serif !important;
-                font-size: 32px !important;
-                font-weight: 900 !important;
-                border-radius: 50px !important;
-                border: 2px solid #ffffff !important;
-                margin: 5px auto !important;
-                padding: 10px 24px !important;
+                color: #d32f2f !important;
+                font-family: 'Inter', sans-serif !important;
+                font-size: 22px !important;
+                font-weight: 800 !important;
+                margin: 0 !important;
+                padding: 0 !important;
                 text-align: center !important;
                 white-space: nowrap !important;
-                box-shadow: 0 0 20px rgba(255, 193, 7, 0.6), 
-                            inset 0 2px 4px rgba(255, 255, 255, 0.6) !important;
-                text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8) !important;
-                letter-spacing: 2px !important;
-                animation: goldGlow 2.5s infinite alternate ease-in-out !important;
             }
-
 
             /* Final Ank Scrolling Container */
             .cm_patti_l .marquee {
-                color: #ffffff !important;
-                background: rgba(0, 0, 0, 0.3) !important;
-                border: 1px solid rgba(255, 193, 7, 0.25) !important;
-                border-radius: 12px !important;
-                box-shadow: inset 0 3px 10px rgba(0, 0, 0, 0.4) !important;
-                height: 180px !important;
                 width: 100% !important;
-                padding: 10px 5px !important;
-                margin: 0 auto !important;
                 overflow: hidden !important;
                 position: relative !important;
             }
 
             .cm_patti_l .marquee p {
-                animation: marquee 25s linear infinite !important;
-                font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
-                font-size: 15px !important;
+                display: flex !important;
+                flex-direction: row !important;
+                gap: 20px !important;
+                animation: marquee-horizontal 20s linear infinite !important;
+                font-family: 'Inter', sans-serif !important;
+                font-size: 14px !important;
                 font-weight: 600 !important;
-                color: #ffffff !important;
-                line-height: 2.0 !important;
-                margin: 10px 0 0 0 !important;
-                text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8) !important;
-                letter-spacing: 0.5px !important;
-                text-align: center !important;
+                color: #333 !important;
+                margin: 0 !important;
+                white-space: nowrap !important;
+            }
+
+            .cm_patti_l .marquee p br {
+                display: none !important;
             }
 
             .cm_patti_l .marquee p:hover {
                 animation-play-state: paused !important;
             }
 
-            @keyframes goldGlow {
+            @keyframes marquee-horizontal {
                 0% {
-                    box-shadow: 0 0 10px rgba(255, 193, 7, 0.4), 
-                                inset 0 2px 4px rgba(255, 255, 255, 0.6);
-                    transform: scale(1);
+                    transform: translateX(100%);
                 }
+
                 100% {
-                    box-shadow: 0 0 20px rgba(255, 193, 7, 0.85), 
-                                0 0 5px rgba(255, 255, 255, 0.3),
-                                inset 0 2px 4px rgba(255, 255, 255, 0.6);
-                    transform: scale(1.04);
+                    transform: translateX(-100%);
                 }
             }
 
             /* Responsive Layout for Mobile Devices */
             @media only screen and (max-width: 600px) {
-                .cm_patti_l {
-                    margin: 15px 4px 15px !important;
-                    border-radius: 14px !important;
-                }
-                
-                .cm_patti_l h3 {
-                    font-size: 18px !important;
-                    padding: 12px 10px !important;
-                }
-
                 .cm_patti_l .row {
-                    flex-direction: column !important;
+                    flex-direction: row !important;
                     align-items: center !important;
-                    padding: 10px 10px 15px !important;
-                }
-
-                .cm_patti_l .aa_55 {
-                    width: 100% !important;
                     padding: 10px 5px !important;
                 }
 
+                .cm_patti_l .aa_55 {
+                    padding: 5px 0 !important;
+                }
+
                 .cm_patti_l .aa_55:first-child {
-                    border-right: none !important;
-                    border-bottom: 2px dashed rgba(255, 193, 7, 0.2) !important;
-                    padding-bottom: 20px !important;
-                    margin-bottom: 15px !important;
-                }
-                
-                .cm_patti_l h4 {
-                    font-size: 17px !important;
-                    margin-bottom: 10px !important;
-                }
-                
-                .cm_patti_l .aa_55:first-child p {
-                    min-width: 150px !important;
-                    width: auto !important;
-                    height: auto !important;
-                    line-height: 1.4 !important;
-                    font-size: 26px !important;
-                    padding: 8px 20px !important;
-                    border-radius: 50px !important;
+                    width: 35% !important;
+                    border-right: 1px solid #e0e0e0 !important;
+                    border-bottom: none !important;
+                    margin-bottom: 0 !important;
+                    padding-right: 5px !important;
                 }
 
-
-                .cm_patti_l .marquee {
-                    height: 160px !important;
+                .cm_patti_l .aa_55:last-child {
+                    width: 65% !important;
+                    padding-left: 5px !important;
                 }
             }
+
 
             .a_27_title,
             .fg-cont h4,
             .matka-result h4,
             .my-table.mumraj-sl h4 {
                 background: linear-gradient(135deg, #1a237e 0%, #283593 60%, #3949ab 100%);
-                padding: 5px 10px;
+                padding: 19px 10px;
                 text-shadow: 1px 1px 2px #000;
                 display: block;
                 color: #fff;
@@ -505,7 +446,7 @@ body {
                 border-radius: .75em;
                 transform-style: preserve-3d;
                 transition: transform 150ms cubic-bezier(0, 0, .58, 1), background 150ms cubic-bezier(0, 0, .58, 1);
-                box-shadow: 0 4px 15px rgba(26,35,126,0.4)
+                box-shadow: 0 4px 15px rgba(26, 35, 126, 0.4)
             }
 
             .a_27_title,
@@ -524,7 +465,7 @@ body {
                 border-radius: .75em;
                 transform-style: preserve-3d;
                 transition: transform 150ms cubic-bezier(0, 0, .58, 1), background 150ms cubic-bezier(0, 0, .58, 1);
-                box-shadow: 0 4px 15px rgba(26,35,126,0.4)
+                box-shadow: 0 4px 15px rgba(26, 35, 126, 0.4)
             }
 
 
@@ -578,76 +519,141 @@ body {
             .matka-card button,
             .refresh_btn {
                 background: linear-gradient(135deg, #b8860b 0%, #f0c040 50%, #d4a017 100%);
-                border: 1px solid rgba(255,255,255,0.5);
+                border: 1px solid rgba(255, 255, 255, 0.5);
                 color: #1a0a00;
-                padding: 5px 14px;
+                padding: 7px 18px;
                 border-radius: 20px;
-                font-size: 12px;
+                font-size: 15px;
                 font-weight: 700;
                 letter-spacing: 0.5px;
                 margin: 4px 0 0;
                 display: inline-block;
                 transition: all .25s ease;
-                box-shadow: 0 2px 8px rgba(184,134,11,0.4);
+                box-shadow: 0 2px 8px rgba(184, 134, 11, 0.4);
                 cursor: pointer
             }
 
             .matka-card button:hover,
             .refresh_btn:hover {
                 background: linear-gradient(135deg, #d4a017 0%, #ffe066 50%, #b8860b 100%);
-                box-shadow: 0 4px 16px rgba(240,192,64,0.6);
+                box-shadow: 0 4px 16px rgba(240, 192, 64, 0.6);
                 transform: translateY(-1px);
                 cursor: pointer
             }
 
             .live-update-card {
-                border-color: #00a86b !important;
-                background: #eafff4 !important;
+                border-color: #e0e0e0 !important;
+                background: #ffffff !important;
                 overflow: hidden;
+                border-radius: 12px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+                margin-bottom: 15px;
             }
 
             .live-update-card h4 {
-                background: linear-gradient(135deg, #007a3d 0%, #00a86b 100%) !important;
-                border-color: #78e6b0 !important;
+                background: linear-gradient(135deg, #e53935 0%, #b71c1c 100%) !important;
+                border-color: #ffcdd2 !important;
                 margin-bottom: 0;
+                color: #ffffff !important;
+                position: relative;
+                font-family: 'Inter', sans-serif !important;
+                font-weight: 800 !important;
+                text-align: left !important;
+                padding: 12px 15px !important;
+            }
+
+            .live-update-card h4::before {
+                content: "🔔 ";
+            }
+
+            .live-update-card h4::after {
+                content: "⚡ FASTEST RESULT";
+                position: absolute;
+                right: 10px;
+                top: 50%;
+                transform: translateY(-50%);
+                background: linear-gradient(135deg, #FFD700, #FFA000);
+                color: #1a1a1a;
+                padding: 5px 12px;
+                border-radius: 50px;
+                font-size: 10.5px;
+                font-weight: 900;
+                box-shadow: 0 0 10px rgba(255,215,0,0.7), 0 2px 6px rgba(0,0,0,0.3);
+                letter-spacing: 0.5px;
+                animation: fastPulse 1.5s ease-in-out infinite;
+                white-space: nowrap;
+            }
+
+            @keyframes fastPulse {
+                0%, 100% { box-shadow: 0 0 10px rgba(255,215,0,0.7), 0 2px 6px rgba(0,0,0,0.3); }
+                50% { box-shadow: 0 0 20px rgba(255,215,0,1), 0 4px 12px rgba(0,0,0,0.4); }
             }
 
             .live-update-card .live-box {
-                background: linear-gradient(180deg, #f2fff8 0%, #e1fff0 100%);
-                padding: 6px 8px 8px;
-                line-height: 1.35;
+                background: #ffffff;
+                padding: 15px;
+                line-height: 1.5;
+                font-family: 'Inter', sans-serif;
+            }
+
+            .live-update-card .live-box-inner {
+                border: 2px dashed #d32f2f;
+                border-radius: 8px;
+                padding: 15px;
+                text-align: center;
+                background: #fff8f8;
             }
 
             .live-update-card .gn:not(:first-child) {
-                border-top: 1px dashed rgba(0, 122, 61, 0.35);
+                border-top: 1px dashed rgba(229, 57, 53, 0.35);
                 margin-top: 7px;
                 padding-top: 6px;
             }
 
             .live-update-card .gn {
-                color: #004d2a;
+                color: #b71c1c;
+                font-weight: 700;
             }
 
             .para__2.para__2-second {
                 margin-bottom: 7px;
                 font-size: 16px;
-                padding: 7px;
-                line-height: 25px;
-                background: linear-gradient(135deg, var(--blue-dark), var(--blue-mid));
-                color: #fff;
-                border-radius: .75em
+                margin: 15px auto;
+                padding: 15px 10px;
+                background: #4A65A8;
+                color: #ffffff;
+                border-radius: 12px;
+                box-shadow: 0 4px 10px rgba(74, 101, 168, 0.3);
+                font-family: 'Inter', sans-serif;
+                text-align: center;
+                line-height: 1.6;
+            }
+
+            .para__2.para__2-second span {
+                font-size: 14px;
+                font-weight: 600;
+                display: block;
+                margin-bottom: 5px;
             }
 
             .para__2.para__2-second a {
-                color: #fff;
-                border: 2px solid rgba(255,255,255,0.6);
-                padding: 3px 0;
-                display: block;
-                width: 200px;
-                margin: auto;
-                border-radius: 15px;
-                background:darkred;
-                margin-top: 8px
+                color: #ffffff;
+                border: 2px solid #FFC107;
+                padding: 8px 24px;
+                display: inline-block;
+                margin: 10px auto;
+                border-radius: 50px;
+                background: linear-gradient(135deg, #d32f2f, #b71c1c);
+                font-size: 18px;
+                font-weight: 800;
+                text-transform: uppercase;
+                text-decoration: none;
+                box-shadow: 0 0 10px rgba(255, 193, 7, 0.5);
+                transition: transform 0.2s;
+            }
+
+            .para__2.para__2-second a:hover {
+                transform: scale(1.05);
             }
 
             .para__2.para__2-third {
@@ -721,52 +727,91 @@ body {
             }
 
             .para__2.para__2-fourth {
-                padding: 12px;
-                background:darkgray;
-            
+                padding: 14px 16px;
+                background: linear-gradient(135deg, #f0f4ff 0%, #e8f5e9 100%);
+                border: 1.5px solid #c5cae9 !important;
+                border-radius: 14px !important;
+                font-family: 'Inter', sans-serif;
+                font-size: 13px;
+                color: #37474f;
+                line-height: 1.7;
+                letter-spacing: 0.2px;
+                font-weight: 500;
+                box-shadow: 0 2px 10px rgba(63, 81, 181, 0.08) !important;
+                text-align: center;
             }
 
             .satta-main-result {
-                border-color: #aa00c0;
                 margin-bottom: 6px
             }
 
-            .paid-gm p,
-            .satta-main-result div {
+            .paid-gm p {
                 border-bottom: 1px solid var(--blue-border)
             }
 
             .satta-main-result div {
-                padding: 3px
-            }
-
-            .satta-main-result div:last-child {
-                border-bottom-width: 0
+                display: grid;
+                grid-template-columns: 80px 1fr 80px;
+                grid-template-rows: auto auto auto;
+                align-items: center;
+                background: #ffffff;
+                border-radius: 12px;
+                border: 1px solid #e0e0e0;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+                margin-bottom: 15px;
+                padding: 15px;
+                position: relative;
             }
 
             .satta-main-result h4 {
-                font-size: 22px;
-                color: #00094d;
-                text-shadow: 1px 1px 2px #fff
+                grid-column: 2;
+                grid-row: 1;
+                text-align: center;
+                font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                color: #1a237e;
+                margin: 0 0 5px 0;
+                text-transform: uppercase;
+                font-weight: 800;
+                text-shadow: none;
             }
 
             .satta-main-result span {
-                margin: 0;
-                font-size: 22px;
-                line-height: 1;
-                background: -webkit-linear-gradient(#4500bf, #670009);
-                -webkit-background-clip: text;
-                background-clip: text;
-                -webkit-text-fill-color: #fff0;
-                padding: 5px 5px
+                grid-column: 2;
+                grid-row: 2;
+                text-align: center;
+                font-family: 'Inter', sans-serif;
+                font-size: 17px;
+                font-weight: 800;
+                color: #222;
+                margin: 5px 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                background: none;
+                -webkit-text-fill-color: #222;
             }
 
             .satta-main-result p {
-                font-size: 15px;
-                padding: 2px 0;
-                margin-bottom: 0;
-                color: #000;
-                text-shadow: 1px 1px 2px #ffd9d9
+                grid-column: 2;
+                grid-row: 3;
+                text-align: center;
+                font-size: 11px;
+                color: #666;
+                text-transform: uppercase;
+                margin: 5px 0 0 0;
+                font-weight: 600;
+                text-shadow: none;
+            }
+
+            /* Custom JS-injected box for middle digits */
+            .middle-digit-box {
+                border: 1px solid #d32f2f;
+                color: #d32f2f;
+                padding: 2px 8px;
+                border-radius: 4px;
+                display: inline-block;
             }
 
             .a_27_title.h4 {
@@ -850,7 +895,7 @@ body {
                 align-items: center;
                 justify-content: center;
                 border: 2px solid #7986cb;
-                box-shadow: 0 4px 15px rgba(26,35,126,0.4)
+                box-shadow: 0 4px 15px rgba(26, 35, 126, 0.4)
             }
 
             .conta p {
@@ -869,9 +914,9 @@ body {
                 padding: 7px 18px;
                 border-radius: 50px;
                 display: inline-block;
-                box-shadow: 0 3px 12px rgba(37,211,102,0.45);
-                border: 2px solid rgba(255,255,255,0.5);
-                text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+                box-shadow: 0 3px 12px rgba(37, 211, 102, 0.45);
+                border: 2px solid rgba(255, 255, 255, 0.5);
+                text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
                 font-size: 16px;
                 font-weight: 600;
                 letter-spacing: 0.3px;
@@ -880,7 +925,7 @@ body {
 
             .conta a:hover {
                 background: linear-gradient(135deg, var(--wa-green), var(--wa-green-dark));
-                box-shadow: 0 5px 18px rgba(37,211,102,0.6);
+                box-shadow: 0 5px 18px rgba(37, 211, 102, 0.6);
                 transform: translateY(-1px)
             }
 
@@ -893,8 +938,8 @@ body {
             }
 
             .yellowbg {
-                background:lightskyblue;
-                border-bottom: 1px solid var(--blue-border)
+                background: #F9E79F !important;
+                border: 1px solid #F1C40F !important;
             }
 
             .paid-gm {
@@ -1044,7 +1089,7 @@ body {
                 border-radius: .75em;
                 transform-style: preserve-3d;
                 transition: transform 150ms cubic-bezier(0, 0, .58, 1), background 150ms cubic-bezier(0, 0, .58, 1);
-                box-shadow: 0 4px 15px rgba(26,35,126,0.4)
+                box-shadow: 0 4px 15px rgba(26, 35, 126, 0.4)
             }
 
             .blue-container {
@@ -1055,10 +1100,10 @@ body {
                 background: linear-gradient(135deg, #1a237e 0%, #283593 60%, #3949ab 100%);
                 color: #fff;
                 border-radius: 10px;
-                font-size: 30px;
+                font-size: 24px;
                 padding: 3px 5px;
                 text-shadow: 1px 1px 2px #000;
-                box-shadow: 0 4px 15px rgba(26,35,126,0.4)
+                box-shadow: 0 4px 15px rgba(26, 35, 126, 0.4)
             }
 
             .blue-container a:last-child {
@@ -1066,7 +1111,8 @@ body {
             }
 
             .blue-container a {
-                color: #0d47a1 !important; /* Deep royal blue text */
+                color: #0d47a1 !important;
+                /* Deep royal blue text */
                 font-size: 18px !important;
                 display: block !important;
                 border-bottom: 1px dashed #90caf9 !important;
@@ -1078,7 +1124,8 @@ body {
             }
 
             .blue-container a:nth-child(even) {
-                background-color: #e8f5e9 !important; /* Soft premium mint/greenish-white */
+                background-color: #e8f5e9 !important;
+                /* Soft premium mint/greenish-white */
             }
 
             .blue-container a:nth-child(odd) {
@@ -1086,7 +1133,8 @@ body {
             }
 
             .blue-container a:hover {
-                background-color: #c8e6c9 !important; /* light mint hover */
+                background-color: #c8e6c9 !important;
+                /* light mint hover */
             }
 
             @keyframes textclip {
@@ -1110,7 +1158,7 @@ body {
                 border-radius: 0 !important;
                 line-height: 1.3 !important;
                 padding: 10px 12px !important;
-                text-shadow: 1px 1px 2px rgba(0,0,0,0.5) !important;
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
                 font-size: 18px !important;
                 font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
                 border: none !important;
@@ -1151,7 +1199,7 @@ body {
                 font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
                 font-weight: 700 !important;
                 letter-spacing: 0.5px !important;
-                text-shadow: 1px 1px 2px rgba(0,0,0,0.5) !important;
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
                 margin: 0 !important;
                 border-bottom: 2px solid #64b5f6 !important;
             }
@@ -1166,21 +1214,23 @@ body {
             }
 
             .purple_header a:nth-child(even) {
-                background-color: #f0f4c3 !important; /* Soft lime-yellow for alternating */
+                background-color: #f0f4c3 !important;
+                /* Soft lime-yellow for alternating */
             }
-            
+
             .purple_header a:nth-child(odd) {
                 background-color: #ffffff !important;
             }
 
             .purple_header a:hover {
-                background-color: #e3f2fd !important; /* light blue hover */
+                background-color: #e3f2fd !important;
+                /* light blue hover */
             }
 
             .ab1 a {
                 border-bottom: 1px dashed #90caf9 !important;
                 color: #0d47a1 !important;
-                text-shadow: 1px 1px 0px rgba(255,255,255,0.8) !important;
+                text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.8) !important;
             }
 
             .purple_header a:last-child {
@@ -1251,7 +1301,7 @@ body {
                 margin-bottom: 10px;
                 padding-top: 6px;
                 padding-bottom: 6px;
-                text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
                 background: linear-gradient(135deg, #1a237e 0%, #283593 60%, #3949ab 100%);
                 color: #fff;
                 margin-top: 0;
@@ -1267,7 +1317,8 @@ body {
             }
 
             .ftr_sm {
-                background: linear-gradient(to bottom, #fffdf2 0%, #fef0cd 100%) !important; /* Soft premium gold/cream */
+                background: linear-gradient(to bottom, #fffdf2 0%, #fef0cd 100%) !important;
+                /* Soft premium gold/cream */
                 border: 2px solid #ffcc80 !important;
                 box-shadow: 0 4px 12px rgba(255, 204, 128, 0.3) !important;
                 padding: 10px !important;
@@ -1290,8 +1341,9 @@ body {
             }
 
             .ftr_sm span {
-                color: #d84315 !important; /* Premium dark orange/red */
-                text-shadow: 1px 1px 0px rgba(255,255,255,0.8);
+                color: #d84315 !important;
+                /* Premium dark orange/red */
+                text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.8);
                 font-size: 18px !important;
                 font-weight: 700;
                 border-bottom: 2px dashed #ffab91;
@@ -1345,37 +1397,37 @@ body {
             }
 
             .result_timing_b_right {
-                right: 18px;
-                left: auto
+                right: auto;
+                left: auto;
             }
 
             .result_btn_chart {
-                color: #fff;
-                padding: 4px 12px;
-                border-radius: 15px;
+                background: #1a237e;
+                color: #ffffff;
+                border: 2px solid #1a237e;
+                padding: 6px 16px;
+                border-radius: 50px;
                 font-size: 11px;
-                font-weight: 600;
+                font-weight: 700;
                 letter-spacing: 0.5px;
                 display: block;
                 transition: all .25s ease;
                 text-shadow: none;
-                margin-top: -6px;
-                border: none;
-                background: linear-gradient(135deg, #0097a7 0%, #26c6da 100%);
-                box-shadow: 0 2px 6px rgba(0,151,167,0.35);
+                margin: 0;
+                box-shadow: none;
                 text-transform: uppercase;
-                cursor: pointer
+                cursor: pointer;
             }
 
             .result_btn_chart:hover {
-                background: linear-gradient(135deg, #26c6da 0%, #0097a7 100%);
-                box-shadow: 0 4px 14px rgba(38,198,218,0.6);
-                filter: brightness(1.08)
+                background: #ffffff;
+                color: #1a237e;
             }
 
             @media(max-width:500px) {
                 .result_btn_chart {
-                    margin: 0 0 0
+                    padding: 4px 10px;
+                    font-size: 10px;
                 }
             }
 
@@ -1485,7 +1537,7 @@ body {
                 margin-bottom: 3px;
                 padding: 7px 0 7px;
                 color: #fff;
-                text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
                 border-radius: 10px
             }
 
@@ -1589,7 +1641,7 @@ body {
                 background: #ffffff !important;
                 border: 1px solid #e2e8f0 !important;
                 border-radius: 14px !important;
-                box-shadow: 0 4px 10px rgba(0,0,0,0.03) !important;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03) !important;
                 transition: all 0.3s ease !important;
                 text-align: center !important;
                 box-sizing: border-box !important;
@@ -1677,23 +1729,28 @@ body {
                     margin: 5px !important;
                     padding: 12px 6px !important;
                 }
+
                 .card-code-1212 .fg_c1:nth-child(odd),
                 .card-code-1212 .fg_c1:nth-child(even) {
                     margin: 5px !important;
                 }
+
                 .card-code-1212 .fg_c1 .fg_p2 {
                     font-size: 11px !important;
                     padding: 6px 10px !important;
                     margin-bottom: 8px !important;
                 }
+
                 .card-code-1212 .fg_c1 .fg_p4:nth-of-type(1) {
                     font-size: 14px !important;
                     padding: 2px 8px !important;
                     margin-bottom: 6px !important;
                 }
+
                 .card-code-1212 .fg_c1 .fg_p4:nth-of-type(2) {
                     font-size: 12px !important;
                 }
+
                 .card-code-1212 .fg_c1 .fg_p4:nth-of-type(3) {
                     font-size: 11px !important;
                 }
@@ -2021,7 +2078,7 @@ body {
                 color: #ffffff !important;
                 padding: 12px 10px !important;
                 letter-spacing: 0.5px !important;
-                text-shadow: 1px 1px 2px rgba(0,0,0,0.3) !important;
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) !important;
             }
 
             .ntah_blue_sec {
@@ -2038,8 +2095,10 @@ body {
                 font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
                 font-size: 24px !important;
                 font-weight: 800 !important;
-                color: #c62828 !important; /* Vibrant red */
-                background: #ffebee !important; /* Soft light red background */
+                color: #c62828 !important;
+                /* Vibrant red */
+                background: #ffebee !important;
+                /* Soft light red background */
                 border-right: 1px solid #c5cae9 !important;
                 border-left: 1px solid #c5cae9 !important;
                 padding: 10px 4px !important;
@@ -2088,7 +2147,7 @@ body {
                 margin: auto;
                 border-radius: 10px;
                 font-size: 13px;
-                box-shadow: 0 3px 10px rgba(123,31,162,0.35)
+                box-shadow: 0 3px 10px rgba(123, 31, 162, 0.35)
             }
 
             .crickliveline_img {
@@ -2101,7 +2160,7 @@ body {
             }
 
             .matka-live-refresh-btn {
-                border: 1px solid rgba(255,255,255,0.4);
+                border: 1px solid rgba(255, 255, 255, 0.4);
                 background: linear-gradient(135deg, var(--blue-dark), var(--blue-mid));
                 color: #fff;
                 padding: 5px 10px;
@@ -2133,7 +2192,7 @@ body {
                 height: 500px;
                 overflow: hidden;
                 overflow-y: auto;
-                box-shadow: inset 0 2px 10px rgba(0,0,0,0.02), 0 4px 15px rgba(0,0,0,0.05) !important;
+                box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.02), 0 4px 15px rgba(0, 0, 0, 0.05) !important;
                 font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
             }
 
@@ -2154,8 +2213,9 @@ body {
             .home-footer-container h2.small-heading {
                 font-size: 20px !important;
                 font-weight: 700 !important;
-                color: #c62828 !important; /* Deep rich crimson */
-                text-shadow: 1px 1px 0px rgba(255,255,255,0.8) !important;
+                color: #c62828 !important;
+                /* Deep rich crimson */
+                text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.8) !important;
                 margin-bottom: 10px !important;
                 letter-spacing: 0.5px !important;
             }
@@ -2185,8 +2245,9 @@ body {
             .home-footer-container h2.faq-heading {
                 font-size: 24px !important;
                 font-weight: 800 !important;
-                color: #283593 !important; /* Deep royal indigo */
-                text-shadow: 1px 1px 0px rgba(255,255,255,0.8) !important;
+                color: #283593 !important;
+                /* Deep royal indigo */
+                text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.8) !important;
                 margin-bottom: 16px !important;
                 margin-top: 20px !important;
                 border-bottom: 2px solid #e8eaf6 !important;
@@ -2201,7 +2262,8 @@ body {
                 text-shadow: none;
                 letter-spacing: 0.5px !important;
                 margin: 0 0 6px !important;
-                color: #00695c !important; /* Rich teal */
+                color: #00695c !important;
+                /* Rich teal */
             }
 
             .home-footer-container p.faq-ans {
@@ -2215,7 +2277,7 @@ body {
             .blue-container.special-zone h4 {
                 background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 60%, #388e3c 100%) !important;
                 border: 2px solid #81c784 !important;
-                box-shadow: 0 4px 15px rgba(46,125,50,0.4) !important;
+                box-shadow: 0 4px 15px rgba(46, 125, 50, 0.4) !important;
             }
 
             /* Mumbai Rajshree Star Line Table Styling */
@@ -2224,6 +2286,7 @@ body {
                 width: 100%;
                 font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
             }
+
             .mumraj-sl th {
                 background-color: #e8f5e9 !important;
                 color: #1b5e20 !important;
@@ -2231,6 +2294,7 @@ body {
                 border: 1px solid #a5d6a7 !important;
                 font-size: 15px !important;
             }
+
             .mumraj-sl td {
                 border: 1px solid #c8e6c9 !important;
                 padding: 6px 4px !important;
@@ -2238,16 +2302,20 @@ body {
                 text-shadow: none !important;
                 color: #333 !important;
             }
+
             .mumraj-sl tr:nth-child(even) td {
                 background-color: #f9fbf9 !important;
             }
+
             .mumraj-sl tr:nth-child(odd) td {
                 background-color: #ffffff !important;
             }
+
             .mumraj-sl tr:hover td {
                 background-color: #e8f5e9 !important;
                 transition: background-color 0.2s ease;
             }
+
             /* Style for the results (2nd and 4th columns) */
             .mumraj-sl tr td:nth-child(2),
             .mumraj-sl tr td:nth-child(4) {
@@ -2267,41 +2335,41 @@ body {
 
             .fgzoc_time {
                 width: calc(100% - 10px) !important;
-                border: 2px solid #8c9eff !important;
-                background: bisque;
+                border: 2px solid #1a237e !important;
+                background: #FDEBD0 !important;
                 margin: 5px auto 15px !important;
-                border-radius: 12px !important;
-                padding: 14px 10px !important;
-                box-shadow: 0 4px 15px rgba(140, 158, 255, 0.15) !important;
+                border-radius: 8px !important;
+                padding: 15px 10px !important;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05) !important;
                 display: flex !important;
                 flex-direction: column !important;
-                gap: 6px !important;
+                gap: 5px !important;
             }
 
             .fgzoc_time .fg_p1 {
-                font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
-                font-weight: 700 !important;
+                font-family: 'Inter', sans-serif !important;
+                font-weight: 800 !important;
                 color: #1a237e !important;
-                font-size: 20px !important;
+                font-size: 22px !important;
                 margin: 0 !important;
                 text-shadow: none !important;
             }
 
             .fgzoc_time span {
-                font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
-                font-weight: 600 !important;
-                font-size: 13px !important;
-                color: #5c6bc0 !important;
-                letter-spacing: 2px !important;
+                font-family: 'Inter', sans-serif !important;
+                font-weight: 700 !important;
+                font-size: 14px !important;
+                color: #2196F3 !important;
+                letter-spacing: 1px !important;
                 text-transform: uppercase !important;
                 text-shadow: none !important;
                 margin: 2px 0 !important;
             }
 
             .fgzoc_time h5.fg_p1 {
-                color: #d81b60 !important;
-                font-size: 18px !important;
-                font-weight: 800 !important;
+                color: #D81B60 !important;
+                font-size: 20px !important;
+                font-weight: 900 !important;
                 letter-spacing: 0.5px !important;
                 margin: 0 !important;
                 text-shadow: none !important;
@@ -2317,7 +2385,7 @@ body {
                 margin-bottom: 10px !important;
                 padding: 8px 12px !important;
                 color: #fff !important;
-                text-shadow: 1px 1px 2px rgba(0,0,0,0.4) !important;
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) !important;
                 border-radius: 50px !important;
                 display: inline-block !important;
                 width: 90% !important;
@@ -2349,13 +2417,224 @@ body {
 
             @media only screen and (max-width:600px) {
                 .fg-cont .fg_c1 .fg_p2 {
-                    font-size: 13px !important;
-                    padding: 6px 10px !important;
+                    font-size: 11px !important;
+                    padding: 8px 11px !important;
                     margin-bottom: 6px !important;
                 }
+
                 .fg-cont .fg_c1 .fg_p4 {
                     font-size: 12px !important;
                     line-height: 20px !important;
+                }
+            }
+
+            .live-box-inner p:first-child:has(~ .gn) {
+                display: none !important;
+            }
+
+            .live-box-inner p:first-child:has(~ span) {
+                display: none !important;
+            }
+
+            .satta-main-result .result_timing_b {
+                margin-top: 50px;
+                justify-self: center;
+            }
+
+            .satta-main-result .result_timing_b_right {
+
+                justify-self: end;
+                margin-right: 8px;
+                margin-top: 50px;
+            }
+
+            .cm_patti_l .aa_55:first-child p {
+                border-bottom: 1px solid #b0bec5 !important;
+                padding-bottom: 5px !important;
+            }
+
+            .satta-main-result p {
+                border-top: 1px solid rgba(0, 0, 0, 0.2) !important;
+                padding-top: 5px !important;
+                margin-top: 8px !important;
+                width: 100%;
+            }
+
+            /* =======================================================
+               FREE GAME ZONE REDESIGN — PREMIUM GLASSMORPHISM & BADGES
+               ======================================================= */
+            .fgzoc_time {
+                width: calc(100% - 16px) !important;
+                border: none !important;
+                background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%) !important;
+                margin: 15px auto !important;
+                border-radius: 16px !important;
+                padding: 20px 15px !important;
+                box-shadow: 0 10px 25px rgba(15, 23, 42, 0.35) !important;
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: center !important;
+                gap: 8px !important;
+                position: relative !important;
+                overflow: hidden !important;
+            }
+
+            .fgzoc_time::before {
+                content: '' !important;
+                position: absolute !important;
+                top: 0 !important;
+                left: 0 !important;
+                width: 100% !important;
+                height: 4px !important;
+                background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899) !important;
+            }
+
+            .fgzoc_time .fg_p1 {
+                font-family: 'Outfit', 'Inter', sans-serif !important;
+                font-weight: 800 !important;
+                color: #f8fafc !important;
+                font-size: 24px !important;
+                margin: 0 !important;
+                text-shadow: 0 2px 4px rgba(0,0,0,0.4) !important;
+                letter-spacing: 0.5px !important;
+            }
+
+            .fgzoc_time span {
+                font-family: 'Outfit', 'Inter', sans-serif !important;
+                font-weight: 750 !important;
+                font-size: 13px !important;
+                color: #38bdf8 !important;
+                background: rgba(56, 189, 248, 0.12) !important;
+                padding: 4px 14px !important;
+                border-radius: 9999px !important;
+                border: 1px solid rgba(56, 189, 248, 0.25) !important;
+                letter-spacing: 1.5px !important;
+                text-transform: uppercase !important;
+                text-shadow: none !important;
+                margin: 4px 0 !important;
+                display: inline-block !important;
+            }
+
+            .fgzoc_time h5.fg_p1 {
+                color: #f43f5e !important;
+                font-size: 20px !important;
+                font-weight: 900 !important;
+                letter-spacing: 1px !important;
+                margin: 0 !important;
+                text-shadow: 0 2px 4px rgba(0,0,0,0.4) !important;
+                text-transform: uppercase !important;
+            }
+
+            /* Digits Grid Styling */
+            .fg-digits-container {
+                display: flex !important;
+                flex-wrap: wrap !important;
+                justify-content: center !important;
+                gap: 6px !important;
+                margin: 8px auto !important;
+                width: 100% !important;
+            }
+
+            .fg-digit-item {
+                font-family: 'Outfit', 'Inter', sans-serif !important;
+                font-weight: 700 !important;
+                display: inline-flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+                transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+            }
+
+            /* 1. Single Ank (open/close) Circular Badges */
+            .fg-single-digits {
+                gap: 6px !important;
+                margin-top: 12px !important;
+            }
+            .fg-single-digits .fg-digit-item {
+                width: 34px !important;
+                height: 34px !important;
+                border-radius: 50% !important;
+                background: linear-gradient(135deg, #1e40af 0%, #1d4ed8 100%) !important;
+                color: #ffffff !important;
+                font-size: 16px !important;
+                box-shadow: 0 4px 6px rgba(29, 78, 216, 0.25) !important;
+                border: 1px solid rgba(255, 255, 255, 0.15) !important;
+            }
+            .fg-single-digits .fg-digit-item:hover {
+                transform: translateY(-2px) scale(1.08) !important;
+                box-shadow: 0 6px 12px rgba(29, 78, 216, 0.4) !important;
+                background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%) !important;
+            }
+
+            /* 2. 3-Digit Panels Elegant Pills */
+            .fg-panel-digits {
+                gap: 6px !important;
+                margin-top: 8px !important;
+            }
+            .fg-panel-digits .fg-digit-item {
+                padding: 4px 10px !important;
+                border-radius: 20px !important;
+                background: #f8fafc !important;
+                color: #334155 !important;
+                font-size: 11.5px !important;
+                border: 1px solid #cbd5e1 !important;
+                letter-spacing: 0.5px !important;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) !important;
+            }
+            .fg-panel-digits .fg-digit-item:hover {
+                background: #e2e8f0 !important;
+                color: #0f172a !important;
+                transform: translateY(-1px) !important;
+                box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08) !important;
+            }
+
+            /* 3. Jodi 2-digit Pairs */
+            .fg-jodi-digits {
+                gap: 4px !important;
+                margin-top: 8px !important;
+                max-width: 95% !important;
+            }
+            .fg-jodi-digits .fg-digit-item {
+                padding: 3px 8px !important;
+                border-radius: 6px !important;
+                background: linear-gradient(135deg, #e11d48 0%, #be123c 100%) !important;
+                color: #ffffff !important;
+                font-size: 13px !important;
+                box-shadow: 0 2px 4px rgba(225, 29, 72, 0.2) !important;
+                border: 1px solid rgba(255, 255, 255, 0.1) !important;
+            }
+            .fg-jodi-digits .fg-digit-item:hover {
+                transform: scale(1.06) !important;
+                box-shadow: 0 4px 10px rgba(225, 29, 72, 0.35) !important;
+                background: linear-gradient(135deg, #f43f5e 0%, #fb7185 100%) !important;
+            }
+
+            /* Responsive Mobile Enhancements for Digits */
+            @media only screen and (max-width: 600px) {
+                .fgzoc_time .fg_p1 {
+                    font-size: 19px !important;
+                }
+                .fgzoc_time span {
+                    font-size: 11px !important;
+                    padding: 3px 10px !important;
+                }
+                .fgzoc_time h5.fg_p1 {
+                    font-size: 16px !important;
+                }
+                .fg-single-digits .fg-digit-item {
+                    width: 28px !important;
+                    height: 28px !important;
+                    font-size: 13.5px !important;
+                }
+                .fg-panel-digits .fg-digit-item {
+                    padding: 2px 7px !important;
+                    font-size: 9px !important;
+                }
+                .fg-jodi-digits .fg-digit-item {
+                    padding: 2px 6px !important;
+                    font-size: 11px !important;
+                }
+                .fg-cont .fg_c1 {
+                    padding: 8px 4px !important;
                 }
             }
         </style>
@@ -2479,33 +2758,92 @@ body {
 
     <!-- first logo -->
     <div class="main_logo" style="padding:20px;">
-        <h3>spboss.mobi</h3>
+        <h3>Spboss.Mobi</h3>
     </div>
 
-  
+
     <!-- satta matka text -->
-    <div class="para__2 para__2-first"><!-- dp-topcontainer -->
-          <div class="para__1 para__1-first">
-        <!-- <div class="mrque-div" style="display: flex;padding: 5px;align-items: center;"> -->
-        <img src='assets/img/laxmi-picture.jpeg' alt="Spboss net LAXMI_PICTURE" width="90" height="68" />
-        <p>!! SpBoss !! #1 Satta Matka Result Platform !!</p>
+  <div style="
+    background: #fff7e6;
+    border-radius:20px;
+    padding:18px;
+    color:#222;
+    box-shadow:0 5px 18px rgba(0,0,0,0.15);
+    border:2px solid #ffd08a;
+    margin-bottom:15px;
+">
+
+    <!-- Top Section -->
+    <div style="
+        display:flex;
+        align-items:center;
+        gap:15px;
+        background:#fff1d6;
+        padding:12px;
+        border-radius:15px;
+        margin-bottom:15px;
+        border:1px solid #ffd9a3;
+    ">
+
+        <img src="assets/img/laxmi-picture.jpeg"
+             width="90"
+             height="68"
+             style="
+                border-radius:12px;
+                border:2px solid #ffb84d;
+                object-fit:cover;
+             ">
+
+        <div>
+            <div style="
+                font-size:24px;
+                font-weight:bold;
+                color:#b36b00;
+                margin-bottom:6px;
+            ">
+                🎯 !! SpBoss !!
+            </div>
+
+            <div style="
+                font-size:15px;
+                line-height:24px;
+                color:#333;
+            ">
+                #1 Satta Matka Result Platform
+            </div>
+        </div>
+
     </div>
 
-        <h1>SpBoss Satta Matka Kalyan Satta Result</h1>
-        <h2>
-            Welcome to spboss.mobi no1 website satta Matka kalyan Matka fast result
-            daily free game Kalyan milan Rajdhani ratan main bazar international sp boss no1.matka chat top fast result
-            matka site SpBoss guessing daily Final ank single open Motor Pattai Update by by Your market ad free admin
-            sir contact Best application download spboss
-            <?php
+    <!-- Heading -->
+    <h1 style="
+        font-size:15px;
+        text-align:center;
+        color:#b36b00;
+        margin-bottom:15px;
+    ">
+        🔥 SpBoss Satta Matka Kalyan Result 🔥
+    </h1>
 
-            $serverAddr = $_SERVER['SERVER_ADDR'];
-            $segments = explode('.', $serverAddr);
-            echo $lastSection = end($segments);
+    <!-- Description -->
+    <div style="
+        background:#fff3dc;
+        padding:15px;
+        border-radius:15px;
+        line-height:30px;
+        font-size:15px;
+        text-align:center;
+        color:#333;
+        border:1px solid #ffd9a3;
+    ">
+    Welcome to <b> spboss.mobi</b> no1 website satta Matka kalyan Matka fast result daily free game Kalyan milan Rajdhani ratan main bazar international sp boss no1.matka chat top fast result matka site SpBoss guessing daily Final ank single open Motor Pattai Update by by Your market ad free admin sir contact Best application download spboss ::1sad
 
-            ?>sad
-        </h2>
+        
+     
+
     </div>
+
+</div>
 
     <?php
 
@@ -2547,7 +2885,8 @@ body {
 
 
                             if ($gameName == 'SRIDEVI MORNING' || $gameName == 'SRIDEVI' || $gameName == 'SRIDEVI NIGHT' || $gameName == 'MADHURI' || $gameName == 'TIME BAZAR' || $gameName == 'MILAN MORNING' || $gameName == 'KALYAN MORNING' || $gameName == 'MILAN DAY' || $gameName == 'KALYAN' || $gameName == 'MADHURI NIGHT' || $gameName == 'MADHUR DAY' || $gameName == 'MADHUR NIGHT' || $gameName == 'MILAN NIGHT' || $gameName == 'RAJDHANI NIGHT' || $gameName == 'KALYAN NIGHT' || $gameName == 'MAIN BAZAR' || $gameName == 'KARNATAKA DAY' || $gameName == 'KUBER' || $gameName == 'OLD MAIN MUMBAI' || $gameName == 'MUMBAI MORNING' || $gameName == 'MAIN KALYAN' || $gameName == 'NAMASTHE') {
-                                echo $gameName . ' - ' . (int) $finalAnk . "<br>";
+
+                                echo $gameName . ' - ' . (int)$finalAnk . ' &nbsp;&nbsp; ';
                             }
                         }
 
@@ -2570,75 +2909,177 @@ body {
     <?php } ?>
 
 
-<?php if (0) { ?>
-    <div class="text2" style="margin-bottom: 7px;font-size:16px;padding: 7px;line-height: 25px;color:#b80000;font-weight: bold;">
-  <span style="color: #ff00a2;display: block;text-shadow: 0px 0px 5px white;font-size: 20px;font-weight: bold;">
-    🇮🇳 ☆ Happy Republic Day – 26 January ☆ 🇮🇳
-  </span>
+    <?php if (0) { ?>
+        <div class="text2" style="margin-bottom: 7px;font-size:16px;padding: 7px;line-height: 25px;color:#b80000;font-weight: bold;">
+            <span style="color: #ff00a2;display: block;text-shadow: 0px 0px 5px white;font-size: 20px;font-weight: bold;">
+                🇮🇳 ☆ Happy Republic Day – 26 January ☆ 🇮🇳
+            </span>
 
-  सभी यूजर्स को गणतंत्र दिवस की हार्दिक शुभकामनाएं। 🇮🇳<br>
-  26 जनवरी के अवसर पर नीचे दिए गए मार्केट चालू रहेंगे:<br>
+            सभी यूजर्स को गणतंत्र दिवस की हार्दिक शुभकामनाएं। 🇮🇳<br>
+            26 जनवरी के अवसर पर नीचे दिए गए मार्केट चालू रहेंगे:<br>
 
-  ✅ Worli Morning<br>
-  ✅ Worli Night<br>
-  ✅ CB<br>
-  ✅ Worli Mumbai Night<br><br>
+            ✅ Worli Morning<br>
+            ✅ Worli Night<br>
+            ✅ CB<br>
+            ✅ Worli Mumbai Night<br><br>
 
-  ❌ बाकी सभी मार्केट 26 जनवरी को Holiday रहेंगे।<br>
-  Jai Hind! 🇮🇳✨
-</div>
-
-
-
-<div class="text2" style="margin-bottom:7px;font-size:16px;padding:10px;line-height:26px;color:#b80000;background:#fff5f5;border-radius:8px;text-align:center;">
-    
-    <span style="color:#ff1493;display:block;text-shadow:0px 0px 5px #ffffff;font-size:22px;font-weight:bold;">
-        🎉 ☆ NOTICE ☆ 🎉
-    </span>
-
-    <span style="color:#011e76;font-size:18px;font-weight:bold;">
-        🌈 ☆ HAPPY HOLI HOLIDAY ☆ 🌈
-    </span> 
-    <br><br>
-
-    DATE: <span style="color:#011e76;font-weight:bold;">04/03/2026</span><br>
-    All Markets Will Remain Closed On This Day.
-    <br><br>
-
-    <span style="color:#008000;font-weight:bold;font-size:17px;">
-        🎨 Wishing You And Your Family <br>
-        A Very Happy & Colorful Holi! 🌸🌼
-    </span>
-
-    <hr style="margin-top:15px;">
-
-    <span style="color:#d35400;font-weight:bold;">
-        🌟 Markets Will Resume As Per Regular Timings From Next Day 🌟
-    </span>
-
-</div>
+            ❌ बाकी सभी मार्केट 26 जनवरी को Holiday रहेंगे।<br>
+            Jai Hind! 🇮🇳✨
+        </div>
 
 
-<?php } ?>
 
-    <div class="text2" style="margin-bottom: 2px;font-size:14px;padding: 1px;line-height: 25px;background: darkgreen;color: white; text-align: center;">
+        <div class="text2" style="margin-bottom:7px;font-size:16px;padding:10px;line-height:26px;color:#b80000;background:#fff5f5;border-radius:8px;text-align:center;">
 
-     
-    <div style="margin-top:5px; font-size:14px; line-height:22px;">
-कल्याण मॉर्निंग, श्रीदेवी मॉर्निंग, टाइम बाज़ार मॉर्निंग, रतन खत्री, मैन बाज़ार डे, मैन फटाफट, बॉम्बे राजश्री डे, नाइट टाइम बाज़ार, बॉम्बे राजश्री स्टारलाइन
-<br><br>
-के ऑफलाइन व्यापार , बुकी लोग खाईवाल कटिंग के लिए मैसेज करो डायरेक्ट ऑफिस    </div>
+            <span style="color:#ff1493;display:block;text-shadow:0px 0px 5px #ffffff;font-size:22px;font-weight:bold;">
+                🎉 ☆ NOTICE ☆ 🎉
+            </span>
+
+            <span style="color:#011e76;font-size:18px;font-weight:bold;">
+                🌈 ☆ HAPPY HOLI HOLIDAY ☆ 🌈
+            </span>
+            <br><br>
+
+            DATE: <span style="color:#011e76;font-weight:bold;">04/03/2026</span><br>
+            All Markets Will Remain Closed On This Day.
+            <br><br>
+
+            <span style="color:#008000;font-weight:bold;font-size:17px;">
+                🎨 Wishing You And Your Family <br>
+                A Very Happy & Colorful Holi! 🌸🌼
+            </span>
+
+            <hr style="margin-top:15px;">
+
+            <span style="color:#d35400;font-weight:bold;">
+                🌟 Markets Will Resume As Per Regular Timings From Next Day 🌟
+            </span>
+
+        </div>
 
 
-        <a target="_blank" href="https://whatsapp.com/channel/0029VbCH7KEGpLHN8giIeL2F" rel="noopener noreferrer"
-            style="color:white;border: 2px solid #fff;padding: 2px 0px;display: block;width: 230px;
-       margin: 2px auto;border-radius: 15px;background: darkred;text-decoration:none;">
-             Join On Whatsapp
+    <?php } ?>
+
+    <style>
+    .offline-game-card {
+        position: relative;
+        background: linear-gradient(145deg, #0a3d1f 0%, #1a6b3a 50%, #0d4d28 100%);
+        padding: 22px 18px;
+        border-radius: 20px;
+        text-align: center;
+        color: white;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255,255,255,0.1);
+        border: 1.5px solid rgba(255,255,255,0.15);
+        margin-bottom: 12px;
+        overflow: hidden;
+    }
+    .offline-game-card::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(circle, rgba(255,215,0,0.06) 0%, transparent 60%);
+        animation: shimmerGlow 4s ease-in-out infinite;
+        pointer-events: none;
+    }
+    @keyframes shimmerGlow {
+        0%, 100% { transform: translate(0, 0); }
+        50% { transform: translate(10%, 10%); }
+    }
+    .offline-game-title {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: linear-gradient(135deg, #FFD700, #FFA000);
+        color: #1a1a1a;
+        padding: 7px 20px;
+        border-radius: 50px;
+        font-size: 15px;
+        font-weight: 900;
+        letter-spacing: 0.8px;
+        margin-bottom: 14px;
+        box-shadow: 0 4px 15px rgba(255,215,0,0.4);
+        text-transform: uppercase;
+    }
+    .offline-game-body {
+        font-size: 14px;
+        line-height: 1.8;
+        background: rgba(255,255,255,0.07);
+        backdrop-filter: blur(4px);
+        padding: 14px 12px;
+        border-radius: 14px;
+        border: 1px solid rgba(255,255,255,0.1);
+        color: #e8f5e9;
+        font-family: 'Inter', sans-serif;
+    }
+    .offline-game-body .mkt-names {
+        color: #a5d6a7;
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .offline-game-body .cta-text {
+        margin-top: 10px;
+        color: #ffffff;
+        font-size: 13.5px;
+        font-weight: 600;
+    }
+    .whatsapp-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 18px;
+        background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+        color: white;
+        padding: 12px 28px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: 800;
+        box-shadow: 0 6px 20px rgba(37,211,102,0.45), 0 2px 8px rgba(0,0,0,0.2);
+        transition: transform 0.2s, box-shadow 0.2s;
+        border: 2px solid rgba(255,255,255,0.3);
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        position: relative;
+        z-index: 1;
+    }
+    .whatsapp-btn:hover {
+        transform: translateY(-2px) scale(1.03);
+        box-shadow: 0 10px 28px rgba(37,211,102,0.6), 0 4px 12px rgba(0,0,0,0.25);
+    }
+    .whatsapp-btn svg {
+        width: 20px;
+        height: 20px;
+        fill: white;
+        flex-shrink: 0;
+    }
+    </style>
+
+    <div class="offline-game-card">
+        <div class="offline-game-title">
+            🎯 OFFLINE GAME SUPPORT
+        </div>
+        <div class="offline-game-body">
+            <div class="mkt-names">
+                कल्याण मॉर्निंग &bull; श्रीदेवी मॉर्निंग &bull; टाइम बाज़ार मॉर्निंग<br>
+                रतन खत्री &bull; मैन बाज़ार डे &bull; मैन फटाफट<br>
+                बॉम्बे राजश्री डे &bull; नाइट टाइम बाज़ार &bull; बॉम्बे राजश्री स्टारलाइन
+            </div>
+            <div class="cta-text">
+                📢 के ऑफलाइन व्यापार, बुकी लोग, खाईवाल, कटिंग के लिए<br>
+                <strong>डायरेक्ट ऑफिस पर मैसेज करें।</strong>
+            </div>
+        </div>
+        <a target="_blank"
+           href="https://whatsapp.com/channel/0029VbCH7KEGpLHN8giIeL2F"
+           rel="noopener noreferrer"
+           class="whatsapp-btn">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            JOIN WHATSAPP CHANNEL
         </a>
-
-
     </div>
-
 
     <?php if ($is_amp) {
         include 'live_amp.php';
@@ -2790,33 +3231,33 @@ body {
 
 
 
-<?php if(0){ ?>
-    <div>
-        <div class="para__2 para__2-fourth">
-            <p>Advertisement</p>
-            <div style="min-height:250px;">
+    <?php if (0) { ?>
+        <div>
+            <div class="para__2 para__2-fourth">
+                <p>Advertisement</p>
+                <div style="min-height:250px;">
 
 
 
-                <!-- Begin Hilltopcode Code -->
-                <script>
-                    (function(ftm) {
-                        var d = document,
-                            s = d.createElement('script'),
-                            l = d.scripts[d.scripts.length - 1];
-                        s.settings = ftm || {};
-                        s.src = "\/\/intentional-company.com\/bTXSVns.duGDlG0KY\/WgcC\/Eelmo9ruiZtUwlPkoPMTbYX2CNpT\/IywbN-DVMpt_NRjJY\/1fMPjTAE0BNQAI";
-                        s.async = true;
-                        s.referrerPolicy = 'no-referrer-when-downgrade';
-                        l.parentNode.insertBefore(s, l);
-                    })({})
-                </script>
+                    <!-- Begin Hilltopcode Code -->
+                    <script>
+                        (function(ftm) {
+                            var d = document,
+                                s = d.createElement('script'),
+                                l = d.scripts[d.scripts.length - 1];
+                            s.settings = ftm || {};
+                            s.src = "\/\/intentional-company.com\/bTXSVns.duGDlG0KY\/WgcC\/Eelmo9ruiZtUwlPkoPMTbYX2CNpT\/IywbN-DVMpt_NRjJY\/1fMPjTAE0BNQAI";
+                            s.async = true;
+                            s.referrerPolicy = 'no-referrer-when-downgrade';
+                            l.parentNode.insertBefore(s, l);
+                        })({})
+                    </script>
 
-                
+
+                </div>
             </div>
         </div>
-    </div>
-<?php } ?>
+    <?php } ?>
 
 
 
@@ -2827,7 +3268,7 @@ body {
 
 
     <!-- world me saabse fast -->
-    <h4 class="banner" style="background-color: darkgreen;padding:10px;border-radius:5px;color:#">Instant Satta Matka Results, Sabse Tez</h4>
+    <h4 class="banner" style="background-color: darkgreen;padding:10px;border-radius:5px;color:white">Instant Satta Matka Results, Sabse Tez</h4>
     <div class="satta-main-result">
         <?php
 
@@ -3047,98 +3488,85 @@ body {
     <?php
     $freeGameFile = 'txtdb/free-game-sp.txt';
     $freeGame = file($freeGameFile);
+
+    if (!function_exists('formatDigits')) {
+        function formatDigits($value, $typeClass) {
+            $parts = explode('-', trim($value));
+            echo '<div class="fg-digits-container ' . $typeClass . '">';
+            foreach ($parts as $part) {
+                $part = trim($part);
+                if ($part !== '') {
+                    echo '<div class="fg-digit-item">' . $part . '</div>';
+                }
+            }
+            echo '</div>';
+        }
+    }
     ?>
     <div class="fg-cont">
         <h4>FREE GAME ZONE OPEN-CLOSE</h4>
         <div class="fg-main-cont para_1 bdr mb-1 p-1">
             <div class="fgzoc_time">
-                <p class="fg_p1">DATE: : <?php echo $freeGame[0] ?></p>
+                <p class="fg_p1">DATE: <?php echo trim($freeGame[0]) ?></p>
                 <span>FREE GUESSING DAILY</span>
                 <h5 class="fg_p1">OPEN TO CLOSE FIX ANK</h5>
             </div>
             <div class="card-code-1212">
                 <div class="fg_c1">
-                    <p class="fg_p2"><?php echo $freeGame[1] ?></p>
-                    <p class="fg_p4">
-                        <?php echo $freeGame[2] ?>
-                    </p>
-                    <p class="fg_p4"><?php echo $freeGame[3] ?></p>
-                    <p class="fg_p4"><?php echo $freeGame[4] ?>
-                    </p>
+                    <p class="fg_p2"><?php echo trim($freeGame[1]) ?></p>
+                    <?php formatDigits($freeGame[2], 'fg-single-digits'); ?>
+                    <?php formatDigits($freeGame[3], 'fg-panel-digits'); ?>
+                    <?php formatDigits($freeGame[4], 'fg-jodi-digits'); ?>
                 </div>
                 <div class="fg_c1">
-                    <p class="fg_p2"><?php echo $freeGame[5] ?></p>
-                    <p class="fg_p4">
-                        <?php echo $freeGame[6] ?>
-                    </p>
-                    <p class="fg_p4"><?php echo $freeGame[7] ?></p>
-                    <p class="fg_p4"><?php echo $freeGame[8] ?>
-                    </p>
-                </div>
-
-
-                <div class="fg_c1">
-                    <p class="fg_p2"><?php echo $freeGame[9] ?></p>
-                    <p class="fg_p4">
-                        <?php echo $freeGame[10] ?>
-                    </p>
-                    <p class="fg_p4"><?php echo $freeGame[11] ?></p>
-                    <p class="fg_p4"><?php echo $freeGame[12] ?>
-                    </p>
+                    <p class="fg_p2"><?php echo trim($freeGame[5]) ?></p>
+                    <?php formatDigits($freeGame[6], 'fg-single-digits'); ?>
+                    <?php formatDigits($freeGame[7], 'fg-panel-digits'); ?>
+                    <?php formatDigits($freeGame[8], 'fg-jodi-digits'); ?>
                 </div>
                 <div class="fg_c1">
-                    <p class="fg_p2"><?php echo $freeGame[13] ?></p>
-                    <p class="fg_p4">
-                        <?php echo $freeGame[14] ?>
-                    </p>
-                    <p class="fg_p4"><?php echo $freeGame[15] ?></p>
-                    <p class="fg_p4"><?php echo $freeGame[16] ?>
-                    </p>
+                    <p class="fg_p2"><?php echo trim($freeGame[9]) ?></p>
+                    <?php formatDigits($freeGame[10], 'fg-single-digits'); ?>
+                    <?php formatDigits($freeGame[11], 'fg-panel-digits'); ?>
+                    <?php formatDigits($freeGame[12], 'fg-jodi-digits'); ?>
                 </div>
                 <div class="fg_c1">
-                    <p class="fg_p2"> <?php echo $freeGame[17] ?></p>
-                    <p class="fg_p4">
-                        <?php echo $freeGame[18] ?>
-                    </p>
-                    <p class="fg_p4"><?php echo $freeGame[19] ?></p>
-                    <p class="fg_p4"><?php echo $freeGame[20] ?>
-                    </p>
+                    <p class="fg_p2"><?php echo trim($freeGame[13]) ?></p>
+                    <?php formatDigits($freeGame[14], 'fg-single-digits'); ?>
+                    <?php formatDigits($freeGame[15], 'fg-panel-digits'); ?>
+                    <?php formatDigits($freeGame[16], 'fg-jodi-digits'); ?>
                 </div>
                 <div class="fg_c1">
-                    <p class="fg_p2"><?php echo $freeGame[21] ?></p>
-                    <p class="fg_p4">
-                        <?php echo $freeGame[22] ?>
-                    </p>
-                    <p class="fg_p4"><?php echo $freeGame[23] ?></p>
-                    <p class="fg_p4"><?php echo $freeGame[24] ?>
-                    </p>
+                    <p class="fg_p2"><?php echo trim($freeGame[17]) ?></p>
+                    <?php formatDigits($freeGame[18], 'fg-single-digits'); ?>
+                    <?php formatDigits($freeGame[19], 'fg-panel-digits'); ?>
+                    <?php formatDigits($freeGame[20], 'fg-jodi-digits'); ?>
                 </div>
                 <div class="fg_c1">
-                    <p class="fg_p2"> <?php echo $freeGame[25] ?></p>
-                    <p class="fg_p4">
-                        <?php echo $freeGame[26] ?>
-                    </p>
-                    <p class="fg_p4"><?php echo $freeGame[27] ?></p>
-                    <p class="fg_p4"><?php echo $freeGame[28] ?>
-                    </p>
+                    <p class="fg_p2"><?php echo trim($freeGame[21]) ?></p>
+                    <?php formatDigits($freeGame[22], 'fg-single-digits'); ?>
+                    <?php formatDigits($freeGame[23], 'fg-panel-digits'); ?>
+                    <?php formatDigits($freeGame[24], 'fg-jodi-digits'); ?>
                 </div>
                 <div class="fg_c1">
-                    <p class="fg_p2"><?php echo $freeGame[29] ?></p>
-                    <p class="fg_p4">
-                        <?php echo $freeGame[30] ?>
-                    </p>
-                    <p class="fg_p4"><?php echo $freeGame[31] ?></p>
-                    <p class="fg_p4"><?php echo $freeGame[32] ?>
-                    </p>
+                    <p class="fg_p2"><?php echo trim($freeGame[25]) ?></p>
+                    <?php formatDigits($freeGame[26], 'fg-single-digits'); ?>
+                    <?php formatDigits($freeGame[27], 'fg-panel-digits'); ?>
+                    <?php formatDigits($freeGame[28], 'fg-jodi-digits'); ?>
                 </div>
                 <div class="fg_c1">
-                    <p class="fg_p2"><?php echo $freeGame[33] ?></p>
-                    <p class="fg_p4">
-                        <?php echo $freeGame[34] ?>
-                    </p>
-                    <p class="fg_p4"><?php echo $freeGame[35] ?></p>
-                    <p class="fg_p4"><?php echo $freeGame[36] ?></p>
+                    <p class="fg_p2"><?php echo trim($freeGame[29]) ?></p>
+                    <?php formatDigits($freeGame[30], 'fg-single-digits'); ?>
+                    <?php formatDigits($freeGame[31], 'fg-panel-digits'); ?>
+                    <?php formatDigits($freeGame[32], 'fg-jodi-digits'); ?>
                 </div>
+                <div class="fg_c1">
+                    <p class="fg_p2"><?php echo trim($freeGame[33]) ?></p>
+                    <?php formatDigits($freeGame[34], 'fg-single-digits'); ?>
+                    <?php formatDigits($freeGame[35], 'fg-panel-digits'); ?>
+                    <?php formatDigits($freeGame[36], 'fg-jodi-digits'); ?>
+                </div>
+            </div>
                 <?php
                 if (0) {
                     $theData = file("txtdb/other-free-game.txt");
@@ -3714,6 +4142,23 @@ body {
         <?php } ?>
 
 
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                // Find all span tags in the satta-main-result container that might have results
+                var spans = document.querySelectorAll(".satta-main-result span");
+                spans.forEach(function(span) {
+                    // Avoid modifying elements that aren't the result string
+                    if (span.classList.length > 0) return;
+                    var text = span.textContent.trim();
+                    var parts = text.split("-");
+                    if (parts.length === 3) {
+                        span.innerHTML = parts[0] + ' <span class="middle-digit-box">' + parts[1] + '</span> ' + parts[2];
+                    } else if (text === "Loading...") {
+                        span.style.color = "#d32f2f";
+                    }
+                });
+            });
+        </script>
 </body>
 
     </html>
