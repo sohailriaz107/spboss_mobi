@@ -3,6 +3,7 @@
 	<a href="#top" class="goTopBtn"> Go to Top </a>
 </center>
 
+
 <p>
 	<?php
 	$serverIP = $_SERVER['SERVER_ADDR'] ?? '';
@@ -13,7 +14,7 @@
 </p>
 
 <style>
-	.goTopBtn {
+.goTopBtn {
 		background: linear-gradient(135deg, #b8860b 0%, #f0c040 50%, #d4a017 100%);
 		color: #1a0a00;
 		padding: 6px 18px;
@@ -148,35 +149,38 @@
 	</div>
 <?php } ?>
 
-<?php
-$host = $_SERVER['HTTP_HOST'] ?? '';
-$scriptPath = trim(dirname($_SERVER['SCRIPT_NAME'] ?? ''), '/\\');
-$siteBaseUrl = '';
-
-if (stripos($host, 'localhost') !== false || strpos($host, '127.0.0.1') !== false) {
-	$projectFolder = explode('/', $scriptPath)[0] ?? '';
-	$siteBaseUrl = $projectFolder !== '' ? '/' . $projectFolder : '';
-}
+<?php 
+$scriptName = $_SERVER['SCRIPT_NAME'];
+$basePath = (strpos($scriptName, '/spboss_mobi/') === 0) ? '/spboss_mobi/' : '/'; 
 ?>
-
 <footer>
 	<div>
-		<a class="red-text" href="<?php echo $siteBaseUrl; ?>/index.php" title="SATTA MATKA">Home</a> |
-		<a class="green-text" href="<?php echo $siteBaseUrl; ?>/matka-guessing-forum.php" title="Satta matka guessing">Guessing Forum</a> |
-		<a class="purple-text" href="<?php echo $siteBaseUrl; ?>/tricks-and-guide/tricks-zone-tips.php" title="Satta matka tricks">100% Fix Jodi Tricks</a> |
-		<a class="blue-text" href="<?php echo $siteBaseUrl; ?>/fix-game.php" title="SATTA MATKA">Date Fix Game</a>
-		<br>
-		<a class="purple-text" href="<?php echo $siteBaseUrl; ?>/about-us.php" title="About">About Us</a> |
-		<a class="purple-text" href="<?php echo $siteBaseUrl; ?>/contact-us.php" title="Contact">Contact Us</a> |
-		<a class="purple-text" href="<?php echo $siteBaseUrl; ?>/term-and-conditions.php" title="Term and Conditions">T&Css</a> |
-		<a class="purple-text" href="<?php echo $siteBaseUrl; ?>/privacy-policy.php" title="Privacy Policy">Privacy Policy</a>
+		 <a href="<?php echo $basePath; ?>index.php" class="red-text">Home</a> |
+    
+    <a href="<?php echo $basePath; ?>matka-guessing-forum.php" class="green-text">Guessing Forum</a> |
+    
+    <a href="<?php echo $basePath; ?>tricks-and-guide/tricks-zone-tips.php" class="purple-text">
+        100% Fix Jodi Tricks
+    </a> |
+    
+    <a href="<?php echo $basePath; ?>fix-game.php" class="blue-text">Date Fix Game</a>
+
+    <br><br>
+
+    <a href="<?php echo $basePath; ?>about-us.php" class="purple-text">About Us</a> |
+    
+    <a href="<?php echo $basePath; ?>contact-us.php" class="purple-text">Contact Us</a> |
+    
+    <a href="<?php echo $basePath; ?>term-and-conditions.php" class="purple-text">Terms & Conditions</a> |
+    
+    <a href="<?php echo $basePath; ?>privacy-policy.php" class="purple-text">Privacy Policy</a>
 	</div>
 	<a class="ftr-icon" href="https://spboss.mobi/">spboss.mobi</a>
 </footer>
 
 <?php if (1) { ?>
 	<a class="mp-btn" href="https://kalyanmorning.mobi/apk/KalyanMorning_V107.apk" rel="nofollow" target="_blank"><i>Matka Play</i></a>
-<?php } ?>
+<?php $siteBaseUrl = '';} ?>
 
 <?php if (0) { ?>
 	<a href="https://dpbossfix.net/apk/com.dpbossplay_1021.apk" target="_blank" style="position: fixed; bottom: 0; left: 40%; transform: translateX(-50%);">

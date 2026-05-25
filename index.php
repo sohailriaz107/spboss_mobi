@@ -572,7 +572,7 @@ date_default_timezone_set('Asia/Kolkata');
                 right: 10px;
                 top: 50%;
                 transform: translateY(-50%);
-                background:green;
+                background: green;
                 color: white;
                 padding: 5px 12px;
                 border-radius: 50px;
@@ -585,8 +585,15 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             @keyframes fastPulse {
-                0%, 100% { box-shadow: 0 0 10px rgba(255,215,0,0.7), 0 2px 6px rgba(0,0,0,0.3); }
-                50% { box-shadow: 0 0 20px rgba(255,215,0,1), 0 4px 12px rgba(0,0,0,0.4); }
+
+                0%,
+                100% {
+                    box-shadow: 0 0 10px rgba(255, 215, 0, 0.7), 0 2px 6px rgba(0, 0, 0, 0.3);
+                }
+
+                50% {
+                    box-shadow: 0 0 20px rgba(255, 215, 0, 1), 0 4px 12px rgba(0, 0, 0, 0.4);
+                }
             }
 
             .live-update-card .live-box {
@@ -1171,14 +1178,42 @@ date_default_timezone_set('Asia/Kolkata');
 
             .red_list p {
                 font-size: 16px !important;
-                text-align: center !important;
                 line-height: 1.5 !important;
                 font-family: 'Outfit', 'Inter', -apple-system, sans-serif !important;
-                padding: 6px 12px !important;
+                padding: 10px 12px !important;
                 color: #333 !important;
                 text-shadow: none !important;
                 border-bottom: 1px dashed #f8bbd0 !important;
                 margin: 0 !important;
+                display: flex !important;
+                align-items: center !important;
+                justify-content: flex-start !important;
+            }
+
+            .red_list p:last-child {
+                border-bottom: none !important;
+            }
+
+            .rl-label {
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+                width: 40px !important;
+                height: 40px !important;
+                border-radius: 50% !important;
+                border: 2px solid #333 !important;
+                font-weight: 700 !important;
+                margin-right: 15px !important;
+                flex-shrink: 0 !important;
+                font-size: 14px !important;
+                color: #333 !important;
+            }
+
+            .rl-val {
+                flex-grow: 1 !important;
+                text-align: end !important;
+                font-weight: 600 !important;
+                color: #222 !important;
             }
 
             .purple_header {
@@ -1462,7 +1497,7 @@ date_default_timezone_set('Asia/Kolkata');
             }
 
             .fg-cont .fg_c1>div {
-                border: 2px solid #008906;
+
                 border-radius: 10px;
                 margin: 5px 0;
                 padding: 5px
@@ -1844,7 +1879,7 @@ date_default_timezone_set('Asia/Kolkata');
 
             .mp_btn {
                 position: fixed;
-                background-color:darkblue ;
+                background-color: darkblue;
                 bottom: 9px;
                 left: 5px;
                 padding: 5px 8px;
@@ -1864,7 +1899,7 @@ date_default_timezone_set('Asia/Kolkata');
                 border-radius: 5px;
                 padding: 6px 11px 5px;
                 transition: all .3s ease-in;
-                color:white;
+                color: white;
             }
 
             .btm_btn_f:hover {
@@ -2498,7 +2533,7 @@ date_default_timezone_set('Asia/Kolkata');
                 color: #f8fafc !important;
                 font-size: 24px !important;
                 margin: 0 !important;
-                text-shadow: 0 2px 4px rgba(0,0,0,0.4) !important;
+                text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4) !important;
                 letter-spacing: 0.5px !important;
             }
 
@@ -2524,7 +2559,7 @@ date_default_timezone_set('Asia/Kolkata');
                 font-weight: 900 !important;
                 letter-spacing: 1px !important;
                 margin: 0 !important;
-                text-shadow: 0 2px 4px rgba(0,0,0,0.4) !important;
+                text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4) !important;
                 text-transform: uppercase !important;
             }
 
@@ -2552,20 +2587,23 @@ date_default_timezone_set('Asia/Kolkata');
                 gap: 6px !important;
                 margin-top: 12px !important;
             }
+
             .fg-single-digits .fg-digit-item {
-                width: 34px !important;
-                height: 34px !important;
-                border-radius: 50% !important;
-                background: linear-gradient(135deg, #1e40af 0%, #1d4ed8 100%) !important;
-                color: #ffffff !important;
-                font-size: 16px !important;
-                box-shadow: 0 4px 6px rgba(29, 78, 216, 0.25) !important;
-                border: 1px solid rgba(255, 255, 255, 0.15) !important;
+                padding: 4px 10px !important;
+                border-radius: 20px !important;
+                background: #f8fafc !important;
+                color: #334155 !important;
+                font-size: 11.5px !important;
+                border: 1px solid #cbd5e1 !important;
+                letter-spacing: 0.5px !important;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) !important;
             }
+
             .fg-single-digits .fg-digit-item:hover {
-                transform: translateY(-2px) scale(1.08) !important;
-                box-shadow: 0 6px 12px rgba(29, 78, 216, 0.4) !important;
-                background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%) !important;
+                background: #e2e8f0 !important;
+                color: #0f172a !important;
+                transform: translateY(-1px) !important;
+                box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08) !important;
             }
 
             /* 2. 3-Digit Panels Elegant Pills */
@@ -2573,6 +2611,7 @@ date_default_timezone_set('Asia/Kolkata');
                 gap: 6px !important;
                 margin-top: 8px !important;
             }
+
             .fg-panel-digits .fg-digit-item {
                 padding: 4px 10px !important;
                 border-radius: 20px !important;
@@ -2583,6 +2622,7 @@ date_default_timezone_set('Asia/Kolkata');
                 letter-spacing: 0.5px !important;
                 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) !important;
             }
+
             .fg-panel-digits .fg-digit-item:hover {
                 background: #e2e8f0 !important;
                 color: #0f172a !important;
@@ -2592,23 +2632,27 @@ date_default_timezone_set('Asia/Kolkata');
 
             /* 3. Jodi 2-digit Pairs */
             .fg-jodi-digits {
-                gap: 4px !important;
+
                 margin-top: 8px !important;
                 max-width: 95% !important;
             }
+
             .fg-jodi-digits .fg-digit-item {
-                padding: 3px 8px !important;
-                border-radius: 6px !important;
-                background: linear-gradient(135deg, #e11d48 0%, #be123c 100%) !important;
-                color: #ffffff !important;
-                font-size: 13px !important;
-                box-shadow: 0 2px 4px rgba(225, 29, 72, 0.2) !important;
-                border: 1px solid rgba(255, 255, 255, 0.1) !important;
+                padding: 4px 10px !important;
+                border-radius: 20px !important;
+                background: #f8fafc !important;
+                color: #334155 !important;
+                font-size: 11.5px !important;
+                border: 1px solid #cbd5e1 !important;
+                letter-spacing: 0.5px !important;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) !important;
             }
+
             .fg-jodi-digits .fg-digit-item:hover {
-                transform: scale(1.06) !important;
-                box-shadow: 0 4px 10px rgba(225, 29, 72, 0.35) !important;
-                background: linear-gradient(135deg, #f43f5e 0%, #fb7185 100%) !important;
+                background: #e2e8f0 !important;
+                color: #0f172a !important;
+                transform: translateY(-1px) !important;
+                box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08) !important;
             }
 
             /* Responsive Mobile Enhancements for Digits */
@@ -2616,26 +2660,32 @@ date_default_timezone_set('Asia/Kolkata');
                 .fgzoc_time .fg_p1 {
                     font-size: 19px !important;
                 }
+
                 .fgzoc_time span {
                     font-size: 11px !important;
                     padding: 3px 10px !important;
                 }
+
                 .fgzoc_time h5.fg_p1 {
                     font-size: 16px !important;
                 }
+
                 .fg-single-digits .fg-digit-item {
                     width: 28px !important;
                     height: 28px !important;
                     font-size: 13.5px !important;
                 }
+
                 .fg-panel-digits .fg-digit-item {
                     padding: 2px 7px !important;
                     font-size: 9px !important;
                 }
+
                 .fg-jodi-digits .fg-digit-item {
                     padding: 2px 6px !important;
                     font-size: 11px !important;
                 }
+
                 .fg-cont .fg_c1 {
                     padding: 8px 4px !important;
                 }
@@ -2766,7 +2816,7 @@ date_default_timezone_set('Asia/Kolkata');
 
 
     <!-- satta matka text -->
-  <div style="
+    <div style="
     background: #fff7e6;
     border-radius:20px;
     padding:18px;
@@ -2776,8 +2826,8 @@ date_default_timezone_set('Asia/Kolkata');
     margin-bottom:15px;
 ">
 
-    <!-- Top Section -->
-    <div style="
+        <!-- Top Section -->
+        <div style="
         display:flex;
         align-items:center;
         gap:15px;
@@ -2788,65 +2838,65 @@ date_default_timezone_set('Asia/Kolkata');
         border:1px solid #ffd9a3;
     ">
 
-        <img src="assets/img/laxmi-picture.jpeg"
-             width="90"
-             height="68"
-             style="
+            <img src="assets/img/laxmi-picture.jpeg"
+                width="90"
+                height="68"
+                style="
                 border-radius:12px;
                 border:2px solid #ffb84d;
                 object-fit:cover;
              ">
 
-        <div>
-            <div style="
+            <div>
+                <div style="
                 font-size:24px;
                 font-weight:bold;
                 color:#b36b00;
                 margin-bottom:6px;
             ">
-                🎯 !! SpBoss !!
-            </div>
+                    🎯 !! SpBoss !!
+                </div>
 
-            <div style="
+                <div style="
                 font-size:15px;
                 line-height:24px;
                 color:#333;
             ">
-                #1 Satta Matka Result Platform
+                    #1 Satta Matka Result Platform
+                </div>
             </div>
+
         </div>
 
-    </div>
-
-    <!-- Heading -->
-    <h1 style="
+        <!-- Heading -->
+        <h1 style="
         font-size:15px;
         text-align:center;
         color:#b36b00;
         margin-bottom:15px;
     ">
-        🔥 SpBoss Satta Matka Kalyan Result 🔥
-    </h1>
+            🔥 SpBoss Satta Matka Kalyan Result 🔥
+        </h1>
 
-    <!-- Description -->
-    <div style="
+        <!-- Description -->
+        <div style="
         background:#fff3dc;
         padding:15px;
         border-radius:15px;
-        line-height:30px;
-        font-size:15px;
-        text-align:center;
+        line-height:19px;
+        font-size:13px;
+        text-align:justify;
         color:#333;
         border:1px solid #ffd9a3;
     ">
-    Welcome to <b> spboss.mobi</b> no1 website satta Matka kalyan Matka fast result daily free game Kalyan milan Rajdhani ratan main bazar international sp boss no1.matka chat top fast result matka site SpBoss guessing daily Final ank single open Motor Pattai Update by by Your market ad free admin sir contact Best application download spboss ::1sad
+            Welcome to <b> spboss.mobi</b> no1 website satta Matka kalyan Matka fast result daily free game Kalyan milan Rajdhani ratan main bazar international sp boss no1.matka chat top fast result matka site SpBoss guessing daily Final ank single open Motor Pattai Update by by Your market ad free admin sir contact Best application download spboss ::1sad
 
-        
-     
+
+
+
+        </div>
 
     </div>
-
-</div>
 
     <?php
 
@@ -2863,7 +2913,11 @@ date_default_timezone_set('Asia/Kolkata');
     $goldenAnkFile = 'txtdb/golden-ank1.txt';
     ?>
     <div class="cm_patti_l">
-        <h3>Aaj Ka Lucky Number <br>(<?php echo $temp_Date; ?>)</h3>
+        <div style="display: flex;justify-content:space-between;background: #1a237e;">
+            <h3>Lucky Number </h3>
+            <h3>(<?php echo $temp_Date; ?>)</h3>
+        </div>
+
         <div class="row">
             <div class="aa_55">
                 <h4>(शुभांक)</h4>
@@ -2964,100 +3018,116 @@ date_default_timezone_set('Asia/Kolkata');
     <?php } ?>
 
     <style>
-    .offline-game-card {
-        position: relative;
-        background: linear-gradient(145deg, #0a3d1f 0%, #1a6b3a 50%, #0d4d28 100%);
-        padding: 22px 18px;
-        border-radius: 20px;
-        text-align: center;
-        color: white;
-        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255,255,255,0.1);
-        border: 1.5px solid rgba(255,255,255,0.15);
-        margin-bottom: 12px;
-        overflow: hidden;
-    }
-    .offline-game-card::before {
-        content: '';
-        position: absolute;
-        top: -50%;
-        left: -50%;
-        width: 200%;
-        height: 200%;
-        background: radial-gradient(circle, rgba(255,215,0,0.06) 0%, transparent 60%);
-        animation: shimmerGlow 4s ease-in-out infinite;
-        pointer-events: none;
-    }
-    @keyframes shimmerGlow {
-        0%, 100% { transform: translate(0, 0); }
-        50% { transform: translate(10%, 10%); }
-    }
-    .offline-game-title {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        background: linear-gradient(135deg, #FFD700, #FFA000);
-        color: #1a1a1a;
-        padding: 7px 20px;
-        border-radius: 50px;
-        font-size: 15px;
-        font-weight: 900;
-        letter-spacing: 0.8px;
-        margin-bottom: 14px;
-        box-shadow: 0 4px 15px rgba(255,215,0,0.4);
-        text-transform: uppercase;
-    }
-    .offline-game-body {
-        font-size: 14px;
-        line-height: 1.8;
-        background: rgba(255,255,255,0.07);
-        backdrop-filter: blur(4px);
-        padding: 14px 12px;
-        border-radius: 14px;
-        border: 1px solid rgba(255,255,255,0.1);
-        color: #e8f5e9;
-        font-family: 'Inter', sans-serif;
-    }
-    .offline-game-body .mkt-names {
-        color: #a5d6a7;
-        font-weight: 600;
-        font-size: 13px;
-    }
-    .offline-game-body .cta-text {
-        margin-top: 10px;
-        color: #ffffff;
-        font-size: 13.5px;
-        font-weight: 600;
-    }
-    .whatsapp-btn {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        margin-top: 18px;
-        background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
-        color: white;
-        padding: 12px 28px;
-        border-radius: 50px;
-        text-decoration: none;
-        font-size: 10px;
-        font-weight: 800;
-        box-shadow: 0 6px 20px rgba(37,211,102,0.45), 0 2px 8px rgba(0,0,0,0.2);
-        transition: transform 0.2s, box-shadow 0.2s;
-        border: 2px solid rgba(255,255,255,0.3);
-        letter-spacing: 0.5px;
-        text-transform: uppercase;
-        position: relative;
-        z-index: 1;
-    }
-    .whatsapp-btn:hover {
-        transform: translateY(-2px) scale(1.03);
-        box-shadow: 0 10px 28px rgba(37,211,102,0.6), 0 4px 12px rgba(0,0,0,0.25);
-    }
-    .whatsapp-btn svg {
-        width: 20px;
-        height: 20px;
-        fill: white;
-        flex-shrink: 0;
-    }
+        .offline-game-card {
+            position: relative;
+            background: linear-gradient(145deg, #0a3d1f 0%, #1a6b3a 50%, #0d4d28 100%);
+            padding: 22px 18px;
+            border-radius: 20px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            border: 1.5px solid rgba(255, 255, 255, 0.15);
+            margin-bottom: 12px;
+            overflow: hidden;
+        }
+
+        .offline-game-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255, 215, 0, 0.06) 0%, transparent 60%);
+            animation: shimmerGlow 4s ease-in-out infinite;
+            pointer-events: none;
+        }
+
+        @keyframes shimmerGlow {
+
+            0%,
+            100% {
+                transform: translate(0, 0);
+            }
+
+            50% {
+                transform: translate(10%, 10%);
+            }
+        }
+
+        .offline-game-title {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(135deg, #FFD700, #FFA000);
+            color: #1a1a1a;
+            padding: 7px 20px;
+            border-radius: 50px;
+            font-size: 15px;
+            font-weight: 900;
+            letter-spacing: 0.8px;
+            margin-bottom: 14px;
+            box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
+            text-transform: uppercase;
+        }
+
+        .offline-game-body {
+            font-size: 14px;
+            line-height: 1.8;
+            background: rgba(255, 255, 255, 0.07);
+            backdrop-filter: blur(4px);
+            padding: 14px 12px;
+            border-radius: 14px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #e8f5e9;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .offline-game-body .mkt-names {
+            color: #a5d6a7;
+            font-weight: 600;
+            font-size: 13px;
+        }
+
+        .offline-game-body .cta-text {
+            margin-top: 10px;
+            color: #ffffff;
+            font-size: 13.5px;
+            font-weight: 600;
+        }
+
+        .whatsapp-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 18px;
+            background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+            color: white;
+            padding: 12px 28px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 10px;
+            font-weight: 800;
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.45), 0 2px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            position: relative;
+            z-index: 1;
+        }
+
+        .whatsapp-btn:hover {
+            transform: translateY(-2px) scale(1.03);
+            box-shadow: 0 10px 28px rgba(37, 211, 102, 0.6), 0 4px 12px rgba(0, 0, 0, 0.25);
+        }
+
+        .whatsapp-btn svg {
+            width: 20px;
+            height: 20px;
+            fill: white;
+            flex-shrink: 0;
+        }
     </style>
 
     <div class="offline-game-card">
@@ -3076,10 +3146,12 @@ date_default_timezone_set('Asia/Kolkata');
             </div>
         </div>
         <a target="_blank"
-           href="https://whatsapp.com/channel/0029VbCH7KEGpLHN8giIeL2F"
-           rel="noopener noreferrer"
-           class="whatsapp-btn">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            href="https://whatsapp.com/channel/0029VbCH7KEGpLHN8giIeL2F"
+            rel="noopener noreferrer"
+            class="whatsapp-btn">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+            </svg>
             JOIN WHATSAPP CHANNEL
         </a>
     </div>
@@ -3452,37 +3524,37 @@ date_default_timezone_set('Asia/Kolkata');
         ?>
         <div>
             <h4><?php echo $weekly[0] ?></h4>
-            <p>1=><?php echo $weekly[1]; ?></p>
-            <p>2=><?php echo $weekly[2]; ?></p>
-            <p>3=><?php echo $weekly[3]; ?></p>
-            <p>4=><?php echo $weekly[4]; ?></p>
-            <p>5=><?php echo $weekly[5]; ?></p>
-            <p>6=><?php echo $weekly[6]; ?></p>
-            <p>7=><?php echo $weekly[7]; ?></p>
-            <p>8=><?php echo $weekly[8]; ?></p>
-            <p>9=><?php echo $weekly[9]; ?></p>
-            <p>0=><?php echo $weekly[10]; ?></p>
+            <p><span class="rl-label">1</span><span class="rl-val"><?php echo $weekly[1]; ?></span></p>
+            <p><span class="rl-label">2</span><span class="rl-val"><?php echo $weekly[2]; ?></span></p>
+            <p><span class="rl-label">3</span><span class="rl-val"><?php echo $weekly[3]; ?></span></p>
+            <p><span class="rl-label">4</span><span class="rl-val"><?php echo $weekly[4]; ?></span></p>
+            <p><span class="rl-label">5</span><span class="rl-val"><?php echo $weekly[5]; ?></span></p>
+            <p><span class="rl-label">6</span><span class="rl-val"><?php echo $weekly[6]; ?></span></p>
+            <p><span class="rl-label">7</span><span class="rl-val"><?php echo $weekly[7]; ?></span></p>
+            <p><span class="rl-label">8</span><span class="rl-val"><?php echo $weekly[8]; ?></span></p>
+            <p><span class="rl-label">9</span><span class="rl-val"><?php echo $weekly[9]; ?></span></p>
+            <p><span class="rl-label">0</span><span class="rl-val"><?php echo $weekly[10]; ?></span></p>
         </div>
 
         <div>
             <h4><?php echo $weekly[11]; ?></h4>
-            <p>Mon. <?php echo $weekly[12]; ?> </p>
-            <p>Tue. <?php echo $weekly[13]; ?></p>
-            <p>Wed. <?php echo $weekly[14]; ?></p>
-            <p>Thu. <?php echo $weekly[15]; ?></p>
-            <p>Fri. <?php echo $weekly[16]; ?></p>
-            <p>Sat. <?php echo $weekly[17]; ?></p>
-            <p>Sun. <?php echo $weekly[18]; ?></p>
+            <p><span class="rl-label">Mon.</span><span class="rl-val"><?php echo $weekly[12]; ?></span></p>
+            <p><span class="rl-label">Tue.</span><span class="rl-val"><?php echo $weekly[13]; ?></span></p>
+            <p><span class="rl-label">Wed.</span><span class="rl-val"><?php echo $weekly[14]; ?></span></p>
+            <p><span class="rl-label">Thu.</span><span class="rl-val"><?php echo $weekly[15]; ?></span></p>
+            <p><span class="rl-label">Fri.</span><span class="rl-val"><?php echo $weekly[16]; ?></span></p>
+            <p><span class="rl-label">Sat.</span><span class="rl-val"><?php echo $weekly[17]; ?></span></p>
+            <p><span class="rl-label">Sun.</span><span class="rl-val"><?php echo $weekly[18]; ?></span></p>
         </div>
 
         <div>
             <h4><?php echo $weekly[19]; ?></h4>
-            <p><?php echo $weekly[20]; ?></p>
-            <p><?php echo $weekly[21]; ?></p>
-            <p><?php echo $weekly[22]; ?></p>
-            <p><?php echo $weekly[23]; ?></p>
-            <p><?php echo $weekly[24]; ?></p>
-            <p><?php echo $weekly[25]; ?></p>
+            <p><span class="rl-label">1</span><span class="rl-val"><?php echo $weekly[20]; ?></span></p>
+            <p><span class="rl-label">2</span><span class="rl-val"><?php echo $weekly[21]; ?></span></p>
+            <p><span class="rl-label">3</span><span class="rl-val"><?php echo $weekly[22]; ?></span></p>
+            <p><span class="rl-label">4</span><span class="rl-val"><?php echo $weekly[23]; ?></span></p>
+            <p><span class="rl-label">5</span><span class="rl-val"><?php echo $weekly[24]; ?></span></p>
+            <p><span class="rl-label">6</span><span class="rl-val"><?php echo $weekly[25]; ?></span></p>
         </div>
     </div>
 
@@ -3493,7 +3565,8 @@ date_default_timezone_set('Asia/Kolkata');
     $freeGame = file($freeGameFile);
 
     if (!function_exists('formatDigits')) {
-        function formatDigits($value, $typeClass) {
+        function formatDigits($value, $typeClass)
+        {
             $parts = explode('-', trim($value));
             echo '<div class="fg-digits-container ' . $typeClass . '">';
             foreach ($parts as $part) {
@@ -3570,598 +3643,598 @@ date_default_timezone_set('Asia/Kolkata');
                     <?php formatDigits($freeGame[36], 'fg-jodi-digits'); ?>
                 </div>
             </div>
-                <?php
-                if (0) {
-                    $theData = file("txtdb/other-free-game.txt");
-                    foreach ($theData as $line) {
-                        list($gameName, $open, $panna, $jodi, $close) = explode("|", $line);
-                        if ($gameName == "SRIDEVI NIGHT" || $gameName == "OLD MAIN MUMBAI" || $gameName == "KARNATAKA DAY" || $gameName == "PADMAVATI" || $gameName == "MUMBAI PAREL" || $gameName == "MAIN KALYAN") {
-                ?>
-                            <div class="fg_c1">
-                                <p class="fg_p2"><?php echo $gameName ?></p>
-                                <p class="fg_p4"><?php echo $open ?></p>
-                                <p class="fg_p4"><?php echo $panna ?></p>
-                                <p class="fg_p4"><?php echo $jodi ?></p>
-                                <p class="fg_p4"><?php echo $close ?></p>
-                            </div>
-                <?php }
-                    }
-                } ?>
-
-
-            </div>
-        </div>
-        <?php
-        $adFile = 'txtdb/update-trick.txt';
-        if (!empty(file_get_contents($adFile))) {
-        ?>
-            <div class="B"><span>
-                    <p class="paa_3"><?php echo file_get_contents($adFile); ?></p>
-                </span></div>
-        <?php } ?>
-        <table width="100%" cellspacing="0" cellpadding="0" class="new_table_add">
-            <tbody>
-                <tr>
-                    <td colspan="9" class="ntah">कल्याण</td>
-                </tr>
-                <?php
-                $theData = file("txtdb/num_kalyan.txt");
-                $i = 0;
-                $days = array('सोम', 'मंगल', 'बुध', 'गुरु', 'शुक्र', 'शनि');
-
+            <?php
+            if (0) {
+                $theData = file("txtdb/other-free-game.txt");
                 foreach ($theData as $line) {
-                    $line = rtrim($line);
-                    list($single, $jodi, $patti) = explode("|", $line);
-
-                    $single_array = explode(",", $single);
-                    $jodi_array = explode(",", $jodi);
-                    $patti_array = explode(",", $patti);
-
-                ?>
-                    <tr>
-                        <td rowspan="2" class="ntah_blue_sec"><?php echo $days[$i]; ?></td>
-                        <td rowspan="2" class="ntah_red_sec"><?php echo $single_array[0]; ?></td>
-                        <td><?php echo $patti_array[0]; ?></td>
-                        <td rowspan="2" class="ntah_red_sec"><?php echo $single_array[1]; ?></td>
-                        <td><?php echo $patti_array[1]; ?></td>
-                        <td rowspan="2" class="ntah_red_sec"><?php echo $single_array[2]; ?></td>
-                        <td><?php echo $patti_array[2]; ?></td>
-                        <td rowspan="2" class="ntah_red_sec"><?php echo $single_array[3]; ?></td>
-                        <td><?php echo $patti_array[3]; ?></td>
-                    </tr>
-                    <tr>
-                        <td><?php echo $jodi_array[0]; ?></td>
-                        <td><?php echo $jodi_array[1]; ?></td>
-                        <td><?php echo $jodi_array[2]; ?></td>
-                        <td><?php echo $jodi_array[3]; ?></td>
-                    </tr>
-                <?php
-                    $i++;
+                    list($gameName, $open, $panna, $jodi, $close) = explode("|", $line);
+                    if ($gameName == "SRIDEVI NIGHT" || $gameName == "OLD MAIN MUMBAI" || $gameName == "KARNATAKA DAY" || $gameName == "PADMAVATI" || $gameName == "MUMBAI PAREL" || $gameName == "MAIN KALYAN") {
+            ?>
+                        <div class="fg_c1">
+                            <p class="fg_p2"><?php echo $gameName ?></p>
+                            <p class="fg_p4"><?php echo $open ?></p>
+                            <p class="fg_p4"><?php echo $panna ?></p>
+                            <p class="fg_p4"><?php echo $jodi ?></p>
+                            <p class="fg_p4"><?php echo $close ?></p>
+                        </div>
+            <?php }
                 }
-                ?>
-            </tbody>
-        </table>
-        <table width="100%" cellspacing="0" cellpadding="0" class="new_table_add">
-            <tbody>
+            } ?>
+
+
+        </div>
+    </div>
+    <?php
+    $adFile = 'txtdb/update-trick.txt';
+    if (!empty(file_get_contents($adFile))) {
+    ?>
+        <div class="B"><span>
+                <p class="paa_3"><?php echo file_get_contents($adFile); ?></p>
+            </span></div>
+    <?php } ?>
+    <table width="100%" cellspacing="0" cellpadding="0" class="new_table_add">
+        <tbody>
+            <tr>
+                <td colspan="9" class="ntah">कल्याण</td>
+            </tr>
+            <?php
+            $theData = file("txtdb/num_kalyan.txt");
+            $i = 0;
+            $days = array('सोम', 'मंगल', 'बुध', 'गुरु', 'शुक्र', 'शनि');
+
+            foreach ($theData as $line) {
+                $line = rtrim($line);
+                list($single, $jodi, $patti) = explode("|", $line);
+
+                $single_array = explode(",", $single);
+                $jodi_array = explode(",", $jodi);
+                $patti_array = explode(",", $patti);
+
+            ?>
                 <tr>
-                    <td colspan="9" class="ntah">KALYAN NIGHT / MAIN BAZAR </td>
+                    <td rowspan="2" class="ntah_blue_sec"><?php echo $days[$i]; ?></td>
+                    <td rowspan="2" class="ntah_red_sec"><?php echo $single_array[0]; ?></td>
+                    <td><?php echo $patti_array[0]; ?></td>
+                    <td rowspan="2" class="ntah_red_sec"><?php echo $single_array[1]; ?></td>
+                    <td><?php echo $patti_array[1]; ?></td>
+                    <td rowspan="2" class="ntah_red_sec"><?php echo $single_array[2]; ?></td>
+                    <td><?php echo $patti_array[2]; ?></td>
+                    <td rowspan="2" class="ntah_red_sec"><?php echo $single_array[3]; ?></td>
+                    <td><?php echo $patti_array[3]; ?></td>
                 </tr>
-                <?php
-                $theData = file("txtdb/num_main_bazar.txt");
-                $i = 0;
-                $days = array('सोम', 'मंगल', 'बुध', 'गुरु', 'शुक्र', 'शनि');
+                <tr>
+                    <td><?php echo $jodi_array[0]; ?></td>
+                    <td><?php echo $jodi_array[1]; ?></td>
+                    <td><?php echo $jodi_array[2]; ?></td>
+                    <td><?php echo $jodi_array[3]; ?></td>
+                </tr>
+            <?php
+                $i++;
+            }
+            ?>
+        </tbody>
+    </table>
+    <table width="100%" cellspacing="0" cellpadding="0" class="new_table_add">
+        <tbody>
+            <tr>
+                <td colspan="9" class="ntah">KALYAN NIGHT / MAIN BAZAR </td>
+            </tr>
+            <?php
+            $theData = file("txtdb/num_main_bazar.txt");
+            $i = 0;
+            $days = array('सोम', 'मंगल', 'बुध', 'गुरु', 'शुक्र', 'शनि');
 
-                foreach ($theData as $line) {
-                    $line = rtrim($line);
-                    list($single, $jodi, $patti) = explode("|", $line);
+            foreach ($theData as $line) {
+                $line = rtrim($line);
+                list($single, $jodi, $patti) = explode("|", $line);
 
-                    $single_array = explode(",", $single);
-                    $jodi_array = explode(",", $jodi);
-                    $patti_array = explode(",", $patti);
+                $single_array = explode(",", $single);
+                $jodi_array = explode(",", $jodi);
+                $patti_array = explode(",", $patti);
 
-                ?>
-                    <tr>
-                        <td rowspan="2" class="ntah_blue_sec"><?php echo $days[$i]; ?></td>
-                        <td rowspan="2" class="ntah_red_sec"><?php echo $single_array[0]; ?></td>
-                        <td><?php echo $patti_array[0]; ?></td>
-                        <td rowspan="2" class="ntah_red_sec"><?php echo $single_array[1]; ?></td>
-                        <td><?php echo $patti_array[1]; ?></td>
-                        <td rowspan="2" class="ntah_red_sec"><?php echo $single_array[2]; ?></td>
-                        <td><?php echo $patti_array[2]; ?></td>
-                        <td rowspan="2" class="ntah_red_sec"><?php echo $single_array[3]; ?></td>
-                        <td><?php echo $patti_array[3]; ?></td>
-                    </tr>
-                    <tr>
-                        <td><?php echo $jodi_array[0]; ?></td>
-                        <td><?php echo $jodi_array[1]; ?></td>
-                        <td><?php echo $jodi_array[2]; ?></td>
-                        <td><?php echo $jodi_array[3]; ?></td>
-                    </tr>
-                <?php
-                    $i++;
-                }
-                ?>
-            </tbody>
-        </table>
-        <!--list--><!-- jodi/panel list -->
-        <div class="purple_header ab1">
-            <h6>SATTA MATKA JODI CHART</h6>
-            <a href="https://spboss.mobi/jodi/time-bazar.php">Time Chart</a>
-            <a href="https://spboss.mobi/jodi/sridevi.php">Sridevi Chart</a>
-            <a href="https://spboss.mobi/jodi/kalyan-morning.php">Kalyan Morning Chart</a>
-            <a href="https://spboss.mobi/jodi/kalyan.php">Kalyan Chart</a>
-            <a href="https://spboss.mobi/jodi/sridevi-night.php">Sridevi Night Chart</a>
-            <a href="https://spboss.mobi/jodi/kalyan-night.php">Kalyan Night Chart</a>
+            ?>
+                <tr>
+                    <td rowspan="2" class="ntah_blue_sec"><?php echo $days[$i]; ?></td>
+                    <td rowspan="2" class="ntah_red_sec"><?php echo $single_array[0]; ?></td>
+                    <td><?php echo $patti_array[0]; ?></td>
+                    <td rowspan="2" class="ntah_red_sec"><?php echo $single_array[1]; ?></td>
+                    <td><?php echo $patti_array[1]; ?></td>
+                    <td rowspan="2" class="ntah_red_sec"><?php echo $single_array[2]; ?></td>
+                    <td><?php echo $patti_array[2]; ?></td>
+                    <td rowspan="2" class="ntah_red_sec"><?php echo $single_array[3]; ?></td>
+                    <td><?php echo $patti_array[3]; ?></td>
+                </tr>
+                <tr>
+                    <td><?php echo $jodi_array[0]; ?></td>
+                    <td><?php echo $jodi_array[1]; ?></td>
+                    <td><?php echo $jodi_array[2]; ?></td>
+                    <td><?php echo $jodi_array[3]; ?></td>
+                </tr>
+            <?php
+                $i++;
+            }
+            ?>
+        </tbody>
+    </table>
+    <!--list--><!-- jodi/panel list -->
+    <div class="purple_header ab1">
+        <h6>SATTA MATKA JODI CHART</h6>
+        <a href="https://spboss.mobi/jodi/time-bazar.php">Time Chart</a>
+        <a href="https://spboss.mobi/jodi/sridevi.php">Sridevi Chart</a>
+        <a href="https://spboss.mobi/jodi/kalyan-morning.php">Kalyan Morning Chart</a>
+        <a href="https://spboss.mobi/jodi/kalyan.php">Kalyan Chart</a>
+        <a href="https://spboss.mobi/jodi/sridevi-night.php">Sridevi Night Chart</a>
+        <a href="https://spboss.mobi/jodi/kalyan-night.php">Kalyan Night Chart</a>
 
-            <a href="https://spboss.mobi/jodi/main-bazar.php">Main Bazar Chart</a>
-            <a href="https://spboss.mobi/jodi/milan-morning.php">Milan Morning Chart</a>
-            <a href="https://spboss.mobi/jodi/milan-day.php">Milan Day Chart</a>
-            <a href="https://spboss.mobi/jodi/milan-night.php">Milan Night Chart</a>
-            <a href="https://spboss.mobi/jodi/rajdhani-night.php"> Rajdhani Night Chart </a>
-            <a href="https://spboss.mobi/jodi/mumbai-morning.php"> Mumbai Morning Chart </a>
-        </div>
+        <a href="https://spboss.mobi/jodi/main-bazar.php">Main Bazar Chart</a>
+        <a href="https://spboss.mobi/jodi/milan-morning.php">Milan Morning Chart</a>
+        <a href="https://spboss.mobi/jodi/milan-day.php">Milan Day Chart</a>
+        <a href="https://spboss.mobi/jodi/milan-night.php">Milan Night Chart</a>
+        <a href="https://spboss.mobi/jodi/rajdhani-night.php"> Rajdhani Night Chart </a>
+        <a href="https://spboss.mobi/jodi/mumbai-morning.php"> Mumbai Morning Chart </a>
+    </div>
 
-        <div class="purple_header ab1">
-            <h6>MATKA PANEL CHART</h6>
-            <a href="https://spboss.mobi/panel/time-bazar.php">Time Panel Chart</a>
-            <a href="https://spboss.mobi/panel/sridevi.php">Sridevi Panel Chart</a>
-            <a href="https://spboss.mobi/panel/kalyan-morning.php">Kalyan Morning Panel Chart</a>
-            <a href="https://spboss.mobi/panel/kalyan.php">Kalyan Penal Chart</a>
-            <a href="https://spboss.mobi/panel/sridevi-night.php">Sridevi Night Penal Chart</a>
-            <a href="https://spboss.mobi/panel/kalyan-night.php">Kalyan Night Penal Chart</a>
+    <div class="purple_header ab1">
+        <h6>MATKA PANEL CHART</h6>
+        <a href="https://spboss.mobi/panel/time-bazar.php">Time Panel Chart</a>
+        <a href="https://spboss.mobi/panel/sridevi.php">Sridevi Panel Chart</a>
+        <a href="https://spboss.mobi/panel/kalyan-morning.php">Kalyan Morning Panel Chart</a>
+        <a href="https://spboss.mobi/panel/kalyan.php">Kalyan Penal Chart</a>
+        <a href="https://spboss.mobi/panel/sridevi-night.php">Sridevi Night Penal Chart</a>
+        <a href="https://spboss.mobi/panel/kalyan-night.php">Kalyan Night Penal Chart</a>
 
-            <a href="https://spboss.mobi/panel/main-bazar.php">Main Bazar Penal Chart</a>
-            <a href="https://spboss.mobi/panel/milan-morning.php">Milan Morning Panel Chart</a>
-            <a href="https://spboss.mobi/panel/milan-day.php"> Milan Day Penal Chart </a>
-            <a href="https://spboss.mobi/panel/milan-night.php"> Milan Night Penal Chart </a>
-            <a href="https://spboss.mobi/panel/rajdhani-night.php"> Rajdhani Night Panel Chart </a>
-            <a href="https://spboss.mobi/panel/mumbai-morning.php">Mumbai Morning Panel Chart</a>
+        <a href="https://spboss.mobi/panel/main-bazar.php">Main Bazar Penal Chart</a>
+        <a href="https://spboss.mobi/panel/milan-morning.php">Milan Morning Panel Chart</a>
+        <a href="https://spboss.mobi/panel/milan-day.php"> Milan Day Penal Chart </a>
+        <a href="https://spboss.mobi/panel/milan-night.php"> Milan Night Penal Chart </a>
+        <a href="https://spboss.mobi/panel/rajdhani-night.php"> Rajdhani Night Panel Chart </a>
+        <a href="https://spboss.mobi/panel/mumbai-morning.php">Mumbai Morning Panel Chart</a>
 
-        </div>
-
-
-        <div class="home-footer-container">
-
-            <div class="home-footer-content">
-                <h2 class="small-heading">Welcome to Spboss Mobi: Your Premier Destination for Satta Matka Insights and
-                    Results</h2>
-                <p>
-                    Welcome to Spboss Mobi, Your Premier Destination for Satta Matka Insights and Results. At Spboss, we
-                    strive to bring you the most relevant and latest information concerning Satta Matka. Our platform
-                    assists both beginners looking to grasp the basics of Satta Matka and advanced players searching for
-                    strategies to give them an edge.<br>
-                    Join us to enhance your experience as a Satta Matka enthusiast by visiting Spboss Mobi and keeping
-                    abreast of Kalyan Matka along with other Satta Matka results. Our priority is to make sure that your
-                    experience is effortless and fulfilling.<br>
-                    Satta Matka is not only a game but also a blend of luck and skill together with a story behind it.
-                    This number-based game was introduced in India and even now it continues to capture the imagination
-                    of millions. Players are supposed to select numbers, place their number and then wait for the
-                    result. It is the uncertainty of the result that makes the experience exhilarating.
-                </p>
-            </div>
-
-            <div class="home-footer-content">
-                <h2 class="small-heading">What is Satta Matka?</h2>
-                <p>
-                    Satta matka is a number based game that has been used for centuries. It involves guessing a random
-                    number between 1 and 9. By guessing the correct sequence of numbers, you can win huge cash. Make
-                    sure you place choose on the right numbers with the help of certain strategies and matka
-                    calculations.
-                </p>
-            </div>
-
-            <div class="home-footer-content">
-                <h2 class="small-heading">How To Play Satta Matka?</h2>
-                <p>
-                    Choosing the right number game market is the first step. For beginners, we suggest markets such as
-                    Rajdhani, Kalyan Matka, Milan Day/Night and other popular ones because they offer a better
-                    experience.<br>
-                    Based on your instincts, hypotheses, or valuable insights from the experts, you have the freedom to
-                    select a group of figures that you would like to work with.<br>
-                    <strong>Place Your Number:</strong> Determine what amount you would like to play and make your game
-                    within those parameters.<br>
-                    <strong>Await the Results:</strong> After placing your numbers, sit back and wait to see if the
-                    official outcome aligns with your wager.<br>
-                    Unlike other operators, Spboss Mobi ensures a user's positive gaming experience by providing expert
-                    advice, user-friendly interfaces, and real time updates.
-                </p>
-            </div>
-
-            <div class="home-footer-content">
-                <h2 class="small-heading">Spboss Mobi: The Foundation of Satta Matka</h2>
-                <p>
-                    Satta Matka’s contestant would have come across Spboss when looking for results or tips, making it a
-                    reference point. Spboss Mobi has established itself as one of his Satta Matka specialists who gives
-                    all the information, results, and even the tactical relativities that his players need.
-                </p>
-            </div>
-
-            <div class="home-footer-content">
-                <h2 class="small-heading">The Role of Spboss Mobi in Satta Matka</h2>
-                <p>
-                    ● Result Announcements: Market results are made available in a speedy way which has made Spboss
-                    popular with players. <br>
-                    ● Spboss Mobi provides players with timely information to make the right call in a timely manner.
-                    <br>
-                    ● Spboss Mobi is also known to provide his players with expert tips and strategies beyond the
-                    results which helps the players make better decisions on their numbers. <br>
-                    ● Historical data and charts are provided by Spboss Mobi to enhance evaluation opportunities for
-                    players to see available information.
-                </p>
-                <p>
-                    The information combined with the tools and features Spboss Mobi offers elevates gameplay which
-                    means the essence of Spboss Mobi is integrated into the site.
-                </p>
-            </div>
-
-            <div class="home-footer-content">
-                <h2 class="small-heading">Kalyan Matka: An Overview of the Widely Used Market</h2>
-                <p>
-                    Kalyan Matka is without a doubt one of the most popular and profitable markets. Its long-standing
-                    history and its constant gameplay makes it appealing for many players.<br>
-                    <span>Kalyan Matka's History:</span>
-                    Kalyan Matka started in the 1960s by Kalyanji Bhagat. Initially, it was a number-style game based on
-                    the opening and closing rates of cotton from the New York Cotton Exchange.Gradually, it became the
-                    number based game we know today.
-                </p>
-                <p>
-                    <span>Why is Kalyan Matka Popular?</span>
-                    ● Daily Engagement: Players are able to play everyday which helps them engage on a daily basis.
-                    Engagement is a good sign of retention for any company <br>
-                    ● High Rewards: Like most of the gaming markets, it is famous for its very high payouts that capture
-                    the interest of both new and advanced players. <br>
-                    ● Predictability: Using previous statistics with a range of historical data, players can create
-                    their own strategies that increase their chances of winning.<br>
-                    From daily Kalyan Matka results and expert analyses, tips and advice at Spboss Mobi ensure that our
-                    users can confidently participate in this market.
-                </p>
-            </div>
-
-            <div class="home-footer-content">
-                <h2 class="small-heading">Spboss Mobi's Commitment to Integrity</h2>
-                <p>
-                    At Spboss Mobi, we ensure the correctness and punctuality of our Matka results. Our dedicated team
-                    makes sure that Kalyan Matka, Milan, Rajdhani, and other main markets are matched and run together.
-                    Additionally, we offer all-encompassing historical data, allowing players to strategize with past
-                    information.
-                </p>
-            </div>
-
-            <div class="home-footer-content">
-                <h2 class="small-heading">Strategies and Tips for Satta Matka Followers</h2>
-                <p>
-                    While Satta Matka is primarily a luck-based competition, some strategies could improve chances of
-                    winning. Here are some recommendations you might want to think about: <br>
-                    ● Start Small: Particularly for novices, starting with smaller game is preferable so that one can
-                    grasp the concept of the game without incurring huge risk. <br>
-                    ● Analyze Historical Data: Reviewing previous results is beneficial as it assists in identifying
-                    patterns and trends which can inform future game. <br>
-                    ● Set a Budget: It’s best to set a limit a person can wager so that no one game more than they are
-                    willing to lose. <br>
-                    ● Stay Updated: Stay current by frequently checking places like Spboss Mobi for new results, tips,
-                    and analyses of the market. <br>
-                    ● Avoid Chasing Losses: If there are persistent losses, avoid throwing in more games with the hope
-                    of a quick recovery. <br>
-                    As a courtesy, remember that no matter how much strategies can improve your game, there is no
-                    surefire way to win every single time. Play within your limits.
-                </p>
-            </div>
-
-            <div class="home-footer-content">
-                <h2 class="small-heading">Satta Matka: Its Transition from Traditional to Digital</h2>
-                <p>
-                    As years pass, the world of Satta Matka has seen a myriad of changes. From its old school ways to
-                    new age digital systems, the game has undergone drastic changes.
-                    Traditional Satta Matka
-                    Starting off, Satta Matka was played at specific locations known as ‘Matka dens’. Players would go
-                    to these places to ‘place their numbers’ and the announcement of the results would be made in these
-                    public areas. The game was exciting due to the thrilling community environment.<br>
-                    <span>Changes Brought Over Time</span>
-                    With the internet coming into the picture, Satta Matka shifted to online platforms. Some of the
-                    advantages include:<br>
-
-                    ● Convenience: Players can now use their accounts from home. They do not need to get ready or travel
-                    anywhere.<br>
-                    ● Instant Notifications: Online service centers provide their clients with instant update
-                    results.<br>
-                    ● Access To More Markets: Digital platforms provide their players access to various markets such as
-                    Kalyan Matka and even international markets.<br>
-
-                    Spboss Mobi welcomes this online progression by providing their clients with all the functionalities
-                    that they would require to have an experience that fuses the excitement of traditional Satta Matka
-                    with modern online comforts.
-                </p>
-            </div>
-
-            <div class="home-footer-content">
-                <h2 class="small-heading">Why Kalyan Matka is more popular to play?</h2>
-                <p>
-                    Kalyan Matka is a popular form of Satta Matka. Firstly comes in the 1960s and was introduced by
-                    Kalyanji Bhagat. Players need to play on games and results are declared twice daily.<br>
-                    However, Kalyan popularity stems from its structured gameplay and trust among players. Many players
-                    prefer Kalyan Matka for its consistency and the chance to win attractive rewards.
-                </p>
-            </div>
-
-            <div class="home-footer-content">
-                <h2 class="small-heading">Responsible Gaming: Protecting Against Risks of Gaming While Maximizing
-                    Enjoyment</h2>
-                <p>
-                    Like all other online games, Satta Matka offers something special – fun and excitement. However, it
-                    is critical to remember that, just like any other form of gaming, it should be indulged in
-                    moderation and caution. Never treat game as a viable money making scheme.<br>
-                    <span>Guidelines for Playing Satta Matka Responsibly</span>
-
-                    <strong>● Set Limits:</strong> As with many forms of entertainment, you cannot enjoy something if
-                    you don’t have a limit. Determine a time and financial budget beforehand, and ensure to stick to
-                    it.<br>
-                    <strong>● Mind Over Heart:</strong> Never fall into the pit of chasing losses. Maintain your
-                    composure, and don’t make number game decisions based on overly emotional thinking.<br>
-                    <strong>● Know When to Step Away:</strong> Continuously playing to win only leads to dire decision
-                    making. Pause to refresh your mind.<br>
-                    <strong>● Learn Before You Earn:</strong> Become acquainted with the basic principles of various
-                    markets, strategies, and methods and only then invest your hard earned money.<br>
-                    <strong>● Costly Investment:</strong> If you or someone you know finds themselves spending more than
-                    they can afford, or feeling stress over their losses, reaching out for support may be the best
-                    option.<br>
-                    At Spboss Mobi actively promotes a healthy gaming atmosphere and supports the moderation of in-game
-                    activities as well as responsible choices when it comes to finances.
-                </p>
-            </div>
-
-            <div class="home-footer-content">
-                <h2 class="small-heading">Understanding Matka Charts and Their Functionality in Winning</h2>
-                <p>
-                    Matka charts are invaluable devices for gamblers since they help them study and estimate future
-                    outcomes based on prior results. Charts display previous results of different Matka markets,
-                    allowing players to make calculated gaming decisions.<br>
-                    Types of Matka Chart:<br>
-
-                    <strong>● Jodi Charts-</strong> Wins the number combination for specific markets.<br>
-                    <strong>● Panel Charts-</strong> The panel displays results in a three-digit format for chart-be and
-                    bad analysis.<br>
-                    <strong>● Patti Charts -</strong> Helps players to track the trend of patterns in various draws.<br>
-
-                    <span>Why are Matka charts important?</span>
-                    ● Helps in understanding market trends.<br>
-                    ● Aids in estimating the next possible result.<br>
-                    ● Gives players a strategic edge when random estimates.<br>
-                    The Spboss Mobi provides regular updated matka charts to analyze the pattern and increase the
-                    chances of winning their winning.
-                </p>
-            </div>
-
-            <div class="home-footer-content">
-                <h2 class="small-heading">Satta Matka to Improve Tips and Tricks to Improve Win Opportunities</h2>
-                <p>
-                    While the Satta Matka is based on luck, many players use strategies to improve their winning
-                    prospects. Here are some specialist tips from Spboss Mobi:<br>
-                    <strong>1. Follow a matka strategy --</strong>
-                    Stick to a market (Kalyan Matka, Milan, RJDA) and study its trends before placing number.<br>
-                    <strong>2. Use historical data for your benefit --</strong>
-                    Check the previous Matka results and patterns from the Matka chart before play the game.<br>
-                    <strong>3. Small quantity game --</strong>
-                    Do not put all your money in one condition. Start with small game and only grow if you win.<br>
-                    <strong>4. Stay updated with the market --</strong>
-                    Follow specialist predictions at Spboss Mobi tips to inform.<br>
-                    <strong>5. Keep patience and control at your stake --</strong>
-                    Matka is a game of patience, so think strategically.<br>
-                    In Spboss Mobi, we provide free Matka tips, expert guessing numbers and daily insight to help the
-                    players improve their obstacles!
-                </p>
-            </div>
-
-            <div class="home-footer-content">
-                <h2 class="small-heading">Why Choose Spboss Mobi for your SATA MATKA needs?</h2>
-                <p>
-                    Spboss Mobi stands out as a reliable matka platform because of this:<br>
-
-                    ● 100% accurate results - We ensure the fastest and most reliable Matka results.<br>
-                    ● Expert guidance - Get tips from experienced players and Spboss leaks.<br>
-                    ● Check the Matka results, tips, and updates from the user-friendly interface.<br>
-                    ● Update Matka Chart - Use historical data to make better predictions.<br>
-                    ● Safe and Safe Platform - We give importance to your privacy and provide a safe satta matka
-                    experience.<br>
-                    Spboss Mobi is your one-stop solution for everything related to Spboss, Matka results, Kalyan Matka,
-                    and Satta gaming insights!
-                </p>
-            </div>
-
-            <div class="home-footer-content">
-                <h2 class="small-heading">How can Spboss Mobi help you to win in Satta Spboss?</h2>
-                <p>
-                    We are the best in the Satta Spboss world for several reasons. We have a user user-friendly platform
-                    for both beginners and experienced players, a clean interface, and all the information you need is
-                    at your fingertips. Whether you are looking for live results, historical charts, or gaming tips
-                    Spboss Mobi has it all under one roof.<br>
-
-                    What makes Spboss Mobi different is its accuracy and real-time updates. Players can trust the
-                    platform for timely results and genuine information so you never miss any game changes. The website
-                    also provides expert advice and strategies so you can make better decisions to increase your winning
-                    chances.<br>
-
-                    Also Spboss.Mobi takes care of security and privacy so you can play Satta Matka with full comfort.
-                    With its focus on user experience and transparent information, Spboss.in has become a trusted and
-                    secure platform in the Satta world.<br>
-
-                    If you are looking for a reliable and complete platform to explore Satta Spboss game then Spboss
-                    Mobi is your one-stop destination. It’s the best place to learn and win in the Satta world.
-                </p>
-            </div>
-
-            <div class="home-footer-content">
-                <h2 class="faq-heading">Frequently Asked Questions (FAQs) for Satta Matka Game</h2>
-
-                <div class="home-footer-content-faq">
-                    <h3 class="faq-title">Q1: What is SPBOSS MOBI in Satta Mataka?</h3>
-                    <p class="faq-ans">SPBOSS MOBI is a major Matka platform that provides SATA MATKA results, charts
-                        and expert tips. It is a reliable source for players looking for accurate game insights.</p>
-
-                    <h3 class="faq-title">Q2: How can I see the play matka result online?</h3>
-                    <p class="faq-ans">You can check the satta matka results in SPBOSS MOBI. We provide real-time
-                        updates for Kalyan Matka, Milan Matka, Razmandi Matka, and more.</p>
-
-                    <h3 class="faq-title">Q3: What is Matka result time?</h3>
-                    <p class="faq-ans">Each Matka results are announced at different times, which is on the basis of the
-                        market. Spboss Mobi provides real-time updates on all results so that you can be informed.</p>
-
-                    <h3 class="faq-title">Q4: How do I play Kalyan Mataka?</h3>
-                    <p class="faq-ans">
-                        ● Choose a market (Kalyan, Day/Night, or Rajdhani).<br>
-                        ● Select the number and place your number.<br>
-                        ● Wait for the official results if you live.<br>
-                        ● Use Spboss Mobi expert tips to improve your strategy.
-                    </p>
-
-                    <h3 class="faq-title">Q5: Is Matka and play the same thing?</h3>
-                    <p class="faq-ans">Yes, both words refer to the same number game. While the "matka" refers to the
-                        traditional number game system, "satta" is a more common word for number gaming in India.</p>
-
-                    <h3 class="faq-title">Q6: Where can I find tips to guess Matka?</h3>
-                    <p class="faq-ans">Spboss Mobi provides daily matka tips, predictions and expert guidance to help
-                        you make informed numbers.</p>
-
-                    <h3 class="faq-title">Q7: How to use Matka Chart to win?</h3>
-                    <p class="faq-ans">Matka charts show historical data and number trends. Players use them to predict
-                        a potential victory number for the upcoming draw.</p>
-
-                    <h3 class="faq-title">Q8: Is Satta Matka playing legally?</h3>
-                    <p class="faq-ans">Play Satta Matka is allowed in some places but not in others. In India, some
-                        forms of gaming are restricted, while others are allowed under state laws. Always check your
-                        local rules before playing.</p>
-
-                    <h3 class="faq-title">Q9: What should I survive while playing the role of Satta Mataka?</h3>
-                    <p class="faq-ans">Avoid gaming without understanding the rules and strategies to play
-                        responsibility and safely. Having high-risk number without proper analysis. Chasing the loss
-                        after losing game. Relying on rejection of rejected or fake result websites.</p>
-
-                    <h3 class="faq-title">Q10: How to check Kalyan Matka results?</h3>
-                    <p class="faq-ans">To check Kalyan Matka results visit a trusted Matka website like Spboss Mobi or
-                        use its dedicated app that provides results regularly.</p>
-                </div>
-            </div>
+    </div>
 
 
-        </div>
+    <div class="home-footer-container">
 
-
-
-        <!-- satta matka -->
-        <div class="ftr_sm">
-            <span>SATTA MARKET</span>
+        <div class="home-footer-content">
+            <h2 class="small-heading">Welcome to Spboss Mobi: Your Premier Destination for Satta Matka Insights and
+                Results</h2>
             <p>
-                Kalyan Matka | Satta Bazar | Satta Kurla | Satta | spboss.mobi | SattaMatka11.in | Spboss.com | Org Mobi
-                Net In | Satta Master | Matka Game | Kapil Indian Matka | Matka Parivar 24 | Prabhat Matka | Tara Matka
-                | Golden Matka | SattaMatka.Com | Madhur Matka satta result chart, satta khabar, matka india net,
-                satakmatak, satta chart 2019, satta bazar result, satta live, satta bajar, satta matka mumbai chart,
-                satta live result, satta fast result, satta fast, satta today Number
-                <?php
-
-                $serverAddr = $_SERVER['SERVER_ADDR'];
-                $segments = explode('.', $serverAddr);
-                echo $lastSection = end($segments);
-
-                ?>
-                Satta Matka
+                Welcome to Spboss Mobi, Your Premier Destination for Satta Matka Insights and Results. At Spboss, we
+                strive to bring you the most relevant and latest information concerning Satta Matka. Our platform
+                assists both beginners looking to grasp the basics of Satta Matka and advanced players searching for
+                strategies to give them an edge.<br>
+                Join us to enhance your experience as a Satta Matka enthusiast by visiting Spboss Mobi and keeping
+                abreast of Kalyan Matka along with other Satta Matka results. Our priority is to make sure that your
+                experience is effortless and fulfilling.<br>
+                Satta Matka is not only a game but also a blend of luck and skill together with a story behind it.
+                This number-based game was introduced in India and even now it continues to capture the imagination
+                of millions. Players are supposed to select numbers, place their number and then wait for the
+                result. It is the uncertainty of the result that makes the experience exhilarating.
             </p>
         </div>
 
-        <!-- disclamer -->
-        <div class="disclaimer">
-            <h6>-:DISCLAIMER:-</h6>
+        <div class="home-footer-content">
+            <h2 class="small-heading">What is Satta Matka?</h2>
             <p>
-                Viewing This WebSite Is On Your Own Risk All The information Shown On Website Is Based on Numerology and
-                Astrology for Information Purposes We Are Not Associated with Any Illegal Matka Business or Gamblers We
-                Warn
-                You
-                That Matka Gambling in Your Country May be Banned or Illegal... We Are Not Responsible For Any Issues or
-                Scam...
-                We Respect All Country Rules Laws... If You Not Agree With Our Site Disclaimer... Please Quit Our Site
-                Right
-                Now. Copying Promoting Publishing Any of Our Content in Any Type Of Media or Other Source is Illegal and
-                against
-                Law
+                Satta matka is a number based game that has been used for centuries. It involves guessing a random
+                number between 1 and 9. By guessing the correct sequence of numbers, you can win huge cash. Make
+                sure you place choose on the right numbers with the help of certain strategies and matka
+                calculations.
             </p>
         </div>
 
-        <!-- powered by us -->
-        <h6 class="pby_us">POWERD BY spboss.mobi</h6>
-        <div class="ftr_sm">
+        <div class="home-footer-content">
+            <h2 class="small-heading">How To Play Satta Matka?</h2>
             <p>
-                &copy; 2011 - <?php echo date('Y'); ?> spboss.mobi <br>
-                <a href="about-us.php">About us</a> | <a
-                    href="contact-us.php">Contact
-                    us</a> <br>
-                <a href="privacy-policy.php">Privacy &amp; policy</a> | <a
-                    href="term-and-conditions.php">Term And Conditions</a> |
-                <a href="https://spboss.mobi/sitemap.xml">Sitemap</a>
+                Choosing the right number game market is the first step. For beginners, we suggest markets such as
+                Rajdhani, Kalyan Matka, Milan Day/Night and other popular ones because they offer a better
+                experience.<br>
+                Based on your instincts, hypotheses, or valuable insights from the experts, you have the freedom to
+                select a group of figures that you would like to work with.<br>
+                <strong>Place Your Number:</strong> Determine what amount you would like to play and make your game
+                within those parameters.<br>
+                <strong>Await the Results:</strong> After placing your numbers, sit back and wait to see if the
+                official outcome aligns with your wager.<br>
+                Unlike other operators, Spboss Mobi ensures a user's positive gaming experience by providing expert
+                advice, user-friendly interfaces, and real time updates.
             </p>
         </div>
 
+        <div class="home-footer-content">
+            <h2 class="small-heading">Spboss Mobi: The Foundation of Satta Matka</h2>
+            <p>
+                Satta Matka’s contestant would have come across Spboss when looking for results or tips, making it a
+                reference point. Spboss Mobi has established itself as one of his Satta Matka specialists who gives
+                all the information, results, and even the tactical relativities that his players need.
+            </p>
+        </div>
 
-        <!-- refresh button -->
-        <?php if ($app_link_flag) { ?>
-            <a class="mp_btn" href="<?php echo $app_link; ?>" rel="noreferrer nofollow noopener" target="_blank"><i>Matka
-                    Play</i></a>
-        <?php } ?>
+        <div class="home-footer-content">
+            <h2 class="small-heading">The Role of Spboss Mobi in Satta Matka</h2>
+            <p>
+                ● Result Announcements: Market results are made available in a speedy way which has made Spboss
+                popular with players. <br>
+                ● Spboss Mobi provides players with timely information to make the right call in a timely manner.
+                <br>
+                ● Spboss Mobi is also known to provide his players with expert tips and strategies beyond the
+                results which helps the players make better decisions on their numbers. <br>
+                ● Historical data and charts are provided by Spboss Mobi to enhance evaluation opportunities for
+                players to see available information.
+            </p>
+            <p>
+                The information combined with the tools and features Spboss Mobi offers elevates gameplay which
+                means the essence of Spboss Mobi is integrated into the site.
+            </p>
+        </div>
+
+        <div class="home-footer-content">
+            <h2 class="small-heading">Kalyan Matka: An Overview of the Widely Used Market</h2>
+            <p>
+                Kalyan Matka is without a doubt one of the most popular and profitable markets. Its long-standing
+                history and its constant gameplay makes it appealing for many players.<br>
+                <span>Kalyan Matka's History:</span>
+                Kalyan Matka started in the 1960s by Kalyanji Bhagat. Initially, it was a number-style game based on
+                the opening and closing rates of cotton from the New York Cotton Exchange.Gradually, it became the
+                number based game we know today.
+            </p>
+            <p>
+                <span>Why is Kalyan Matka Popular?</span>
+                ● Daily Engagement: Players are able to play everyday which helps them engage on a daily basis.
+                Engagement is a good sign of retention for any company <br>
+                ● High Rewards: Like most of the gaming markets, it is famous for its very high payouts that capture
+                the interest of both new and advanced players. <br>
+                ● Predictability: Using previous statistics with a range of historical data, players can create
+                their own strategies that increase their chances of winning.<br>
+                From daily Kalyan Matka results and expert analyses, tips and advice at Spboss Mobi ensure that our
+                users can confidently participate in this market.
+            </p>
+        </div>
+
+        <div class="home-footer-content">
+            <h2 class="small-heading">Spboss Mobi's Commitment to Integrity</h2>
+            <p>
+                At Spboss Mobi, we ensure the correctness and punctuality of our Matka results. Our dedicated team
+                makes sure that Kalyan Matka, Milan, Rajdhani, and other main markets are matched and run together.
+                Additionally, we offer all-encompassing historical data, allowing players to strategize with past
+                information.
+            </p>
+        </div>
+
+        <div class="home-footer-content">
+            <h2 class="small-heading">Strategies and Tips for Satta Matka Followers</h2>
+            <p>
+                While Satta Matka is primarily a luck-based competition, some strategies could improve chances of
+                winning. Here are some recommendations you might want to think about: <br>
+                ● Start Small: Particularly for novices, starting with smaller game is preferable so that one can
+                grasp the concept of the game without incurring huge risk. <br>
+                ● Analyze Historical Data: Reviewing previous results is beneficial as it assists in identifying
+                patterns and trends which can inform future game. <br>
+                ● Set a Budget: It’s best to set a limit a person can wager so that no one game more than they are
+                willing to lose. <br>
+                ● Stay Updated: Stay current by frequently checking places like Spboss Mobi for new results, tips,
+                and analyses of the market. <br>
+                ● Avoid Chasing Losses: If there are persistent losses, avoid throwing in more games with the hope
+                of a quick recovery. <br>
+                As a courtesy, remember that no matter how much strategies can improve your game, there is no
+                surefire way to win every single time. Play within your limits.
+            </p>
+        </div>
+
+        <div class="home-footer-content">
+            <h2 class="small-heading">Satta Matka: Its Transition from Traditional to Digital</h2>
+            <p>
+                As years pass, the world of Satta Matka has seen a myriad of changes. From its old school ways to
+                new age digital systems, the game has undergone drastic changes.
+                Traditional Satta Matka
+                Starting off, Satta Matka was played at specific locations known as ‘Matka dens’. Players would go
+                to these places to ‘place their numbers’ and the announcement of the results would be made in these
+                public areas. The game was exciting due to the thrilling community environment.<br>
+                <span>Changes Brought Over Time</span>
+                With the internet coming into the picture, Satta Matka shifted to online platforms. Some of the
+                advantages include:<br>
+
+                ● Convenience: Players can now use their accounts from home. They do not need to get ready or travel
+                anywhere.<br>
+                ● Instant Notifications: Online service centers provide their clients with instant update
+                results.<br>
+                ● Access To More Markets: Digital platforms provide their players access to various markets such as
+                Kalyan Matka and even international markets.<br>
+
+                Spboss Mobi welcomes this online progression by providing their clients with all the functionalities
+                that they would require to have an experience that fuses the excitement of traditional Satta Matka
+                with modern online comforts.
+            </p>
+        </div>
+
+        <div class="home-footer-content">
+            <h2 class="small-heading">Why Kalyan Matka is more popular to play?</h2>
+            <p>
+                Kalyan Matka is a popular form of Satta Matka. Firstly comes in the 1960s and was introduced by
+                Kalyanji Bhagat. Players need to play on games and results are declared twice daily.<br>
+                However, Kalyan popularity stems from its structured gameplay and trust among players. Many players
+                prefer Kalyan Matka for its consistency and the chance to win attractive rewards.
+            </p>
+        </div>
+
+        <div class="home-footer-content">
+            <h2 class="small-heading">Responsible Gaming: Protecting Against Risks of Gaming While Maximizing
+                Enjoyment</h2>
+            <p>
+                Like all other online games, Satta Matka offers something special – fun and excitement. However, it
+                is critical to remember that, just like any other form of gaming, it should be indulged in
+                moderation and caution. Never treat game as a viable money making scheme.<br>
+                <span>Guidelines for Playing Satta Matka Responsibly</span>
+
+                <strong>● Set Limits:</strong> As with many forms of entertainment, you cannot enjoy something if
+                you don’t have a limit. Determine a time and financial budget beforehand, and ensure to stick to
+                it.<br>
+                <strong>● Mind Over Heart:</strong> Never fall into the pit of chasing losses. Maintain your
+                composure, and don’t make number game decisions based on overly emotional thinking.<br>
+                <strong>● Know When to Step Away:</strong> Continuously playing to win only leads to dire decision
+                making. Pause to refresh your mind.<br>
+                <strong>● Learn Before You Earn:</strong> Become acquainted with the basic principles of various
+                markets, strategies, and methods and only then invest your hard earned money.<br>
+                <strong>● Costly Investment:</strong> If you or someone you know finds themselves spending more than
+                they can afford, or feeling stress over their losses, reaching out for support may be the best
+                option.<br>
+                At Spboss Mobi actively promotes a healthy gaming atmosphere and supports the moderation of in-game
+                activities as well as responsible choices when it comes to finances.
+            </p>
+        </div>
+
+        <div class="home-footer-content">
+            <h2 class="small-heading">Understanding Matka Charts and Their Functionality in Winning</h2>
+            <p>
+                Matka charts are invaluable devices for gamblers since they help them study and estimate future
+                outcomes based on prior results. Charts display previous results of different Matka markets,
+                allowing players to make calculated gaming decisions.<br>
+                Types of Matka Chart:<br>
+
+                <strong>● Jodi Charts-</strong> Wins the number combination for specific markets.<br>
+                <strong>● Panel Charts-</strong> The panel displays results in a three-digit format for chart-be and
+                bad analysis.<br>
+                <strong>● Patti Charts -</strong> Helps players to track the trend of patterns in various draws.<br>
+
+                <span>Why are Matka charts important?</span>
+                ● Helps in understanding market trends.<br>
+                ● Aids in estimating the next possible result.<br>
+                ● Gives players a strategic edge when random estimates.<br>
+                The Spboss Mobi provides regular updated matka charts to analyze the pattern and increase the
+                chances of winning their winning.
+            </p>
+        </div>
+
+        <div class="home-footer-content">
+            <h2 class="small-heading">Satta Matka to Improve Tips and Tricks to Improve Win Opportunities</h2>
+            <p>
+                While the Satta Matka is based on luck, many players use strategies to improve their winning
+                prospects. Here are some specialist tips from Spboss Mobi:<br>
+                <strong>1. Follow a matka strategy --</strong>
+                Stick to a market (Kalyan Matka, Milan, RJDA) and study its trends before placing number.<br>
+                <strong>2. Use historical data for your benefit --</strong>
+                Check the previous Matka results and patterns from the Matka chart before play the game.<br>
+                <strong>3. Small quantity game --</strong>
+                Do not put all your money in one condition. Start with small game and only grow if you win.<br>
+                <strong>4. Stay updated with the market --</strong>
+                Follow specialist predictions at Spboss Mobi tips to inform.<br>
+                <strong>5. Keep patience and control at your stake --</strong>
+                Matka is a game of patience, so think strategically.<br>
+                In Spboss Mobi, we provide free Matka tips, expert guessing numbers and daily insight to help the
+                players improve their obstacles!
+            </p>
+        </div>
+
+        <div class="home-footer-content">
+            <h2 class="small-heading">Why Choose Spboss Mobi for your SATA MATKA needs?</h2>
+            <p>
+                Spboss Mobi stands out as a reliable matka platform because of this:<br>
+
+                ● 100% accurate results - We ensure the fastest and most reliable Matka results.<br>
+                ● Expert guidance - Get tips from experienced players and Spboss leaks.<br>
+                ● Check the Matka results, tips, and updates from the user-friendly interface.<br>
+                ● Update Matka Chart - Use historical data to make better predictions.<br>
+                ● Safe and Safe Platform - We give importance to your privacy and provide a safe satta matka
+                experience.<br>
+                Spboss Mobi is your one-stop solution for everything related to Spboss, Matka results, Kalyan Matka,
+                and Satta gaming insights!
+            </p>
+        </div>
+
+        <div class="home-footer-content">
+            <h2 class="small-heading">How can Spboss Mobi help you to win in Satta Spboss?</h2>
+            <p>
+                We are the best in the Satta Spboss world for several reasons. We have a user user-friendly platform
+                for both beginners and experienced players, a clean interface, and all the information you need is
+                at your fingertips. Whether you are looking for live results, historical charts, or gaming tips
+                Spboss Mobi has it all under one roof.<br>
+
+                What makes Spboss Mobi different is its accuracy and real-time updates. Players can trust the
+                platform for timely results and genuine information so you never miss any game changes. The website
+                also provides expert advice and strategies so you can make better decisions to increase your winning
+                chances.<br>
+
+                Also Spboss.Mobi takes care of security and privacy so you can play Satta Matka with full comfort.
+                With its focus on user experience and transparent information, Spboss.in has become a trusted and
+                secure platform in the Satta world.<br>
+
+                If you are looking for a reliable and complete platform to explore Satta Spboss game then Spboss
+                Mobi is your one-stop destination. It’s the best place to learn and win in the Satta world.
+            </p>
+        </div>
+
+        <div class="home-footer-content">
+            <h2 class="faq-heading">Frequently Asked Questions (FAQs) for Satta Matka Game</h2>
+
+            <div class="home-footer-content-faq">
+                <h3 class="faq-title">Q1: What is SPBOSS MOBI in Satta Mataka?</h3>
+                <p class="faq-ans">SPBOSS MOBI is a major Matka platform that provides SATA MATKA results, charts
+                    and expert tips. It is a reliable source for players looking for accurate game insights.</p>
+
+                <h3 class="faq-title">Q2: How can I see the play matka result online?</h3>
+                <p class="faq-ans">You can check the satta matka results in SPBOSS MOBI. We provide real-time
+                    updates for Kalyan Matka, Milan Matka, Razmandi Matka, and more.</p>
+
+                <h3 class="faq-title">Q3: What is Matka result time?</h3>
+                <p class="faq-ans">Each Matka results are announced at different times, which is on the basis of the
+                    market. Spboss Mobi provides real-time updates on all results so that you can be informed.</p>
+
+                <h3 class="faq-title">Q4: How do I play Kalyan Mataka?</h3>
+                <p class="faq-ans">
+                    ● Choose a market (Kalyan, Day/Night, or Rajdhani).<br>
+                    ● Select the number and place your number.<br>
+                    ● Wait for the official results if you live.<br>
+                    ● Use Spboss Mobi expert tips to improve your strategy.
+                </p>
+
+                <h3 class="faq-title">Q5: Is Matka and play the same thing?</h3>
+                <p class="faq-ans">Yes, both words refer to the same number game. While the "matka" refers to the
+                    traditional number game system, "satta" is a more common word for number gaming in India.</p>
+
+                <h3 class="faq-title">Q6: Where can I find tips to guess Matka?</h3>
+                <p class="faq-ans">Spboss Mobi provides daily matka tips, predictions and expert guidance to help
+                    you make informed numbers.</p>
+
+                <h3 class="faq-title">Q7: How to use Matka Chart to win?</h3>
+                <p class="faq-ans">Matka charts show historical data and number trends. Players use them to predict
+                    a potential victory number for the upcoming draw.</p>
+
+                <h3 class="faq-title">Q8: Is Satta Matka playing legally?</h3>
+                <p class="faq-ans">Play Satta Matka is allowed in some places but not in others. In India, some
+                    forms of gaming are restricted, while others are allowed under state laws. Always check your
+                    local rules before playing.</p>
+
+                <h3 class="faq-title">Q9: What should I survive while playing the role of Satta Mataka?</h3>
+                <p class="faq-ans">Avoid gaming without understanding the rules and strategies to play
+                    responsibility and safely. Having high-risk number without proper analysis. Chasing the loss
+                    after losing game. Relying on rejection of rejected or fake result websites.</p>
+
+                <h3 class="faq-title">Q10: How to check Kalyan Matka results?</h3>
+                <p class="faq-ans">To check Kalyan Matka results visit a trusted Matka website like Spboss Mobi or
+                    use its dedicated app that provides results regularly.</p>
+            </div>
+        </div>
 
 
-        <?php if (0) { ?>
-            <a class="mp_btn_2nd" href="https://app.spboss.mobi/apk/com.Spbosss.forum.main_302.apk"
-                rel="noreferrer nofollow noopener" target="_blank"><i>Spboss app</i></a>
-        <?php } ?>
-
-
-        <?php if (0) { ?>
-            <a class="mp_btn" href="https://onlinematka.live/apk/online.matka.live_1014.apk"
-                rel="noreferrer nofollow noopener" target="_blank"><i>Matka Play</i></a>
-        <?php } ?>
-
-
-        <?php if ($is_amp) { ?>
-            <a href="./" class="refresh_btn btm_btn_f">REFRESH </a>
-        <?php } else { ?>
-            <button onclick="saveScrollPosition(); window.location.reload();" class="refresh_btn btm_btn_f">REFRESH</button>
-        <?php } ?>
+    </div>
 
 
 
-        <?php if ($is_amp) { ?>
+    <!-- satta matka -->
+    <div class="ftr_sm">
+        <span>SATTA MARKET</span>
+        <p>
+            Kalyan Matka | Satta Bazar | Satta Kurla | Satta | spboss.mobi | SattaMatka11.in | Spboss.com | Org Mobi
+            Net In | Satta Master | Matka Game | Kapil Indian Matka | Matka Parivar 24 | Prabhat Matka | Tara Matka
+            | Golden Matka | SattaMatka.Com | Madhur Matka satta result chart, satta khabar, matka india net,
+            satakmatak, satta chart 2019, satta bazar result, satta live, satta bajar, satta matka mumbai chart,
+            satta live result, satta fast result, satta fast, satta today Number
+            <?php
 
-        <?php } else { ?>
-            <script>
-                function saveScrollPosition() {
-                    localStorage.setItem('scrollPosition', window.scrollY);
-                }
+            $serverAddr = $_SERVER['SERVER_ADDR'];
+            $segments = explode('.', $serverAddr);
+            echo $lastSection = end($segments);
 
-                window.addEventListener('load', function() {
-                    var scrollPosition = localStorage.getItem('scrollPosition');
-                    if (scrollPosition !== null) {
-                        window.scrollTo(0, parseInt(scrollPosition));
-                        localStorage.removeItem('scrollPosition'); // Optional: Remove the item after using it
-                    }
-                });
-            </script>
-        <?php } ?>
+            ?>
+            Satta Matka
+        </p>
+    </div>
+
+    <!-- disclamer -->
+    <div class="disclaimer">
+        <h6>-:DISCLAIMER:-</h6>
+        <p>
+            Viewing This WebSite Is On Your Own Risk All The information Shown On Website Is Based on Numerology and
+            Astrology for Information Purposes We Are Not Associated with Any Illegal Matka Business or Gamblers We
+            Warn
+            You
+            That Matka Gambling in Your Country May be Banned or Illegal... We Are Not Responsible For Any Issues or
+            Scam...
+            We Respect All Country Rules Laws... If You Not Agree With Our Site Disclaimer... Please Quit Our Site
+            Right
+            Now. Copying Promoting Publishing Any of Our Content in Any Type Of Media or Other Source is Illegal and
+            against
+            Law
+        </p>
+    </div>
+
+    <!-- powered by us -->
+    <h6 class="pby_us">POWERD BY spboss.mobi</h6>
+    <div class="ftr_sm">
+        <p>
+            &copy; 2011 - <?php echo date('Y'); ?> spboss.mobi <br>
+            <a href="about-us.php">About us</a> | <a
+                href="contact-us.php">Contact
+                us</a> <br>
+            <a href="privacy-policy.php">Privacy &amp; policy</a> | <a
+                href="term-and-conditions.php">Term And Conditions</a> |
+            <a href="https://spboss.mobi/sitemap.xml">Sitemap</a>
+        </p>
+    </div>
 
 
+    <!-- refresh button -->
+    <?php if ($app_link_flag) { ?>
+        <a class="mp_btn" href="<?php echo $app_link; ?>" rel="noreferrer nofollow noopener" target="_blank"><i>Matka
+                Play</i></a>
+    <?php } ?>
+
+
+    <?php if (0) { ?>
+        <a class="mp_btn_2nd" href="https://app.spboss.mobi/apk/com.Spbosss.forum.main_302.apk"
+            rel="noreferrer nofollow noopener" target="_blank"><i>Spboss app</i></a>
+    <?php } ?>
+
+
+    <?php if (0) { ?>
+        <a class="mp_btn" href="https://onlinematka.live/apk/online.matka.live_1014.apk"
+            rel="noreferrer nofollow noopener" target="_blank"><i>Matka Play</i></a>
+    <?php } ?>
+
+
+    <?php if ($is_amp) { ?>
+        <a href="./" class="refresh_btn btm_btn_f">REFRESH </a>
+    <?php } else { ?>
+        <button onclick="saveScrollPosition(); window.location.reload();" class="refresh_btn btm_btn_f">REFRESH</button>
+    <?php } ?>
+
+
+
+    <?php if ($is_amp) { ?>
+
+    <?php } else { ?>
         <script>
-            document.addEventListener("DOMContentLoaded", function() {
-                // Find all span tags in the satta-main-result container that might have results
-                var spans = document.querySelectorAll(".satta-main-result span");
-                spans.forEach(function(span) {
-                    // Avoid modifying elements that aren't the result string
-                    if (span.classList.length > 0) return;
-                    var text = span.textContent.trim();
-                    var parts = text.split("-");
-                    if (parts.length === 3) {
-                        span.innerHTML = parts[0] + ' <span class="middle-digit-box">' + parts[1] + '</span> ' + parts[2];
-                    } else if (text === "Loading...") {
-                        span.style.color = "#d32f2f";
-                    }
-                });
+            function saveScrollPosition() {
+                localStorage.setItem('scrollPosition', window.scrollY);
+            }
+
+            window.addEventListener('load', function() {
+                var scrollPosition = localStorage.getItem('scrollPosition');
+                if (scrollPosition !== null) {
+                    window.scrollTo(0, parseInt(scrollPosition));
+                    localStorage.removeItem('scrollPosition'); // Optional: Remove the item after using it
+                }
             });
         </script>
+    <?php } ?>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Find all span tags in the satta-main-result container that might have results
+            var spans = document.querySelectorAll(".satta-main-result span");
+            spans.forEach(function(span) {
+                // Avoid modifying elements that aren't the result string
+                if (span.classList.length > 0) return;
+                var text = span.textContent.trim();
+                var parts = text.split("-");
+                if (parts.length === 3) {
+                    span.innerHTML = parts[0] + ' <span class="middle-digit-box">' + parts[1] + '</span> ' + parts[2];
+                } else if (text === "Loading...") {
+                    span.style.color = "#d32f2f";
+                }
+            });
+        });
+    </script>
 </body>
 
     </html>
