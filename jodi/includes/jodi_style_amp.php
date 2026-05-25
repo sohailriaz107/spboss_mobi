@@ -720,6 +720,8 @@
   }
 
   .mp-btn {
+    position: fixed;
+    bottom: 9px;
     left: 5px;
     padding: 5px 8px;
     font-size: 15px;

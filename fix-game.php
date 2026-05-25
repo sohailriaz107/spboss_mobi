@@ -69,14 +69,33 @@
 
 
     <?php include_once('include/styles/style_amp3.php'); ?>
-
+<style>
+    .main_logo {
+        background: linear-gradient(135deg, #1a237e 0%, #283593 60%, #3949ab 100%);
+        padding: 0 10px;
+        display: block;
+        color: #fff;
+        margin-bottom: 3px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        border: 3px solid #7986cb;
+        border-radius: .75em;
+        transform-style: preserve-3d;
+        transition: transform 150ms cubic-bezier(0, 0, .58, 1), background 150ms cubic-bezier(0, 0, .58, 1);
+        box-shadow: 0 4px 15px rgba(26, 35, 126, 0.4)
+    }
+</style>
 
 </head>
 
 <body class="fix-game-page">
-
+    <div class="main_logo">
+     <a href="index.php" style="color: white;text-decoration: none;">
+        <h3 >Spboss.Mobi</h3>
+    </a>
+   </div>
     <!-- header -->
-    <?php include_once('include/components/name_amp.php'); ?>
+    
 
     <main class="fix-game-container">
 

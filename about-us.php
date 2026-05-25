@@ -505,7 +505,7 @@
         .container {
             max-width: 1040px;
             width: 100%;
-            padding: 18px 12px 8px;
+            padding: 1px 12px 8px;
         }
 
         .container>.banner:first-child {

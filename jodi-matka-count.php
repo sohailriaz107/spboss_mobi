@@ -41,121 +41,126 @@
 
     <title>Satta Matka Jodi Chart Ank Count By Satta Matka Guru spboss.mobi</title>
 
-
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
 
-    <?php include_once('include/styles/style_amp3.php'); ?>
+    <?php include_once('include/styles/chart_green_style_amp.php'); ?>
 
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="page">
-            <div class="page-content jodi-matka-count">
-                <?php include 'include/components/name_amp.php'; ?>
-                <div>
-                    <div class="mt-2">
-                        <div class="text-center">
-                            <div class="pink-border">
-                                <b>
-                                    <h3 class="h3-header pt-3">जोड़ी काउंट चार्ट </h3>
-                                </b>
-                                <h4>मटका जोड़ी काउंट चार्ट </h4>
-                                <p class="font-italic">जोड़ी के दोनों अंको ओपन और क्लोज को आपस में जोड़ने से जो टोटल आता है
-                                    यह टोटल 1 या 2 अंको का आ सकता है यदि टोटल 1 अंक में आता है जैसे जोड़ी 12 बनती है तो 1+2=3 तो 3 इस जोड़ी का जोड़ी काउंट कहलायेगा लेकिन टोटल 2 अंकों का बनता है जैसे 28 जोड़ी बनी तो 2+8=10 तो हम 10 को भी आपस में जोड़ देंगे जैसे 1+0=1 तो 1 इस 28 की जोड़ी का जोड़ी काउंट कहलायेगा </p>
-                                <p><b> NOTE:</b>जोड़ी का टोटल और काउंट दोनों अलग अलग समीकरण हैं </p>
-                            </div>
-                        </div>
-                    </div>
-                    <h1 class="violet-bg mt-2 text-light pt-2 pb-2 ml-2 mr-2" style="color: white;">MATKA JODI COUNT CHART</h1>
-                    <ul class="mfnc-ul violet-border text-center pl-0 mt-2">
-                        <li class="list-group-item bg-transparent border-b-v">
-                            <a href="#">
-                                <div>
-                                    <h2><span>COUNT 0 :</span></h2>
-                                    <big><big>00</big></big>
+
+    <?php include_once('include/components/name_amp.php'); ?>
+
+    <div class="pink-border">
+        <h2><b>जोड़ी काउंट चार्ट </b></h2>
+        <h3><b>मटका जोड़ी काउंट चार्ट </b></h3>
+        <p class="font-italic">जोड़ी के दोनों अंको ओपन और क्लोज को आपस में जोड़ने से जो टोटल आता है
+            यह टोटल 1 या 2 अंको का आ सकता है यदि टोटल 1 अंक में आता है जैसे जोड़ी 12 बनती है तो 1+2=3 तो 3 इस जोड़ी का जोड़ी काउंट कहलायेगा लेकिन टोटल 2 अंकों का बनता है जैसे 28 जोड़ी बनी तो 2+8=10 तो हम 10 को भी आपस में जोड़ देंगे जैसे 1+0=1 तो 1 इस 28 की जोड़ी का जोड़ी काउंट कहलायेगा </p>
+        <p><b> NOTE:</b> जोड़ी का टोटल और काउंट दोनों अलग अलग समीकरण हैं </p>
+    </div>
+
+    <div class="jodi-container">
+        <div class="jodi-content">
+            <div class="jodi-content-heading">
+                <h1>MATKA JODI COUNT CHART</h1>
+            </div>
+            <div class="jodi-content-body">
+                <table class="jodi-content-chart chart-table" cellpadding="2">
+                    <thead>
+                        <tr>
+                            <th style="width: 35%;">जोड़ी काउंट (Jodi Count)</th>
+                            <th>जोड़ियाँ (Jodis)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="red-text" style="font-size: 20px; font-weight: 800;">COUNT 0</td>
+                            <td style="padding: 6px;">
+                                <div class="jodi-cell">
+                                    <span>00</span>
                                 </div>
-                            </a>
-                        </li>
-                        <li class="list-group-item bg-transparent border-b-v">
-                            <a href="#">
-                                <div>
-                                    <h2><span>COUNT 1 :</span></h2>
-                                    <big><big>01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11</big></big>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 20px; font-weight: 800;">COUNT 1</td>
+                            <td style="padding: 6px;">
+                                <div class="jodi-cell">
+                                    <span>01,</span> <span>02,</span> <span>03,</span> <span>04,</span> <span>05,</span> <span>06,</span> <span>07,</span> <span>08,</span> <span>09,</span> <span>10,</span> <span>11</span>
                                 </div>
-                            </a>
-                        </li>
-                        <li class="list-group-item bg-transparent border-b-v">
-                            <a href="#">
-                                <div>
-                                    <h2><span>COUNT 2 :</span></h2>
-                                    <big><big>02, 11, 20, 29, 38, 47, 56, 65, 74, 83, 92</big></big>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 20px; font-weight: 800;">COUNT 2</td>
+                            <td style="padding: 6px;">
+                                <div class="jodi-cell">
+                                    <span>02,</span> <span>11,</span> <span>20,</span> <span>29,</span> <span>38,</span> <span>47,</span> <span>56,</span> <span>65,</span> <span>74,</span> <span>83,</span> <span>92</span>
                                 </div>
-                            </a>
-                        </li>
-                        <li class="list-group-item bg-transparent border-b-v">
-                            <a href="#">
-                                <div>
-                                    <h2><span>COUNT 3 :</span></h2>
-                                    <big><big>03, 12, 21, 30, 39, 48, 57, 66, 75, 84, 93</big></big>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 20px; font-weight: 800;">COUNT 3</td>
+                            <td style="padding: 6px;">
+                                <div class="jodi-cell">
+                                    <span>03,</span> <span>12,</span> <span>21,</span> <span>30,</span> <span>39,</span> <span>48,</span> <span>57,</span> <span>66,</span> <span>75,</span> <span>84,</span> <span>93</span>
                                 </div>
-                            </a>
-                        </li>
-                        <li class="list-group-item bg-transparent border-b-v">
-                            <a href="#">
-                                <div>
-                                    <h2><span>COUNT 4 :</span></h2>
-                                    <big><big>04, 13, 22, 31, 40, 49, 58, 67, 76, 85, 94</big></big>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 20px; font-weight: 800;">COUNT 4</td>
+                            <td style="padding: 6px;">
+                                <div class="jodi-cell">
+                                    <span>04,</span> <span>13,</span> <span>22,</span> <span>31,</span> <span>40,</span> <span>49,</span> <span>58,</span> <span>67,</span> <span>76,</span> <span>85,</span> <span>94</span>
                                 </div>
-                            </a>
-                        </li>
-                        <li class="list-group-item bg-transparent border-b-v">
-                            <a href="#">
-                                <div>
-                                    <h2><span>COUNT 5 :</span></h2>
-                                    <big><big>06, 15, 24, 33, 42, 51, 60, 69, 78, 87, 96</big></big>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 20px; font-weight: 800;">COUNT 5</td>
+                            <td style="padding: 6px;">
+                                <div class="jodi-cell">
+                                    <span>06,</span> <span>15,</span> <span>24,</span> <span>33,</span> <span>42,</span> <span>51,</span> <span>60,</span> <span>69,</span> <span>78,</span> <span>87,</span> <span>96</span>
                                 </div>
-                            </a>
-                        </li>
-                        <li class="list-group-item bg-transparent border-b-v">
-                            <a href="#">
-                                <div>
-                                    <h2><span>COUNT 6 :</span></h2>
-                                    <big><big>07, 16, 25, 34, 43, 52, 61, 70, 79, 88, 97</big></big>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 20px; font-weight: 800;">COUNT 6</td>
+                            <td style="padding: 6px;">
+                                <div class="jodi-cell">
+                                    <span>07,</span> <span>16,</span> <span>25,</span> <span>34,</span> <span>43,</span> <span>52,</span> <span>61,</span> <span>70,</span> <span>79,</span> <span>88,</span> <span>97</span>
                                 </div>
-                            </a>
-                        </li>
-                        <li class="list-group-item bg-transparent border-b-v">
-                            <a href="#">
-                                <div>
-                                    <h2><span>COUNT 7 :</span></h2>
-                                    <big><big>07, 16, 25, 34, 43, 52, 61, 70, 79, 88, 97</big></big>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 20px; font-weight: 800;">COUNT 7</td>
+                            <td style="padding: 6px;">
+                                <div class="jodi-cell">
+                                    <span>07,</span> <span>16,</span> <span>25,</span> <span>34,</span> <span>43,</span> <span>52,</span> <span>61,</span> <span>70,</span> <span>79,</span> <span>88,</span> <span>97</span>
                                 </div>
-                            </a>
-                        </li>
-                        <li class="list-group-item bg-transparent border-b-v">
-                            <a href="#">
-                                <div>
-                                    <h2><span>COUNT 8 :</span></h2>
-                                    <big><big>08, 17, 26, 35, 44, 53, 62, 71, 80, 87, 98</big></big>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 20px; font-weight: 800;">COUNT 8</td>
+                            <td style="padding: 6px;">
+                                <div class="jodi-cell">
+                                    <span>08,</span> <span>17,</span> <span>26,</span> <span>35,</span> <span>44,</span> <span>53,</span> <span>62,</span> <span>71,</span> <span>80,</span> <span>87,</span> <span>98</span>
                                 </div>
-                            </a>
-                        </li>
-                        <li class="list-group-item bg-transparent border-b-v">
-                            <a href="#">
-                                <div>
-                                    <h2><span>COUNT 9 :</span></h2>
-                                    <big><big>09, 18, 27, 36, 45, 54, 63, 72, 81, 88, 99</big></big>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 20px; font-weight: 800;">COUNT 9</td>
+                            <td style="padding: 6px;">
+                                <div class="jodi-cell">
+                                    <span>09,</span> <span>18,</span> <span>27,</span> <span>36,</span> <span>45,</span> <span>54,</span> <span>63,</span> <span>72,</span> <span>81,</span> <span>88,</span> <span>99</span>
                                 </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <?php include 'include/components/shortcut_amp.php'; ?>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
+
+    <?php include 'include/components/shortcut_amp.php'; ?>
 </body>
 
 </html>

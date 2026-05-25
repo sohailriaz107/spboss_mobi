@@ -41,162 +41,90 @@
 
     <title>Satta Matka Final Number Chart Ank By spboss.mobi</title>
 
-
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
 
-
-    <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "NewsArticle",
-            "author": "spboss.mobi",
-            "headline": "Open-source framework for publishing content",
-            "datePublished": "2015-10-07T12:02:41Z",
-            "image": [
-                "logo.jpg"
-            ],
-            "publisher": {
-                "@type": "Organization",
-                "name": "DPBOSS",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "https://spboss.mobi/logo.png"
-                }
-            }
-        }
-    </script>
-
-    <?php include_once('include/styles/style_amp3.php'); ?>
+    <?php include_once('include/styles/chart_green_style_amp.php'); ?>
 
 </head>
 
 <body>
-    <?php include 'include/components/name_amp.php'; ?>
-    <div>
-        <div class="mt-2">
-            <div class="pink-border mt-2 mb-2 p-3">
-                <b>
-                    <h1 class="h1-header">MATKA FINAL NUMBER CHART</h1>
-                </b>
-                <!-- <small>MATKA FINAL NUMBER CHART</small> -->
-                <h2><b><u>सट्टा मटका फाइनल नंबर चार्ट का उपयोग कैसे करें</u></b></h2>
-                <i>
-                    <p>कल ( पिछले दिन ) की जोड़ी जोड़ें </p>
-                    <p>अगर कल ( पिछले दिन ) की जोड़ी है <b>88</b>, जोड़ी का टोटल <b>16</b></p>
-                    <p>इसका फाइनल नंबर <b>6</b> </p>
-                    <p>तो, अंतिम अंक लें और नीचे दिए गए मटका फाइनल नंबर चार्ट को ध्यान से देखें</p>
-                    <p>ये नंबर आप ओपन और क्लोज में खेल सकते है </p>
-                </i>
-                <p><b>NOTE:</b> ये सिर्फ <i>80%</i> सटीक फिक्स फार्मूला स्किम है <br>ये स्कीम सभी मार्केट के लिए है</p>
 
+    <?php include_once('include/components/name_amp.php'); ?>
+
+    <div class="pink-border">
+        <h2><b>MATKA FINAL NUMBER CHART</b></h2>
+        <h3><b><u>सट्टा मटका फाइनल नंबर चार्ट का उपयोग कैसे करें</u></b></h3>
+        <i>
+            <p>कल ( पिछले दिन ) की जोड़ी जोड़ें </p>
+            <p>अगर कल ( पिछले दिन ) की जोड़ी है <b>88</b>, जोड़ी का टोटल <b>16</b></p>
+            <p>इसका फाइनल नंबर <b>6</b> </p>
+            <p>तो, अंतिम अंक लें और नीचे दिए गए मटका फाइनल नंबर चार्ट को ध्यान से देखें</p>
+            <p>ये नंबर आप ओपन और क्लोज में खेल सकते है </p>
+        </i>
+        <p><b>NOTE:</b> ये सिर्फ <i>80%</i> सटीक फिक्स फार्मूला स्किम है <br>ये स्कीम सभी मार्केट के लिए है</p>
+    </div>
+
+    <div class="jodi-container">
+        <div class="jodi-content">
+            <div class="jodi-content-heading">
+                <h1>MATKA FINAL NUMBER CHART</h1>
+            </div>
+            <div class="jodi-content-body">
+                <table class="jodi-content-chart chart-table" cellpadding="2">
+                    <thead>
+                        <tr>
+                            <th style="width: 45%;">अगर फाइनल नंबर है</th>
+                            <th>तो (ओपन या क्लोज)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="font-size: 20px; font-weight: 700;">0</td>
+                            <td class="red-text" style="font-size: 22px; font-weight: 800;">2-3-5-9</td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 20px; font-weight: 700;">1</td>
+                            <td class="red-text" style="font-size: 22px; font-weight: 800;">4-5-7-9</td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 20px; font-weight: 700;">2</td>
+                            <td class="red-text" style="font-size: 22px; font-weight: 800;">0-2-6-8</td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 20px; font-weight: 700;">3</td>
+                            <td class="red-text" style="font-size: 22px; font-weight: 800;">0-1-8-9</td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 20px; font-weight: 700;">4</td>
+                            <td class="red-text" style="font-size: 22px; font-weight: 800;">1-3-6-7</td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 20px; font-weight: 700;">5</td>
+                            <td class="red-text" style="font-size: 22px; font-weight: 800;">2-4-6-7</td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 20px; font-weight: 700;">6</td>
+                            <td class="red-text" style="font-size: 22px; font-weight: 800;">0-3-6-8</td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 20px; font-weight: 700;">7</td>
+                            <td class="red-text" style="font-size: 22px; font-weight: 800;">1-2-4-7</td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 20px; font-weight: 700;">8</td>
+                            <td class="red-text" style="font-size: 22px; font-weight: 800;">2-5-6-8</td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 20px; font-weight: 700;">9</td>
+                            <td class="red-text" style="font-size: 22px; font-weight: 800;">1-4-7-8</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
-        <h1 class="violet-bg mt-2 text-light pt-2 pb-2 ml-2 mr-2" style="color:white;">MATKA FINAL NUMBER CHART</h1>
-        <ul class="mfnc-ul violet-border pl-0">
-
-            <li class="border-b-v">
-                <a href="#">
-                    <div>
-                        <h2><span>अगर फाइनल नंबर है<br> => 0 <= </span>
-                        </h2>
-                        <big><big>तो=> 2-3-5-9 (ओपन या क्लोज)</big></big>
-
-                    </div>
-                </a>
-            </li>
-            <li class="border-b-v">
-                <a href="#">
-                    <div>
-                        <h2><span>अगर फाइनल नंबर है <br> => 1 <= </span>
-                        </h2>
-                        <big><big>तो=> 4-5-7-9 (ओपन या क्लोज)</big></big>
-
-                    </div>
-                </a>
-            </li>
-            <li class="border-b-v">
-                <a href="#">
-                    <div>
-                        <h2><span>अगर फाइनल नंबर है <br> => 2 <= </span>
-                        </h2>
-                        <big><big>तो 0-2-6-8 (ओपन या क्लोज)</big></big>
-
-                    </div>
-                </a>
-            </li>
-            <li class="border-b-v">
-                <a href="#">
-                    <div>
-                        <h2><span>अगर फाइनल नंबर है <br> => 3 <= </span>
-                        </h2>
-                        <big><big>तो 0-1-8-9 (ओपन या क्लोज)</big></big>
-
-                    </div>
-                </a>
-            </li>
-            <li class="border-b-v">
-                <a href="#">
-                    <div>
-                        <h2><span>अगर फाइनल नंबर है <br> => 4 <= </span>
-                        </h2>
-                        <big><big>तो 1-3-6-7 (ओपन या क्लोज)</big></big>
-
-                    </div>
-                </a>
-            </li>
-            <li class="border-b-v">
-                <a href="#">
-                    <div>
-                        <h2><span>अगर फाइनल नंबर है <br> => 5 <= </span>
-                        </h2>
-                        <big><big>तो 2-4-6-7 (ओपन या क्लोज)</big></big>
-
-                    </div>
-                </a>
-            </li>
-            <li class="border-b-v">
-                <a href="#">
-                    <div>
-                        <h2><span>अगर फाइनल नंबर है <br> => 6 <= </span>
-                        </h2>
-                        <big><big>तो 0-3-6-8 (ओपन या क्लोज)</big></big>
-
-                    </div>
-                </a>
-            </li>
-            <li class="border-b-v">
-                <a href="#">
-                    <div>
-                        <h2><span>अगर फाइनल नंबर है <br> => 7 <= </span>
-                        </h2>
-                        <big><big>तो 1-2-4-7 (ओपन या क्लोज)</big></big>
-
-                    </div>
-                </a>
-            </li>
-            <li class="border-b-v">
-                <a href="#">
-                    <div>
-                        <h2><span>अगर फाइनल नंबर है <br> => 8 <= </span>
-                        </h2>
-                        <big><big>तो 2-5-6-8 (ओपन या क्लोज)</big></big>
-
-                    </div>
-                </a>
-            </li>
-            <li class="border-b-v">
-                <a href="#">
-                    <div>
-                        <h2><span>अगर फाइनल नंबर है <br> => 9 <= </span>
-                        </h2>
-                        <big><big>तो 1-4-7-8 (ओपन या क्लोज)</big></big>
-
-                    </div>
-                </a>
-            </li>
-        </ul>
     </div>
+
     <?php include 'include/components/shortcut_amp.php'; ?><br>
 </body>
 

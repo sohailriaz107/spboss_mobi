@@ -2810,8 +2810,9 @@ date_default_timezone_set('Asia/Kolkata');
 <body>
 
     <!-- first logo -->
-    <div class="main_logo" style="padding:20px;">
-        <h3>Spboss.Mobi</h3>
+    <div class="main_logo" style="padding:20px;color:white">
+        
+        <h3 ><a href="index.php" style="color: white;">Spboss.Mobi</a></h3> 
     </div>
 
 
@@ -3501,20 +3502,20 @@ date_default_timezone_set('Asia/Kolkata');
 
     <div class="blue-container special-zone">
         <h4>Spboss Special Game Zone</h4>
-        <a href="https://spboss.mobi/matka-guessing-forum.php"> Spboss Guessing Forum </a>
-        <a href="https://spboss.mobi/fix-game.php"> All market free fix game </a>
-        <a href="https://spboss.mobi/favourite-khatri-chart.php"> Ratan Khatri Fix Panel Chart </a>
-        <a href="https://spboss.mobi/final-matka-chart.php"> Matka Final Number Trick Chart </a>
+        <a href="matka-guessing-forum.php"> Spboss Guessing Forum </a>
+        <a href="fix-game.php"> All market free fix game </a>
+        <a href="favourite-khatri-chart.php"> Ratan Khatri Fix Panel Chart </a>
+        <a href="final-matka-chart.php"> Matka Final Number Trick Chart </a>
     </div>
 
     <div class="blue-container bbaa">
         <h4>Matka Jodi List</h4>
-        <a href="https://spboss.mobi/jodi-matka-count.php">Matka Jodi Count Chart</a>
-        <a href="https://spboss.mobi/open-close-fix.php">Dhanvarsha Daily Fix Open To Close</a>
-        <a href="https://spboss.mobi/jodi-matka-chart.php">Matka Jodi Family Chart</a>
-        <a href="https://spboss.mobi/total-panel.php">Penal Count Chart</a>
-        <a href="https://spboss.mobi/count-total-chart.php">Penal Total Chart</a>
-        <a href="https://spboss.mobi/all22cards.php">All 220 Card List</a>
+        <a href="jodi-matka-count.php">Matka Jodi Count Chart</a>
+        <a href="open-close-fix.php">Dhanvarsha Daily Fix Open To Close</a>
+        <a href="jodi-matka-chart.php">Matka Jodi Family Chart</a>
+        <a href="total-panel.php">Penal Count Chart</a>
+        <a href="count-total-chart.php">Penal Total Chart</a>
+        <a href="all22cards.php">All 220 Card List</a>
     </div>
 
     <div class="red_list">
@@ -3759,36 +3760,36 @@ date_default_timezone_set('Asia/Kolkata');
     <!--list--><!-- jodi/panel list -->
     <div class="purple_header ab1">
         <h6>SATTA MATKA JODI CHART</h6>
-        <a href="https://spboss.mobi/jodi/time-bazar.php">Time Chart</a>
-        <a href="https://spboss.mobi/jodi/sridevi.php">Sridevi Chart</a>
-        <a href="https://spboss.mobi/jodi/kalyan-morning.php">Kalyan Morning Chart</a>
-        <a href="https://spboss.mobi/jodi/kalyan.php">Kalyan Chart</a>
-        <a href="https://spboss.mobi/jodi/sridevi-night.php">Sridevi Night Chart</a>
-        <a href="https://spboss.mobi/jodi/kalyan-night.php">Kalyan Night Chart</a>
+        <a href="jodi/time-bazar.php">Time Chart</a>
+        <a href="jodi/sridevi.php">Sridevi Chart</a>
+        <a href="jodi/kalyan-morning.php">Kalyan Morning Chart</a>
+        <a href="jodi/kalyan.php">Kalyan Chart</a>
+        <a href="jodi/sridevi-night.php">Sridevi Night Chart</a>
+        <a href="jodi/kalyan-night.php">Kalyan Night Chart</a>
 
-        <a href="https://spboss.mobi/jodi/main-bazar.php">Main Bazar Chart</a>
-        <a href="https://spboss.mobi/jodi/milan-morning.php">Milan Morning Chart</a>
-        <a href="https://spboss.mobi/jodi/milan-day.php">Milan Day Chart</a>
-        <a href="https://spboss.mobi/jodi/milan-night.php">Milan Night Chart</a>
-        <a href="https://spboss.mobi/jodi/rajdhani-night.php"> Rajdhani Night Chart </a>
-        <a href="https://spboss.mobi/jodi/mumbai-morning.php"> Mumbai Morning Chart </a>
+        <a href="jodi/main-bazar.php">Main Bazar Chart</a>
+        <a href="jodi/milan-morning.php">Milan Morning Chart</a>
+        <a href="jodi/milan-day.php">Milan Day Chart</a>
+        <a href="jodi/milan-night.php">Milan Night Chart</a>
+        <a href="jodi/rajdhani-night.php"> Rajdhani Night Chart </a>
+        <a href="jodi/mumbai-morning.php"> Mumbai Morning Chart </a>
     </div>
 
     <div class="purple_header ab1">
         <h6>MATKA PANEL CHART</h6>
-        <a href="https://spboss.mobi/panel/time-bazar.php">Time Panel Chart</a>
-        <a href="https://spboss.mobi/panel/sridevi.php">Sridevi Panel Chart</a>
-        <a href="https://spboss.mobi/panel/kalyan-morning.php">Kalyan Morning Panel Chart</a>
-        <a href="https://spboss.mobi/panel/kalyan.php">Kalyan Penal Chart</a>
-        <a href="https://spboss.mobi/panel/sridevi-night.php">Sridevi Night Penal Chart</a>
-        <a href="https://spboss.mobi/panel/kalyan-night.php">Kalyan Night Penal Chart</a>
+        <a href="panel/time-bazar.php">Time Panel Chart</a>
+        <a href="panel/sridevi.php">Sridevi Panel Chart</a>
+        <a href="panel/kalyan-morning.php">Kalyan Morning Panel Chart</a>
+        <a href="panel/kalyan.php">Kalyan Penal Chart</a>
+        <a href="panel/sridevi-night.php">Sridevi Night Penal Chart</a>
+        <a href="panel/kalyan-night.php">Kalyan Night Penal Chart</a>
 
-        <a href="https://spboss.mobi/panel/main-bazar.php">Main Bazar Penal Chart</a>
-        <a href="https://spboss.mobi/panel/milan-morning.php">Milan Morning Panel Chart</a>
-        <a href="https://spboss.mobi/panel/milan-day.php"> Milan Day Penal Chart </a>
-        <a href="https://spboss.mobi/panel/milan-night.php"> Milan Night Penal Chart </a>
-        <a href="https://spboss.mobi/panel/rajdhani-night.php"> Rajdhani Night Panel Chart </a>
-        <a href="https://spboss.mobi/panel/mumbai-morning.php">Mumbai Morning Panel Chart</a>
+        <a href="panel/main-bazar.php">Main Bazar Penal Chart</a>
+        <a href="panel/milan-morning.php">Milan Morning Panel Chart</a>
+        <a href="panel/milan-day.php"> Milan Day Penal Chart </a>
+        <a href="panel/milan-night.php"> Milan Night Penal Chart </a>
+        <a href="panel/rajdhani-night.php"> Rajdhani Night Panel Chart </a>
+        <a href="panel/mumbai-morning.php">Mumbai Morning Panel Chart</a>
 
     </div>
 

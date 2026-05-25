@@ -70,7 +70,7 @@
 
 <style amp-custom>
     body {
-        background-color: #fc9;
+        background-color:white;
         text-align: center;
         padding-left: 10px;
         padding-right: 10px;
@@ -588,12 +588,11 @@
     .fix-game-page .headering-2 h3 {
         
        
-        color: #1a0a00;
         text-shadow: none;
     }
 
     .fix-game-page .headering-3 h3 {
-        background: linear-gradient(135deg, #1a237e 0%, #283593 60%, #3949ab 100%);
+        
         border-bottom-color: #7986cb;
     }
 

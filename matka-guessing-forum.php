@@ -64,7 +64,8 @@ include("Top-cache.php");
 
     <div class="forum-name-header" id="top">
         <div class="forum-main-logo">
-            <h3>Spboss.Mobi</h3>
+
+            <h3> <a href="index.php" style="color: white;font-weight:700">Spboss.Mobi</a></h3>
         </div>
     </div>
 

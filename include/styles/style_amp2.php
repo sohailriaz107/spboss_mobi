@@ -84,7 +84,7 @@
     }
 
     body {
-        background-color: #fc9;
+        background-color: white;
         color: #000;
         font-weight: bold;
         text-align: center;

@@ -41,205 +41,213 @@
 
     <title>All Comprehensive ANK 22 Card Panna Penal Patti Chart</title>
 
-    
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
 
-    <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "NewsArticle",
-            "author": "spboss.mobi",
-            "headline": "Open-source framework for publishing content",
-            "datePublished": "2015-10-07T12:02:41Z",
-            "image": [
-                "logo.jpg"
-            ],
-            "publisher": {
-                "@type": "Organization",
-                "name": "DPBOSS",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "https://spboss.mobi/logo.png"
-                }
-            }
-        }
-    </script>
-
-    <?php include_once('include/styles/style_amp2.php'); ?>
+    <?php include_once('include/styles/chart_green_style_amp.php'); ?>
 
 </head>
 
 <body>
 
-    <!-- logo -->
-    <?php include_once('include/components/name2.php'); ?>
+    <?php include_once('include/components/name_amp.php'); ?>
 
-    <!-- our fav cards -->
-    <div class="fav-cards">
-        <h1>KHATRI FAVORITE CARDS</h1>
-        <div class="aa">
-            <div>
-                <span class="big-text">1</span>
-                <div>
-                    <p>128 137 236 678</p>
-                    <p>245 290 470 579</p>
-                </div>
+    <!-- Khatri Favorite Cards Section -->
+    <div class="jodi-container">
+        <div class="jodi-content">
+            <div class="jodi-content-heading">
+                <h1>KHATRI FAVORITE CARDS</h1>
             </div>
-            <div>
-                <span class="big-text">2</span>
-                <div>
-                    <p>129 147 246 679</p>
-                    <p>345 390 480 589</p>
-                </div>
-            </div>
-            <div>
-                <span class="big-text">3</span>
-                <div>
-                    <p>120 157 256 670</p>
-                    <p>139 148 346 689</p>
-                </div>
-            </div>
-            <div>
-                <span class="big-text">4</span>
-                <div>
-                    <p>130 158 356 680</p>
-                    <p>239 248 347 789</p>
-                </div>
-            </div>
-            <div>
-                <span class="big-text">5</span>
-                <div>
-                    <p>140 159 456 690</p>
-                    <p>230 258 357 780</p>
-                </div>
-            </div>
-            <div>
-                <span class="big-text">6</span>
-                <div>
-                    <p>123 178 268 367</p>
-                    <p>240 259 457 790</p>
-                </div>
-            </div>
-            <div>
-                <span class="big-text">7</span>
-                <div>
-                    <p>124 179 269 467</p>
-                    <p>340 359 458 890</p>
-                </div>
-            </div>
-            <div>
-                <span class="big-text">8</span>
-                <div>
-                    <p>125 170 260 567</p>
-                    <p>134 189 369 468</p>
-                </div>
-            </div>
-            <div>
-                <span class="big-text">9</span>
-                <div>
-                    <p>135 180 360 568</p>
-                    <p>234 289 379 478</p>
-                </div>
-            </div>
-            <div>
-                <span class="big-text">0</span>
-                <div>
-                    <p>145 190 460 569</p>
-                    <p>235 280 370 578</p>
-                </div>
+            <div class="jodi-content-body">
+                <table class="jodi-content-chart chart-table" cellpadding="2">
+                    <thead>
+                        <tr>
+                            <th style="width: 25%;">Digit</th>
+                            <th>Panna Combinations</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="red-text" style="font-size: 26px; font-weight: 800;">1</td>
+                            <td style="font-size: 18px; font-weight: 700; line-height: 1.6; padding: 12px 6px;">
+                                128 137 236 678<br>
+                                245 290 470 579
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 26px; font-weight: 800;">2</td>
+                            <td style="font-size: 18px; font-weight: 700; line-height: 1.6; padding: 12px 6px;">
+                                129 147 246 679<br>
+                                345 390 480 589
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 26px; font-weight: 800;">3</td>
+                            <td style="font-size: 18px; font-weight: 700; line-height: 1.6; padding: 12px 6px;">
+                                120 157 256 670<br>
+                                139 148 346 689
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 26px; font-weight: 800;">4</td>
+                            <td style="font-size: 18px; font-weight: 700; line-height: 1.6; padding: 12px 6px;">
+                                130 158 356 680<br>
+                                239 248 347 789
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 26px; font-weight: 800;">5</td>
+                            <td style="font-size: 18px; font-weight: 700; line-height: 1.6; padding: 12px 6px;">
+                                140 159 456 690<br>
+                                230 258 357 780
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 26px; font-weight: 800;">6</td>
+                            <td style="font-size: 18px; font-weight: 700; line-height: 1.6; padding: 12px 6px;">
+                                123 178 268 367<br>
+                                240 259 457 790
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 26px; font-weight: 800;">7</td>
+                            <td style="font-size: 18px; font-weight: 700; line-height: 1.6; padding: 12px 6px;">
+                                124 179 269 467<br>
+                                340 359 458 890
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 26px; font-weight: 800;">8</td>
+                            <td style="font-size: 18px; font-weight: 700; line-height: 1.6; padding: 12px 6px;">
+                                125 170 260 567<br>
+                                134 189 369 468
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 26px; font-weight: 800;">9</td>
+                            <td style="font-size: 18px; font-weight: 700; line-height: 1.6; padding: 12px 6px;">
+                                135 180 360 568<br>
+                                234 289 379 478
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 26px; font-weight: 800;">0</td>
+                            <td style="font-size: 18px; font-weight: 700; line-height: 1.6; padding: 12px 6px;">
+                                145 190 460 569<br>
+                                235 280 370 578
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
 
-    <!-- all 22 satta -->
-    <div class="all-satta">
-        <h2>All 22 Satta Matka Card</h2>
-        <div class="bb">
-            <div>
-                <span class="big-text">777 !!-1-!! 100</span>
-                <div>
-                    <p>128-137-146-236-245- 290-380-470-489-560</p>
-                    <p>678-579-119-155-227- 335-344-399-588-669</p>
-                </div>
+    <!-- All 22 Satta Matka Card Section -->
+    <div class="jodi-container" style="margin-top: 30px;">
+        <div class="jodi-content">
+            <div class="jodi-content-heading">
+                <h1>ALL 22 SATTA MATKA CARD</h1>
             </div>
-            <div>
-                <span class="big-text">444 !!-2-!! 200</span>
-                <div>
-                    <p>129-138-147-156-237- 246-345-390-480-570</p>
-                    <p>679-589-110-228-255- 336-499-660-688-778</p>
-                </div>
-            </div>
-            <div>
-                <span class="big-text">111 !!-3-!! 300</span>
-                <div>
-                    <p>120-139-148-157-238- 247-256-346-490-580</p>
-                    <p>670-689-166-229-337- 355-445-599-779-788</p>
-                </div>
-            </div>
-            <div>
-                <span class="big-text">888 !!-4-!! 400</span>
-                <div>
-                    <p>130-149-158-167-239- 248-257-347-356-590</p>
-                    <p>680-789-112-220-266- 338-446-455-699-770</p>
-                </div>
-            </div>
-            <div>
-                <span class="big-text">555 !!-5-!! 500</span>
-                <div>
-                    <p>140-159-168-230-249- 258-267-348-357-456</p>
-                    <p>690-780-113-122-177- 339-366-447-799-889</p>
-                </div>
-            </div>
-            <div>
-                <span class="big-text">222 !!-6-!! 600</span>
-                <div>
-                    <p>123-150-169-178-240- 259-268-349-358-457</p>
-                    <p>367-790-114-277-330- 448-466-556-880-899</p>
-                </div>
-            </div>
-            <div>
-                <span class="big-text">999 !!-7-!! 700</span>
-                <div>
-                    <p>124-160-179-250-269- 278-340-359-368-458</p>
-                    <p>467-890-115-133-188- 223-377-449-557-566</p>
-                </div>
-            </div>
-            <div>
-                <span class="big-text">666 !!-8-!! 800</span>
-                <div>
-                    <p>125-134-170-189-260- 279-350-369-378-459</p>
-                    <p>567-468-116-224-233- 288-440-477-558-990</p>
-                </div>
-            </div>
-            <div>
-                <span class="big-text">333 !!-9-!! 900</span>
-                <div>
-                    <p>126-135-180-234-270- 289-360-379-450-469</p>
-                    <p>117-478-568-144-199- 225-388-559-577-667</p>
-                </div>
-            </div>
-            <div>
-                <span class="big-text">000 !!-0-!! 550</span>
-                <div>
-                    <p>127-136-145-190-235-280 370-389-460-479</p>
-                    <p>569-578-118-226-244-299-334-488-668-677</p>
-                </div>
+            <div class="jodi-content-body">
+                <table class="jodi-content-chart chart-table" cellpadding="2">
+                    <thead>
+                        <tr>
+                            <th style="width: 35%;">Card Detail</th>
+                            <th>Panna & Penal Combinations</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="red-text" style="font-size: 18px; font-weight: 800;">777 !!-1-!! 100</td>
+                            <td style="font-size: 16px; font-weight: 700; line-height: 1.6; padding: 12px 6px;">
+                                128-137-146-236-245- 290-380-470-489-560<br>
+                                678-579-119-155-227- 335-344-399-588-669
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 18px; font-weight: 800;">444 !!-2-!! 200</td>
+                            <td style="font-size: 16px; font-weight: 700; line-height: 1.6; padding: 12px 6px;">
+                                129-138-147-156-237- 246-345-390-480-570<br>
+                                679-589-110-228-255- 336-499-660-688-778
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 18px; font-weight: 800;">111 !!-3-!! 300</td>
+                            <td style="font-size: 16px; font-weight: 700; line-height: 1.6; padding: 12px 6px;">
+                                120-139-148-157-238- 247-256-346-490-580<br>
+                                670-689-166-229-337- 355-445-599-779-788
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 18px; font-weight: 800;">888 !!-4-!! 400</td>
+                            <td style="font-size: 16px; font-weight: 700; line-height: 1.6; padding: 12px 6px;">
+                                130-149-158-167-239- 248-257-347-356-590<br>
+                                680-789-112-220-266- 338-446-455-699-770
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 18px; font-weight: 800;">555 !!-5-!! 500</td>
+                            <td style="font-size: 16px; font-weight: 700; line-height: 1.6; padding: 12px 6px;">
+                                140-159-168-230-249- 258-267-348-357-456<br>
+                                690-780-113-122-177- 339-366-447-799-889
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 18px; font-weight: 800;">222 !!-6-!! 600</td>
+                            <td style="font-size: 16px; font-weight: 700; line-height: 1.6; padding: 12px 6px;">
+                                123-150-169-178-240- 259-268-349-358-457<br>
+                                367-790-114-277-330- 448-466-556-880-899
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 18px; font-weight: 800;">999 !!-7-!! 700</td>
+                            <td style="font-size: 16px; font-weight: 700; line-height: 1.6; padding: 12px 6px;">
+                                124-160-179-250-269- 278-340-359-368-458<br>
+                                467-890-115-133-188- 223-377-449-557-566
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 18px; font-weight: 800;">666 !!-8-!! 800</td>
+                            <td style="font-size: 16px; font-weight: 700; line-height: 1.6; padding: 12px 6px;">
+                                125-134-170-189-260- 279-350-369-378-459<br>
+                                567-468-116-224-233- 288-440-477-558-990
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 18px; font-weight: 800;">333 !!-9-!! 900</td>
+                            <td style="font-size: 16px; font-weight: 700; line-height: 1.6; padding: 12px 6px;">
+                                126-135-180-234-270- 289-360-379-450-469<br>
+                                117-478-568-144-199- 225-388-559-577-667
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="red-text" style="font-size: 18px; font-weight: 800;">000 !!-0-!! 550</td>
+                            <td style="font-size: 16px; font-weight: 700; line-height: 1.6; padding: 12px 6px;">
+                                127-136-145-190-235-280 370-389-460-479<br>
+                                569-578-118-226-244-299-334-488-668-677
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
 
+    <!-- description paragraphs -->
+    <div class="jodi-footer-container">
+        <div class="jodi-footer-content">
+            <h2 class="small-heading">About All Comprehensive ANK 22 Card Panna Penal Patti Chart</h2>
+            <p>
+                The All Comprehensive ANK 22 Card Panna Penal Patti Chart is a valuable resource for Indian number players of all levels at SPBoss. This chart includes all possible combinations of cards, as well as the point values for each combination. With this chart, you can easily calculate your chances of winning any hand, and make the best possible decisions when playing.
+            </p>
+            <p>
+                The chart is easy to read and understand, even for beginners. It is also updated regularly to reflect the latest changes to the rules of Indin number games. The chart is available in both English and Hindi, With this chart, you will be able to improve your game and increase your chances of winning.
+            </p>
+        </div>
+    </div>
 
-    <p class="all-card-para">
-        The All Comprehensive ANK 22 Card Panna Penal Patti Chart is a valuable resource for Indian number players of all levels at SPBoss. This chart includes all possible combinations of cards, as well as the point values for each combination. With this chart, you can easily calculate your chances of winning any hand, and make the best possible decisions when playing.
-    </p>
-    <p class="all-card-para">
-        The chart is easy to read and understand, even for beginners. It is also updated regularly to reflect the latest changes to the rules of Indin number games. The chart is available in both English and Hindi, With this chart, you will be able to improve your game and increase your chances of winning.
-    </p>
-
-    <!-- footer -->
-
-    <?php include_once('include/components/shortcut2.php'); ?>
+    <?php include 'include/components/shortcut_amp.php'; ?>
 </body>
 
 </html>
