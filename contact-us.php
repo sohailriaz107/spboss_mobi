@@ -176,6 +176,165 @@ h2.banner{font-size:16px}
 .ftr-sm h4{font-size:15px;margin-bottom:6px;color:#3d5a99;font-weight:700}
 .ftr-sm p{color:#374151;font-size:13px;line-height:1.6;text-shadow:none}
 
+/* --- Premium contact layout upgrade --- */
+body{
+  background-color:#fff;
+  color:#172033;
+  padding:0 10px 8px;
+}
+
+.conta{
+  max-width:1040px;
+  margin:18px auto 10px;
+  padding:0 22px 24px;
+  border:1px solid #d7e1ee;
+  border-radius:8px;
+  box-shadow:0 18px 46px rgba(16,23,42,.13);
+  background:linear-gradient(180deg,#fff 0%,#fbfdff 100%);
+}
+
+.conta h4{
+  position:relative;
+  overflow:hidden;
+  margin:0 -22px 24px;
+  padding:26px 18px;
+  background:linear-gradient(135deg,#10172a 0%,#1e3a8a 55%,#0f766e 100%);
+  border-radius:8px 8px 0 0;
+  box-shadow:none;
+  font-size:clamp(26px,4vw,40px);
+  line-height:1.1;
+  letter-spacing:.2px;
+}
+
+.conta h4::after{
+  content:"";
+  position:absolute;
+  inset:auto 24px 0;
+  height:4px;
+  background:linear-gradient(90deg,#f59e0b,#22c55e,#38bdf8);
+  border-radius:999px 999px 0 0;
+}
+
+.conta .row{
+  margin-left:-8px;
+  margin-right:-8px;
+}
+
+.conta [class*="col-"]{
+  padding-left:8px;
+  padding-right:8px;
+}
+
+.conta .col-md-6[style]{
+  margin-top:0 !important;
+}
+
+#ajax-contact{
+  padding:20px;
+  background:#fff;
+  border:1px solid #e1e8f0;
+  border-radius:8px;
+  box-shadow:0 12px 34px rgba(15,23,42,.08);
+}
+
+.form-group{
+  padding:0;
+  margin-bottom:14px;
+}
+
+.form-group label{
+  color:#243145;
+  font-size:13px;
+  font-weight:800;
+}
+
+.form-control{
+  min-height:42px;
+  border-color:#d7e1ee;
+  border-radius:7px;
+  background:#fbfdff;
+  box-shadow:none;
+}
+
+.btn.btn-black{
+  min-height:42px;
+  padding:9px 24px;
+  background:linear-gradient(135deg,#0f766e,#1e3a8a);
+  border-radius:7px;
+}
+
+.conta small{
+  display:inline-block;
+  margin-top:6px;
+  color:#64748b;
+  font-size:12px;
+}
+
+.conta h1{
+  margin:12px 0 0;
+  color:#102033;
+  font-size:20px;
+  line-height:1.25;
+}
+
+.address{
+  margin-top:0;
+  padding:20px;
+  background:#fff;
+  border:1px solid #e1e8f0;
+  border-radius:8px;
+  box-shadow:0 12px 34px rgba(15,23,42,.08);
+}
+
+.address .row{
+  margin:0 0 14px;
+  padding:13px 12px;
+  background:#f8fafc;
+  border:1px solid #e1e8f0;
+  border-left:4px solid #0f766e;
+  border-radius:7px;
+}
+
+.address div{
+  color:#334155;
+  font-size:14px;
+  line-height:1.55;
+}
+
+.address a{
+  color:#0f766e;
+  font-weight:800;
+  border-bottom:1px solid rgba(15,118,110,.25);
+}
+
+.conta iframe{
+  min-height:280px;
+  border-radius:8px;
+  border:1px solid #d7e1ee !important;
+  box-shadow:none;
+}
+
+@media only screen and (max-width:767px){
+  .conta{
+    margin-top:10px;
+    padding:0 14px 18px;
+  }
+
+  .conta h4{
+    margin-left:-14px;
+    margin-right:-14px;
+    padding:22px 12px;
+  }
+
+  #ajax-contact,.address{
+    padding:16px 14px;
+  }
+
+  .address{
+    margin-top:14px;
+  }
+}
+
 /* --- Footer (unchanged per requirement) --- */
 footer{background-color:#fff;color:red;font-weight:700;font-size:25px;text-decoration:none;border:4px groove purple;border-radius:10px 0 0 0;text-shadow:1px 1px gold;margin:3px;font-style:normal}
 footer>div{border-bottom:2px solid #b2ddff;padding:10px 0;margin-bottom:10px}

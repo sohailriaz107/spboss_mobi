@@ -73,10 +73,12 @@
 
 </head>
 
-<body>
+<body class="fix-game-page">
 
     <!-- header -->
     <?php include_once('include/components/name_amp.php'); ?>
+
+    <main class="fix-game-container">
 
     <!-- open to close -->
     <?php
@@ -91,72 +93,76 @@
 
     <!-- 1st card  -->
 
-    <div class="my-card headering-1">
-        <h3><?php echo $weekly[1] ?></h3>
-        <h2><?php echo $weekly[2] ?></h2>
-        <h2><?php echo $weekly[3] ?></h2>
-        <h2><?php echo $weekly[4] ?></h2>
-    </div>
+    <section class="fix-game-grid">
+        <div class="my-card headering-1">
+            <h3><?php echo $weekly[1] ?></h3>
+            <h2><?php echo $weekly[2] ?></h2>
+            <h2><?php echo $weekly[3] ?></h2>
+            <h2><?php echo $weekly[4] ?></h2>
+        </div>
 
-    <div class="my-card headering-1">
-        <h3><?php echo $weekly[5] ?></h3>
-        <h2><?php echo $weekly[6] ?></h2>
-        <h2><?php echo $weekly[7] ?></h2>
-        <h2><?php echo $weekly[8] ?></h2>
-    </div>
+        <div class="my-card headering-1">
+            <h3><?php echo $weekly[5] ?></h3>
+            <h2><?php echo $weekly[6] ?></h2>
+            <h2><?php echo $weekly[7] ?></h2>
+            <h2><?php echo $weekly[8] ?></h2>
+        </div>
 
-    <div class="my-card headering-1">
-        <h3><?php echo $weekly[9] ?></h3>
-        <h2><?php echo $weekly[10] ?></h2>
-        <h2><?php echo $weekly[11] ?></h2>
-        <h2><?php echo $weekly[12] ?></h2>
-    </div>
+        <div class="my-card headering-1">
+            <h3><?php echo $weekly[9] ?></h3>
+            <h2><?php echo $weekly[10] ?></h2>
+            <h2><?php echo $weekly[11] ?></h2>
+            <h2><?php echo $weekly[12] ?></h2>
+        </div>
 
-    <div class="my-card headering-1">
-        <h3><?php echo $weekly[13] ?></h3>
-        <h2><?php echo $weekly[14] ?></h2>
-        <h2><?php echo $weekly[15] ?></h2>
-        <h2><?php echo $weekly[16] ?></h2>
-    </div>
+        <div class="my-card headering-1">
+            <h3><?php echo $weekly[13] ?></h3>
+            <h2><?php echo $weekly[14] ?></h2>
+            <h2><?php echo $weekly[15] ?></h2>
+            <h2><?php echo $weekly[16] ?></h2>
+        </div>
 
-    <div class="my-card headering-2">
-        <h3><?php echo $weekly[17] ?></h3>
-        <h2><?php echo $weekly[18] ?></h2>
-        <h2><?php echo $weekly[19] ?></h2>
-        <h2><?php echo $weekly[20] ?></h2>
-    </div>
+        <div class="my-card headering-2">
+            <h3><?php echo $weekly[17] ?></h3>
+            <h2><?php echo $weekly[18] ?></h2>
+            <h2><?php echo $weekly[19] ?></h2>
+            <h2><?php echo $weekly[20] ?></h2>
+        </div>
 
-    <div class="my-card headering-3">
-        <h3><?php echo $weekly[21] ?></h3>
-        <h2><?php echo $weekly[22] ?></h2>
-        <h2><?php echo $weekly[23] ?></h2>
-        <h2><?php echo $weekly[24] ?></h2>
-    </div>
+        <div class="my-card headering-3">
+            <h3><?php echo $weekly[21] ?></h3>
+            <h2><?php echo $weekly[22] ?></h2>
+            <h2><?php echo $weekly[23] ?></h2>
+            <h2><?php echo $weekly[24] ?></h2>
+        </div>
 
-    <div class="my-card headering-3">
-        <h3><?php echo $weekly[25] ?></h3>
-        <h2><?php echo $weekly[26] ?></h2>
-        <h2><?php echo $weekly[27] ?></h2>
-        <h2><?php echo $weekly[28] ?></h2>
-    </div>
+        <div class="my-card headering-3">
+            <h3><?php echo $weekly[25] ?></h3>
+            <h2><?php echo $weekly[26] ?></h2>
+            <h2><?php echo $weekly[27] ?></h2>
+            <h2><?php echo $weekly[28] ?></h2>
+        </div>
 
-    <div class="my-card headering-3">
-        <h3><?php echo $weekly[29] ?></h3>
-        <h2><?php echo $weekly[30] ?></h2>
-        <h2><?php echo $weekly[31] ?></h2>
-        <h2><?php echo $weekly[32] ?></h2>
-    </div>
+        <div class="my-card headering-3">
+            <h3><?php echo $weekly[29] ?></h3>
+            <h2><?php echo $weekly[30] ?></h2>
+            <h2><?php echo $weekly[31] ?></h2>
+            <h2><?php echo $weekly[32] ?></h2>
+        </div>
 
-    <div class="my-card headering-3">
-        <h3><?php echo $weekly[33] ?></h3>
-        <h2><?php echo $weekly[34] ?></h2>
-        <h2><?php echo $weekly[35] ?></h2>
-        <h2><?php echo $weekly[36] ?></h2>
-    </div>
+        <div class="my-card headering-3">
+            <h3><?php echo $weekly[33] ?></h3>
+            <h2><?php echo $weekly[34] ?></h2>
+            <h2><?php echo $weekly[35] ?></h2>
+            <h2><?php echo $weekly[36] ?></h2>
+        </div>
 
-    <div class="my-card headering-3">
-        <a href="https://matka.center" target="_blank" style="color: #000000;">Satta Matka Jodi</a>
-    </div>
+        <div class="my-card headering-3 fix-game-link-card">
+            <a href="https://matka.center" target="_blank">Satta Matka Jodi</a>
+        </div>
+    </section>
+
+    </main>
 
     <?php include_once('include/components/shortcut_amp.php'); ?>
 </body>

@@ -13,6 +13,22 @@
 </p>
 
 <style>
+	.goTopBtn {
+		background: linear-gradient(135deg, #b8860b 0%, #f0c040 50%, #d4a017 100%);
+		color: #1a0a00;
+		padding: 6px 18px;
+		font-size: 12px;
+		margin: 16px 0 10px;
+		border: 1px solid rgba(255, 255, 255, .5);
+		font-weight: 700;
+		letter-spacing: .5px;
+		text-decoration: none;
+		text-shadow: none;
+		box-shadow: 0 2px 8px rgba(184, 134, 11, .4);
+		display: inline-block;
+		transition: all .25s ease;
+		border-radius: 20px;
+	}
 	footer {
 		background: #0f172a !important;
 		/* Elegant dark slate background */
@@ -132,17 +148,28 @@
 	</div>
 <?php } ?>
 
+<?php
+$host = $_SERVER['HTTP_HOST'] ?? '';
+$scriptPath = trim(dirname($_SERVER['SCRIPT_NAME'] ?? ''), '/\\');
+$siteBaseUrl = '';
+
+if (stripos($host, 'localhost') !== false || strpos($host, '127.0.0.1') !== false) {
+	$projectFolder = explode('/', $scriptPath)[0] ?? '';
+	$siteBaseUrl = $projectFolder !== '' ? '/' . $projectFolder : '';
+}
+?>
+
 <footer>
 	<div>
-		<a class="red-text" href="https://spboss.mobi/" title="SATTA MATKA">Home</a> |
-		<a class="green-text" href="https://spboss.mobi/matka-guessing-forum.php" title="Satta matka guessing">Guessing Forum</a> |
-		<a class="purple-text" href="https://spboss.mobi/tricks-and-guide/tricks-zone-tips.php" title="Satta matka tricks">100% Fix Jodi Tricks</a> |
-		<a class="blue-text" href="https://spboss.mobi/fix-game.php" title="SATTA MATKA">Date Fix Game</a>
+		<a class="red-text" href="<?php echo $siteBaseUrl; ?>/index.php" title="SATTA MATKA">Home</a> |
+		<a class="green-text" href="<?php echo $siteBaseUrl; ?>/matka-guessing-forum.php" title="Satta matka guessing">Guessing Forum</a> |
+		<a class="purple-text" href="<?php echo $siteBaseUrl; ?>/tricks-and-guide/tricks-zone-tips.php" title="Satta matka tricks">100% Fix Jodi Tricks</a> |
+		<a class="blue-text" href="<?php echo $siteBaseUrl; ?>/fix-game.php" title="SATTA MATKA">Date Fix Game</a>
 		<br>
-		<a class="purple-text" href="https://spboss.mobi/about-us.php" title="About">About Us</a> |
-		<a class="purple-text" href="https://spboss.mobi/contact-us.php" title="Contact">Contact Us</a> |
-		<a class="purple-text" href="https://spboss.mobi/term-and-conditions.php" title="Term and Conditions">T&Css</a> |
-		<a class="purple-text" href="https://spboss.mobi/privacy-policy.php" title="Privacy Policy">Privacy Policy</a>
+		<a class="purple-text" href="<?php echo $siteBaseUrl; ?>/about-us.php" title="About">About Us</a> |
+		<a class="purple-text" href="<?php echo $siteBaseUrl; ?>/contact-us.php" title="Contact">Contact Us</a> |
+		<a class="purple-text" href="<?php echo $siteBaseUrl; ?>/term-and-conditions.php" title="Term and Conditions">T&Css</a> |
+		<a class="purple-text" href="<?php echo $siteBaseUrl; ?>/privacy-policy.php" title="Privacy Policy">Privacy Policy</a>
 	</div>
 	<a class="ftr-icon" href="https://spboss.mobi/">spboss.mobi</a>
 </footer>

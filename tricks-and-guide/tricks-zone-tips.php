@@ -57,7 +57,7 @@
 
 </head>
 
-<body>
+<body class="premium-tricks-page">
 
     <!-- HEADER -->
     <?php include_once('../include/components/name_amp.php'); ?>

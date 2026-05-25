@@ -477,4 +477,178 @@
         color: #fff;
         border-radius: 5px;
     }
+
+    body.fix-game-page {
+        background: #fff;
+        color: #102a3a;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        margin: 0;
+        padding: 0 6px 18px;
+    }
+
+    .fix-game-page .logo {
+        background: #fff;
+        border: 0;
+        border-radius: 0;
+        margin: 3px;
+        
+    }
+
+    .fix-game-page .main_logo {
+        background: linear-gradient(135deg, #1a237e 0%, #283593 60%, #3949ab 100%);
+        border: 3px solid #7986cb;
+        border-radius: 10px;
+      
+        color: #fff;
+        
+        padding: 20px 10px;
+    }
+
+    .fix-game-page .main_logo h3 {
+        color: #fff;
+        font-size: 20px;
+        line-height: 1;
+        margin: 0;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, .35);
+    }
+
+    .fix-game-container {
+        margin: 0 auto;
+        width: 100%;
+        padding: 4px 0 12px;
+    }
+
+    .fix-game-page .open-close {
+        background: linear-gradient(to bottom, #f5fff9 0%, #e6f8ef 100%);
+        border: 2px solid #0b8f5a;
+        border-radius: 14px;
+        box-shadow: 0 8px 22px rgba(0, 105, 68, .18);
+        margin: 1px auto 12px;
+        width: 100%;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    .fix-game-page .open-close h1 {
+        background: linear-gradient(135deg, #006b3f 0%, #00985f 58%, #16b978 100%);
+        border-bottom: 2px solid #9df0c6;
+        color: #fff;
+        font-size: 21px;
+        letter-spacing: .4px;
+        line-height: 1.25;
+        margin: 0;
+        padding: 11px 8px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, .35);
+    }
+
+    .fix-game-page .open-close h2 {
+        background: #fff;
+        border: 1px solid #b6dcc8;
+        border-radius: 10px;
+        color: #b0003a;
+        display: inline-block;
+        font-size: 30px;
+        line-height: 1.2;
+        margin: 14px 10px 16px;
+        padding: 10px 18px;
+        text-shadow: none;
+    }
+
+    .fix-game-grid {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .fix-game-page .my-card {
+        background: linear-gradient(to bottom, #f9fffc 0%, #eefaf4 100%);
+        border: 2px solid #b6dcc8;
+        border-radius: 12px;
+        box-shadow: 0 8px 22px rgba(0, 105, 68, .14);
+        margin: 0;
+        overflow: hidden;
+        padding: 0 0 10px;
+    }
+
+    .fix-game-page .my-card h3 {
+        background: linear-gradient(135deg, #006b3f 0%, #00985f 58%, #16b978 100%);
+        border-bottom: 2px solid #9df0c6;
+        color: #fff;
+        font-size: 20px;
+        line-height: 1.25;
+        margin: 0 0 6px;
+        min-height: 48px;
+        padding: 11px 8px 9px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, .35);
+    }
+
+    .fix-game-page .headering-2 h3 {
+        
+       
+        color: #1a0a00;
+        text-shadow: none;
+    }
+
+    .fix-game-page .headering-3 h3 {
+        background: linear-gradient(135deg, #1a237e 0%, #283593 60%, #3949ab 100%);
+        border-bottom-color: #7986cb;
+    }
+
+    .fix-game-page .my-card h2 {
+        background: #fff;
+        border: 1px solid #d7def5;
+        border-radius: 8px;
+        color: #102a3a;
+        font-size: 19px;
+        line-height: 1.35;
+        margin: 7px 10px;
+        padding: 8px 6px;
+        text-shadow: none;
+    }
+
+    .fix-game-link-card {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        min-height: 92px;
+        padding: 14px;
+    }
+
+    .fix-game-page .fix-game-link-card a {
+        background: linear-gradient(135deg, #b8860b 0%, #f0c040 50%, #d4a017 100%);
+        border: 1px solid rgba(255, 255, 255, .5);
+        border-radius: 20px;
+        box-shadow: 0 2px 8px rgba(184, 134, 11, .4);
+        color: #1a0a00;
+        display: inline-block;
+        font-size: 15px;
+        padding: 10px 16px;
+        text-shadow: none;
+    }
+
+    @media only screen and (max-width:640px) {
+        .fix-game-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .fix-game-page .open-close h1 {
+            font-size: 18px;
+        }
+
+        .fix-game-page .open-close h2 {
+            font-size: 24px;
+        }
+
+        .fix-game-page .my-card h3 {
+            font-size: 18px;
+            min-height: 0;
+        }
+
+        .fix-game-page .my-card h2 {
+            font-size: 17px;
+        }
+    }
 </style>

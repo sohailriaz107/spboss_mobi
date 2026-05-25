@@ -572,13 +572,13 @@ date_default_timezone_set('Asia/Kolkata');
                 right: 10px;
                 top: 50%;
                 transform: translateY(-50%);
-                background: linear-gradient(135deg, #FFD700, #FFA000);
-                color: #1a1a1a;
+                background:green;
+                color: white;
                 padding: 5px 12px;
                 border-radius: 50px;
-                font-size: 10.5px;
-                font-weight: 900;
-                box-shadow: 0 0 10px rgba(255,215,0,0.7), 0 2px 6px rgba(0,0,0,0.3);
+                font-size: 10px;
+                /* font-weight: 900; */
+                /* box-shadow: 0 0 10px rgba(255,215,0,0.7), 0 2px 6px rgba(0,0,0,0.3); */
                 letter-spacing: 0.5px;
                 animation: fastPulse 1.5s ease-in-out infinite;
                 white-space: nowrap;

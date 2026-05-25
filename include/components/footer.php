@@ -9,7 +9,7 @@
 
 <div class="fixed-footer">
     <div style="width:30%">
-        <a href="https://spboss.mobi/">
+        <a href="index.php">
             <i class="fa fa-home"></i>
             <span>Go to Home</span>
         </a>

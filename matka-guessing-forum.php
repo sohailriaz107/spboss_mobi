@@ -60,16 +60,20 @@ include("Top-cache.php");
 
 </head>
 
-<body id="bodyId">
+<body id="bodyId" class="forum-layout-page">
 
-    <?php include_once('include/components/header.php'); ?>
+    <div class="forum-name-header" id="top">
+        <div class="forum-main-logo">
+            <h3>Spboss.Mobi</h3>
+        </div>
+    </div>
 
     <?php
     $server_ip_array = explode(".", $_SERVER['SERVER_ADDR']); ?>
 
     <!-- Page Content -->
-    <div class="container-fluid">
-        <div class="para1">
+    <div class="container-fluid forum-page-container">
+        <div class="para1 forum-intro-card">
             <div class="block-div">
                 <h1 style="font-size: 20px;font-weight: bold;">Dpboss Satta Matka Guessing Kalyan Main Bazar Madhur Matka</h1>
                 Dpboss Satta Matka Guessing Forum For Kalyan Milan Main Bazar Rajdhani Madhur Matka Time Bazar Morning Madhur Sridevi All Matka Guessing Open To Close Free Ank Kalyan Fix Jodi Aaj Ke Liye Today Locky Fix Matka Satta Number Satta Matka 143 24 <?php echo $server_ip_array[3]; ?>Games satta king Matta Batta Online Matka Play Trusted Best सात्त मटका कल्याण मधुर मटका रेसुल्ट ऑनलाइन प्ले<br>
@@ -79,7 +83,7 @@ include("Top-cache.php");
                 </a>
             </div>
         </div>
-        <div class="block-div">
+        <div class="block-div forum-rules-card">
             <b>-:Posting Rules:-</b><br>
             3 OPEN YA CLOSE<br>
             6 JODI<br>
@@ -119,7 +123,7 @@ include("Top-cache.php");
                                         } 
                                         ?>
                                         <?php if ($post['user_level'] == "admin" || $post['user_level'] == "sub_admin") { ?>
-                                            <img src="images1/user.png" class="admin-img" alt="Admin">
+                                            
                                         <?php } ?>
                                     </a>
                                     <h5><?php echo $post['datePosted']; ?></h5>

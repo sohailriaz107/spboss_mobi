@@ -490,6 +490,161 @@
             color: #fff;
             border-radius: 5px
         }
+
+        /* Premium content layout */
+        body {
+            background-color: #fff;
+            color: #162033;
+            font-family: "Inter", "Segoe UI", Arial, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            padding: 0 10px 8px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1040px;
+            width: 100%;
+            padding: 18px 12px 8px;
+        }
+
+        .container>.banner:first-child {
+            position: relative;
+            overflow: hidden;
+            padding: 26px 18px;
+            margin: 12px auto 16px;
+            color: #fff;
+            background: linear-gradient(135deg, #10172a 0%, #1e3a8a 55%, #c2410c 100%);
+            border: 0;
+            border-radius: 8px;
+            box-shadow: 0 18px 46px rgba(16, 23, 42, .18);
+            font-size: clamp(26px, 4vw, 42px);
+            line-height: 1.1;
+            letter-spacing: .2px;
+            text-shadow: none;
+        }
+
+        .container>.banner:first-child::after {
+            content: "";
+            position: absolute;
+            inset: auto 22px 0;
+            height: 4px;
+            background: linear-gradient(90deg, #f59e0b, #22c55e, #38bdf8);
+            border-radius: 999px 999px 0 0;
+        }
+
+        h2.banner {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: min(100%, 340px);
+            padding: 11px 22px;
+            margin: 24px auto 12px;
+            color: #102033;
+            background: #f8fafc;
+            border: 1px solid #dbe5f0;
+            border-radius: 7px;
+            box-shadow: 0 8px 24px rgba(15, 23, 42, .08);
+            font-size: 20px;
+            letter-spacing: .2px;
+            text-shadow: none;
+        }
+
+        h2.banner::before {
+            content: "";
+            width: 9px;
+            height: 9px;
+            margin-right: 10px;
+            border-radius: 50%;
+            background: #c2410c;
+            box-shadow: 0 0 0 5px rgba(194, 65, 12, .11);
+        }
+
+        .ftr-sm.about-ftr-sm {
+            position: relative;
+            margin: 0 auto 10px;
+            padding: 22px 24px;
+            color: #243145;
+            background: linear-gradient(180deg, #fff 0%, #fbfdff 100%);
+            border: 1px solid #d7e1ee;
+            border-radius: 8px;
+            outline: 0;
+            box-shadow: 0 12px 34px rgba(15, 23, 42, .09);
+            font-size: 15px;
+            font-weight: 500;
+            text-align: left;
+        }
+
+        .ftr-sm.about-ftr-sm p {
+            margin: 0 0 12px;
+            color: #334155;
+            font-size: 16px;
+            line-height: 1.75;
+            text-shadow: none;
+        }
+
+        .ftr-sm.about-ftr-sm p:last-child {
+            margin-bottom: 0;
+        }
+
+        .ftr-sm.about-ftr-sm h4 {
+            margin: 12px 0 4px;
+            color: #0f766e;
+            font-size: 17px;
+            line-height: 1.35;
+        }
+
+        .ftr-sm.about-ftr-sm ul {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 10px;
+            margin: 0;
+            list-style: none;
+        }
+
+        .ftr-sm.about-ftr-sm li {
+            padding: 12px 14px;
+            color: #263449;
+            background: #f8fafc;
+            border: 1px solid #e1e8f0;
+            border-left: 4px solid #c2410c;
+            border-radius: 7px;
+            line-height: 1.45;
+        }
+
+        @media only screen and (max-width: 640px) {
+            body {
+                padding: 0 6px 6px;
+            }
+
+            .container {
+                padding: 10px 4px 4px;
+            }
+
+            .container>.banner:first-child {
+                padding: 22px 12px;
+                margin-top: 8px;
+            }
+
+            h2.banner {
+                width: 100%;
+                min-width: 0;
+                font-size: 17px;
+            }
+
+            .ftr-sm.about-ftr-sm {
+                padding: 17px 15px;
+            }
+
+            .ftr-sm.about-ftr-sm p {
+                font-size: 14px;
+                line-height: 1.65;
+            }
+
+            .ftr-sm.about-ftr-sm ul {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 
 </head>

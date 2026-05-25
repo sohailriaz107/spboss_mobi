@@ -999,4 +999,192 @@
   .page a b {
     display: inline-block
   }
+
+  /* Premium layout only for tricks-zone-tips.php */
+  body.premium-tricks-page {
+    background: #fff;
+    color: #102a3a;
+    padding: 3px 6px;
+  }
+
+  .premium-tricks-page .logo {
+    background: linear-gradient(135deg, #1a237e 0%, #283593 60%, #3949ab 100%);
+    padding: 0 10px;
+    display: block;
+    color: #fff;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border: 3px solid #7986cb;
+    border-radius: .75em;
+    box-shadow: 0 4px 15px rgba(26, 35, 126, .4);
+  }
+
+  .premium-tricks-page .logo .main_logo {
+    padding: 20px !important;
+  }
+
+  .premium-tricks-page .logo h3 {
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: .7px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .35);
+  }
+
+  .premium-tricks-page .tricks-container {
+    width: 100%;
+    margin: 12px 0 30px;
+    padding: 0 6px;
+  }
+
+  .premium-tricks-page .tricks-content {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #ecfff5;
+    border: 2px solid #0b8f5a;
+    border-radius: 14px;
+    box-shadow: 0 8px 22px rgba(0, 105, 68, .18);
+  }
+
+  .premium-tricks-page .tricks-content-heading {
+    background: linear-gradient(135deg, #006b3f 0%, #00985f 58%, #16b978 100%);
+    border-bottom: 2px solid #9df0c6;
+  }
+
+  .premium-tricks-page .tricks-content-heading h1 {
+    width: auto;
+    margin: 0;
+    padding: 11px 8px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.25;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .35);
+  }
+
+  .premium-tricks-page .tricks-content-heading h1::after {
+    display: none;
+  }
+
+  .premium-tricks-page .tricks-content-heading h1 a {
+    color: #fff;
+  }
+
+  .premium-tricks-page .tricks-content-body {
+    padding: 8px;
+    background: linear-gradient(to bottom, #f5fff9 0%, #e6f8ef 100%);
+  }
+
+  .premium-tricks-page .list-item {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    margin: 0;
+    padding: 8px;
+    background: #dff8eb;
+    border: 0;
+    border-radius: 10px;
+    overflow: visible;
+  }
+
+  .premium-tricks-page .list-item .h4 {
+    grid-column: 1 / -1;
+    margin: 0 0 2px;
+    padding: 10px 12px;
+    color: #fff;
+    background: linear-gradient(180deg, #0a8d57 0%, #087348 100%);
+    border: 1px solid #7ad7a7;
+    border-radius: 9px;
+    font-size: 19px;
+    line-height: 1.25;
+    letter-spacing: .3px;
+    text-shadow: none;
+  }
+
+  .premium-tricks-page .list-item a {
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 12px;
+    color: #102a3a;
+    background: #fff;
+    border: 1px solid #b6dcc8;
+    border-radius: 9px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .8);
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1.25;
+    text-transform: capitalize;
+    text-shadow: none;
+  }
+
+  .premium-tricks-page .list-item a:nth-of-type(4n+1) {
+    background: #fff9df;
+  }
+
+  .premium-tricks-page .list-item a:nth-of-type(4n+2) {
+    background: #e6f5ff;
+  }
+
+  .premium-tricks-page .list-item a:nth-of-type(4n+3) {
+    background: #f2ecff;
+  }
+
+  .premium-tricks-page .list-item a:nth-of-type(4n+4) {
+    background: #eafff1;
+  }
+
+  .premium-tricks-page .list-item a:hover,
+  .premium-tricks-page .list-item a:focus {
+    color: #fff;
+    background: #00985f;
+    border-color: #087348;
+    text-shadow: none;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .premium-tricks-page .tricks-content {
+      max-width: 760px;
+    }
+
+    .premium-tricks-page .list-item {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    body.premium-tricks-page {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    .premium-tricks-page .logo h3 {
+      font-size: 20px;
+    }
+
+    .premium-tricks-page .tricks-container {
+      padding: 0;
+    }
+
+    .premium-tricks-page .tricks-content-heading h1 {
+      font-size: 19px;
+    }
+
+    .premium-tricks-page .list-item {
+      grid-template-columns: 1fr;
+      gap: 7px;
+      padding: 7px;
+    }
+
+    .premium-tricks-page .list-item a {
+      min-height: 42px;
+      font-size: 15px;
+    }
+  }
 </style>
