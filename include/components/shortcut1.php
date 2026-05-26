@@ -23,14 +23,13 @@
 <!-- footer -->
 <footer>
   <div>
-    <a style="color: red;" href="https://spboss.mobi/" title="SATTA MATKA">Home</a> |
-    <a style="color: green;" href="https://spboss.mobi/matka-guessing-forum.php" title="Satta matka guessing">Guessing
+    <a style="color: red;" href="index.php" title="SATTA MATKA">Home</a> |
+    <a style="color: green;" href="matka-guessing-forum.php" title="Satta matka guessing">Guessing
       Forum</a> |
-    <a style="color: purple;" href="https://spboss.mobi/tricks-and-guide/tricks-zone-tips.php"
-      title="Satta matka tricks">100% Fix Jodi Tricks</a> |
-    <a style="color: blue;" href="https://spboss.mobi/fix-game.php" title="SATTA MATKA">Date Fix Game</a>
+    
+    <a style="color: blue;" href="fix-game.php" title="SATTA MATKA">Date Fix Game</a>
   </div>
-  <a class="ftr-icon" href="https://spboss.mobi/">spboss.mobi</a>
+  <a class="ftr-icon" href="index.php">spboss.mobi</a>
   <p>
     All Rights Reseved®
     <br>

@@ -159,10 +159,7 @@ $basePath = (strpos($scriptName, '/spboss_mobi/') === 0) ? '/spboss_mobi/' : '/'
     
     <a href="<?php echo $basePath; ?>matka-guessing-forum.php" class="green-text">Guessing Forum</a> |
     
-    <a href="<?php echo $basePath; ?>tricks-and-guide/tricks-zone-tips.php" class="purple-text">
-        100% Fix Jodi Tricks
-    </a> |
-    
+  
     <a href="<?php echo $basePath; ?>fix-game.php" class="blue-text">Date Fix Game</a>
 
     <br><br>

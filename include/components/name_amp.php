@@ -18,7 +18,12 @@
 <?php 
 if (!isset($basePath)) {
     $scriptName = $_SERVER['SCRIPT_NAME'] ?? '';
-    $basePath = (strpos($scriptName, '/spboss_mobi/') === 0) ? '/spboss_mobi/' : '/';
+    $pos = strpos($scriptName, '/spboss_mobi/');
+    if ($pos !== false) {
+        $basePath = substr($scriptName, 0, $pos) . '/spboss_mobi/';
+    } else {
+        $basePath = '/';
+    }
 }
 ?>
 <div class="main_logo" style="padding:16px;" id="top">

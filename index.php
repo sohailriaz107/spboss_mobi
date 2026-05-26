@@ -622,45 +622,125 @@ date_default_timezone_set('Asia/Kolkata');
                 font-weight: 700;
             }
 
+            @keyframes bannerFloat {
+                0% { transform: translateY(0px); }
+                50% { transform: translateY(-5px); }
+                100% { transform: translateY(0px); }
+            }
+
             .para__2.para__2-second {
-                margin-bottom: 7px;
-                font-size: 16px;
-                margin: 15px auto;
-                padding: 15px 10px;
-                background: #4A65A8;
+                margin: 20px auto;
+                padding: 24px 16px;
+                background: linear-gradient(135deg, #1b263b 0%, #0f172a 100%);
                 color: #ffffff;
-                border-radius: 12px;
-                box-shadow: 0 4px 10px rgba(74, 101, 168, 0.3);
-                font-family: 'Inter', sans-serif;
+                border-radius: 16px;
+                border: 2px solid #ffcc00;
+                box-shadow: 0 10px 25px rgba(15, 23, 42, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+                font-family: 'Outfit', 'Inter', sans-serif;
                 text-align: center;
                 line-height: 1.6;
+                
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                overflow: hidden;
             }
 
-            .para__2.para__2-second span {
+            .para__2.para__2-second .app-banner-icon {
+                margin-bottom: 12px;
+                display: inline-block;
+                filter: drop-shadow(0 2px 8px rgba(255, 204, 0, 0.4));
+                animation: bannerFloat 3s ease-in-out infinite;
+            }
+
+            .para__2.para__2-second .app-banner-title {
+                font-size: 20px;
+                font-weight: 700;
+                color: #ffffff;
+                letter-spacing: 0.5px;
+                margin-bottom: 6px;
+                text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+            }
+
+            .para__2.para__2-second .app-banner-subtitle {
                 font-size: 14px;
                 font-weight: 600;
-                display: block;
-                margin-bottom: 5px;
+                color: #ffcc00;
+                margin-bottom: 18px;
+                opacity: 0.95;
             }
 
-            .para__2.para__2-second a {
-                color: #ffffff;
-                border: 2px solid #FFC107;
-                padding: 8px 24px;
-                display: inline-block;
-                margin: 10px auto;
-                border-radius: 50px;
-                background: linear-gradient(135deg, #d32f2f, #b71c1c);
-                font-size: 18px;
+            .para__2.para__2-second .app-banner-btn-wrapper {
+                margin-bottom: 18px;
+                width: 100%;
+            }
+
+            .para__2.para__2-second .app-download-btn {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                background: linear-gradient(135deg, #e65c00 0%, #f12711 100%);
+                color: #ffffff !important;
                 font-weight: 800;
+                font-size: 18px;
                 text-transform: uppercase;
                 text-decoration: none;
-                box-shadow: 0 0 10px rgba(255, 193, 7, 0.5);
-                transition: transform 0.2s;
+                padding: 12px 35px;
+                border-radius: 50px;
+                border: 2px solid #ffffff;
+                box-shadow: 0 6px 20px rgba(241, 39, 17, 0.4), inset 0 2px 4px rgba(255, 255, 255, 0.3);
+                transition: transform 0.2s, box-shadow 0.2s;
+                cursor: pointer;
             }
 
-            .para__2.para__2-second a:hover {
+            .para__2.para__2-second .app-download-btn:hover {
                 transform: scale(1.05);
+                box-shadow: 0 8px 25px rgba(241, 39, 17, 0.6);
+            }
+
+            .para__2.para__2-second .app-banner-features {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px 15px;
+                margin-top: 5px;
+                padding-top: 15px;
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
+                width: 100%;
+            }
+
+            .para__2.para__2-second .feature-item {
+                font-size: 13px;
+                font-weight: 600;
+                color: #e2e8f0;
+                display: inline-flex;
+                align-items: center;
+                background: rgba(255, 255, 255, 0.05);
+                padding: 5px 10px;
+                border-radius: 6px;
+                border: 1px solid rgba(255, 255, 255, 0.08);
+            }
+
+            @media (max-width: 480px) {
+                .para__2.para__2-second {
+                    padding: 20px 12px;
+                }
+                .para__2.para__2-second .app-banner-title {
+                    font-size: 17px;
+                }
+                .para__2.para__2-second .app-banner-subtitle {
+                    font-size: 12.5px;
+                }
+                .para__2.para__2-second .app-download-btn {
+                    font-size: 16px;
+                    padding: 10px 25px;
+                }
+                .para__2.para__2-second .feature-item {
+                    font-size: 11.5px;
+                    padding: 4px 8px;
+                }
             }
 
             .para__2.para__2-third {
@@ -3174,10 +3254,31 @@ date_default_timezone_set('Asia/Kolkata');
 
     <?php if ($app_link_flag) { ?>
         <div class="para__2 para__2-second">
-            <span>अब सभी मटका बाजार खेलो ऑनलाइन ऐप पर रोज खेलो रोज कमाओ अभी डाउनलोड करो</span>
-            <br>
-            <a href="<?php echo $app_link; ?>" target="_blank" rel="noopener noreferrer"> 🤑 Matka Play App 🤑</a>
-            <span>100% Trusted App -- New Deposit Option -- instant Withdraw</span>
+            <div class="app-banner-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#ffcc00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+            </div>
+            <div class="app-banner-title">PLAY ALL MATKA BAZAR ONLINE ON APP!</div>
+            <div class="app-banner-subtitle">Play Daily, Win Daily — Download App Now</div>
+            <div class="app-banner-btn-wrapper">
+                <a href="<?php echo $app_link; ?>" target="_blank" rel="noopener noreferrer" class="app-download-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 8px;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                    <span>Matka Play App</span>
+                </a>
+            </div>
+            <div class="app-banner-features">
+                <span class="feature-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#25d366" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px; display: inline-block;"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    100% Trusted
+                </span>
+                <span class="feature-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#25d366" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px; display: inline-block;"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    New Deposit Option
+                </span>
+                <span class="feature-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#25d366" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px; display: inline-block;"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    Instant Withdraw
+                </span>
+            </div>
         </div>
     <?php } ?>
 
@@ -3495,8 +3596,8 @@ date_default_timezone_set('Asia/Kolkata');
 
 
     <h4 class="a_27_title h4">
-        <a href="https://spboss.mobi/tricks-and-guide/tricks-zone-tips.php" title="satta matka tricks">
-            EverGreen Trick Zone And Matka Tricks By Spboss </a>
+        
+            EverGreen Trick Zone And Matka Tricks By Spboss 
     </h4>
 
 
@@ -4167,8 +4268,8 @@ date_default_timezone_set('Asia/Kolkata');
                 href="contact-us.php">Contact
                 us</a> <br>
             <a href="privacy-policy.php">Privacy &amp; policy</a> | <a
-                href="term-and-conditions.php">Term And Conditions</a> |
-            <a href="https://spboss.mobi/sitemap.xml">Sitemap</a>
+                href="term-and-conditions.php">Term And Conditions</a> 
+
         </p>
     </div>
 
